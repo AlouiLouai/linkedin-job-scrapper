@@ -13,9 +13,9 @@ logging.basicConfig(level=logging.INFO)
 def fetch_jobs():
     # Retrieve parameters from the request body
     try:
-        search_term = request.json.get('search_term')
-        location = request.json.get('location')
-        site = request.json.get('site', 'linkedin')  # Default to 'linkedin' if not provided
+        search_term = request.json.get('search_term') # Example Frontend Developer
+        location = request.json.get('location') # Ecample Dublin
+        site = request.json.get('site', 'linkedin')  # Default to 'linkedin' if not provided, but it can be linkedin, zip_recruiter, indeed, glassdoor, google
         results_wanted = request.json.get('results_wanted', 100)  # Default to 100 if not provided
         distance = request.json.get('distance', 25)  # Default to 25 if not provided
         job_type = request.json.get('job_type', 'fulltime')  # Default to 'fulltime' if not provided
