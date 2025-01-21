@@ -1,71 +1,99 @@
-import requests
-from bs4 import BeautifulSoup
-import time
-import pandas as pd
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.service import Service
-from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+import time
+import csv
 
-def scrape_linkedin_jobs(job_title, technologies, location, date_posted):
-    # Set up Selenium WebDriver (Chrome in this case)
-    options = webdriver.ChromeOptions()
-    options.add_argument('--headless')  # Run in headless mode (no GUI)
-    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+def scrape_linkedin_jobs(email, password, search_term, location, results_wanted):
+    # Set up Selenium WebDriver
+    options = Options()
+    options.add_argument("--start-maximized")
+    service = Service(r"C:\Users\louai\Downloads\chromedriver-win64\chromedriver-win64\chromedriver.exe")
+    driver = webdriver.Chrome(service=service, options=options)
 
-    # LinkedIn URL with parameters
-    base_url = "https://www.linkedin.com/jobs/search?"
-    search_url = f"{base_url}keywords={job_title}&location={location}&f_TPR=r{date_posted}&trk=public_jobs_jobs-search-bar_search-submit&position=1&pageNum=0"
+    driver.implicitly_wait(10)  # Set implicit wait for all elements
 
-    # Open the URL with Selenium
-    driver.get(search_url)
-    time.sleep(5)  # Wait for the page to load
+    try:
+        # Navigate to LinkedIn login page
+        driver.get("https://www.linkedin.com/login")
+        WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, "username")))
 
-    # Parse the page content with BeautifulSoup
-    soup = BeautifulSoup(driver.page_source, 'html.parser')
+        # Enter login credentials
+        email_field = driver.find_element(By.ID, "username")
+        email_field.send_keys(email)
+        password_field = driver.find_element(By.ID, "password")
+        password_field.send_keys(password)
+        password_field.send_keys(Keys.RETURN)
 
-    # Find job cards
-    job_cards = soup.find_all('li', class_='job-result-card')
+        # Wait for login to complete
+        WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, "global-nav-search")))
 
-    # List to store scraped data
-    jobs_data = []
+        # Navigate to jobs page
+        driver.get("https://www.linkedin.com/jobs/")
+        WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CLASS_NAME, "jobs-search-box__text-input")))
 
-    for job in job_cards:
-        try:
-            # Extract details for each job
-            title = job.find('h3').text.strip()
-            company = job.find('h4').text.strip()
-            location = job.find('span', class_='job-result-card__location').text.strip()
-            link = job.find('a')['href']
+        # Use class name to locate the search input box
+        search_box_term = driver.find_element(By.CLASS_NAME, "jobs-search-box__text-input")
+        search_box_term.send_keys(search_term)
 
-            # Filter by technologies (if given)
-            if any(tech.lower() in title.lower() for tech in technologies):
-                jobs_data.append({
-                    'title': title,
-                    'company': company,
-                    'location': location,
-                    'link': link
-                })
-        except AttributeError:
-            continue  # Skip any job card that doesn't have the required details
+        search_box_location = driver.find_element(By.XPATH, "//input[@aria-label='Location']")
+        search_box_location.send_keys(location)
+        search_box_location.send_keys(Keys.RETURN)
 
-    driver.quit()  # Close the WebDriver
+        # Wait for results to load
+        time.sleep(3)
 
-    # Convert data to DataFrame for better handling
-    df = pd.DataFrame(jobs_data)
-    return df
+        jobs = []
+        for _ in range(results_wanted // 25):
+            job_cards = driver.find_elements(By.CLASS_NAME, "jobs-search-results__list-item")
+
+            for job in job_cards:
+                try:
+                    title = job.find_element(By.CLASS_NAME, "job-card-list__title").text
+                    company = job.find_element(By.CLASS_NAME, "job-card-container__company-name").text
+                    loc = job.find_element(By.CLASS_NAME, "job-card-container__metadata-item").text
+                    link = job.find_element(By.CLASS_NAME, "job-card-list__title").get_attribute("href")
+
+                    jobs.append({"Title": title, "Company": company, "Location": loc, "Link": link})
+                except Exception as e:
+                    print(f"Error scraping job: {e}")
+
+            # Scroll down and load more results
+            driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+            time.sleep(2)
+
+        return jobs
+
+    finally:
+        driver.quit()
+
+
+def save_jobs_to_csv(jobs, filename="linkedin_jobs.csv"):
+    if not jobs:
+        print("No jobs to save.")
+        return
+
+    keys = jobs[0].keys()
+    with open(filename, "w", newline="", encoding="utf-8") as csvfile:
+        writer = csv.DictWriter(csvfile, fieldnames=keys)
+        writer.writeheader()
+        writer.writerows(jobs)
+
+    print(f"Saved {len(jobs)} jobs to {filename}")
 
 if __name__ == "__main__":
-    job_title = input("Enter the job title (e.g., Frontend Developer): ")
-    technologies = input("Enter technologies (comma separated, e.g., React, Node.js): ").split(",")
-    location = input("Enter the job location (e.g., London): ")
-    date_posted = input("Enter the date range (e.g., 1 for past day, 7 for past week): ")
+    email = "louaialoui1993@gmail.com"
+    password = "LouLinkedin1993"
+    search_term = "Backend Developer"
+    location = "Remote"
+    results_wanted = 30
 
-    # Scrape LinkedIn jobs
-    jobs = scrape_linkedin_jobs(job_title, technologies, location, date_posted)
-
-    # Print the results
-    if not jobs.empty:
-        print(jobs)
+    jobs = scrape_linkedin_jobs(email, password, search_term, location, results_wanted)
+    if jobs:
+        save_jobs_to_csv(jobs)
     else:
-        print("No jobs found matching the criteria.")
+        print("No jobs found.")
