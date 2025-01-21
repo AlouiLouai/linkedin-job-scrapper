@@ -16,7 +16,7 @@ command = [
 subprocess.run(command)
 
 # Path to the CSV file and the output file for job links
-csv_file = 'data/jobs_1.csv'
+csv_file = 'data/jobs_0.csv'
 output_file = 'job_links.txt'
 
 # Open the output file in write mode
