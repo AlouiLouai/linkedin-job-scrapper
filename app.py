@@ -2,22 +2,39 @@ from flask import Flask, request, jsonify
 import subprocess
 import csv
 import os
+import logging
 
 app = Flask(__name__)
 
+# Set up logging
+logging.basicConfig(level=logging.INFO)
+
 @app.route('/fetch_jobs', methods=['POST'])
 def fetch_jobs():
-    # Retrieve parameters from the request
-    search_term = request.json.get('search_term')
-    location = request.json.get('location')
-    site = request.json.get('site', 'linkedin')  # Default to 'linkedin' if not provided
-    results_wanted = request.json.get('results_wanted', 100)  # Default to 100 if not provided
-    distance = request.json.get('distance', 25)  # Default to 25 if not provided
-    job_type = request.json.get('job_type', 'fulltime')  # Default to 'fulltime' if not provided
-    country = request.json.get('country', 'UK')  # Default to 'UK' if not provided
-    batch_size = request.json.get('batch_size', 30)  # Default to 30 if not provided
-    output_dir = request.json.get('output_dir', 'data')  # Default to 'data' if not provided
+    # Retrieve parameters from the request body
+    try:
+        search_term = request.json.get('search_term')
+        location = request.json.get('location')
+        site = request.json.get('site', 'linkedin')  # Default to 'linkedin' if not provided
+        results_wanted = request.json.get('results_wanted', 100)  # Default to 100 if not provided
+        distance = request.json.get('distance', 25)  # Default to 25 if not provided
+        job_type = request.json.get('job_type', 'fulltime')  # Default to 'fulltime' if not provided
+        country = request.json.get('country', 'UK')  # Default to 'UK' if not provided
+        batch_size = request.json.get('batch_size', 30)  # Default to 30 if not provided
+        output_dir = request.json.get('output_dir', 'data')  # Default to 'data' if not provided
 
+        # Validate input types
+        if not isinstance(search_term, str) or not isinstance(location, str):
+            return jsonify({"error": "search_term and location must be strings."}), 400
+        if not isinstance(results_wanted, int) or results_wanted <= 0:
+            return jsonify({"error": "results_wanted must be a positive integer."}), 400
+
+    except KeyError as e:
+        return jsonify({"error": f"Missing required parameter: {str(e)}"}), 400
+
+    # Retrieve pagination parameters from the URL path
+    page = request.args.get('page', 1, type=int)  # Default to page 1
+    per_page = request.args.get('per_page', 10, type=int)  # Default to 10 per page
 
     # Command to run the jobsparser
     command = [
@@ -37,6 +54,7 @@ def fetch_jobs():
     try:
         subprocess.run(command, check=True, text=True, capture_output=True)
     except subprocess.CalledProcessError as e:
+        logging.error(f"Error running jobsparser: {e.stderr}")
         return jsonify({"error": f"Error running jobsparser: {e.stderr}"}), 500
 
     # Get the latest CSV file in the output directory
@@ -50,6 +68,7 @@ def fetch_jobs():
         latest_csv_file = max(files, key=lambda f: os.path.getmtime(os.path.join(output_dir, f)))
         latest_csv_file_path = os.path.join(output_dir, latest_csv_file)
     except Exception as e:
+        logging.error(f"Error finding the latest CSV file: {str(e)}")
         return jsonify({"error": f"Error finding the latest CSV file: {str(e)}"}), 500
 
     job_list = []
@@ -69,12 +88,49 @@ def fetch_jobs():
                 }
                 job_list.append(job_data)
     except FileNotFoundError:
+        logging.error(f"CSV file not found: {latest_csv_file_path}")
         return jsonify({"error": "CSV file not found"}), 404
     except Exception as e:
+        logging.error(f"Error reading the CSV file: {str(e)}")
         return jsonify({"error": f"Error reading the CSV file: {str(e)}"}), 500
 
-    # Return the job details as a JSON response
-    return jsonify(job_list)
+    # If results_wanted is more than 10, paginate the results
+    if results_wanted > 10:
+        try:
+            # Calculate the start and end indices for the page
+            if page < 1:
+                return jsonify({"error": "Page number must be greater than 0"}), 400
+
+            # Determine pagination limits
+            total_results = len(job_list)
+            total_pages = (total_results + per_page - 1) // per_page  # ceil(total_results / per_page)
+
+            # Validate page number
+            if page > total_pages:
+                return jsonify({"error": f"Page {page} out of range. Total pages: {total_pages}"}), 400
+
+            # Calculate the subset of job list for the current page
+            start_index = (page - 1) * per_page
+            end_index = min(start_index + per_page, total_results)
+
+            paginated_jobs = job_list[start_index:end_index]
+
+            # Return paginated results
+            return jsonify({
+                "page": page,
+                "total_pages": total_pages,
+                "per_page": per_page,
+                "total_results": total_results,
+                "jobs": paginated_jobs
+            })
+
+        except Exception as e:
+            logging.error(f"Pagination error: {str(e)}")
+            return jsonify({"error": f"Pagination error: {str(e)}"}), 500
+    else:
+        # If results_wanted is 10 or less, return all jobs without pagination
+        return jsonify(job_list)
+
 
 if __name__ == '__main__':
     app.run(debug=True)
