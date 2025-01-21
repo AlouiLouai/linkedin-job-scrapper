@@ -1,0 +1,2436 @@
+id,site,job_url,job_url_direct,title,company,location,date_posted,job_type,salary_source,interval,min_amount,max_amount,currency,is_remote,job_level,job_function,listing_type,emails,description,company_industry,company_url,company_logo,company_url_direct,company_addresses,company_num_employees,company_revenue,company_description
+li-4052093736,linkedin,https://www.linkedin.com/jobs/view/4052093736,https://careers.microsoft.com/us/en/job/1738064/Software-Engineer-Frontend?jobsource=linkedin&utm_source=Job%20Board&utm_campaign=linkedin-feed&urlHash=irfU,Software Engineer - Frontend,Microsoft,"Dublin, County Dublin, Ireland",2025-01-17,fulltime,,,,,,,not applicable,Engineering and Information Technology,,,"Microsoft is looking for
+ **Frontend Software Engineers** 
+ to come work on a range of cutting\-edge technologies and platforms that power these mission critical services. Our Engineering teams in Ireland work on the most challenging engineering problems, allowing us to solve issues that nobody has solved before. Serving billions of users, our teams run services that are critical to the day\-to\-day experience of every Microsoft Cloud user.
+   
+
+  
+
+  
+
+  
+
+ As a Software Engineer at Microsoft Ireland, you will develop solutions used by billions of people around the world, with teams working across our Cloud \& AI, Microsoft AI, Experience \& Devices, Security, and Gaming organisations and contributing to products like Azure, Microsoft 365, Dynamics 365, Microsoft Entra, Teams, OneDrive \& SharePoint, Office, and Mesh.
+   
+
+  
+
+ You can learn more about our Engineering Dublin site here:
+   
+
+  
+
+ https://careers.microsoft.com/v2/global/en/locations/dublin.html
+   
+
+  
+
+  
+
+  
+
+ We have multiple opportunities available across our EDC (European Development Centre) and are looking for candidates who are curious to learn and grow with Microsoft Ireland.
+   
+
+  
+
+**Responsibilities**
+ As a Frontend Software Engineer on the Microsoft team, you will:
+   
+
+  
+
+* Work with engineers, program managers, designers, and partners to deliver sets of features with the right overall design and architecture.
+* Own and deliver complete feature areas and large\-scale solutions including design, architecture, implementation, testability, debugging, and shipping with secure long\-term support.
+* As a technical leader on the team, you will be responsible for sharing insights and best practices that can be applied to improve development and influence direction across related sets of systems, platforms, and/or products.
+* Continue to develop your approaches through interactions with more experienced team members and continually reviewing processes to ensure efficiency.
+* Provide mentorship and coaching to more junior engineers to help them identify and propose relevant solutions.
+* Write clean well\-thought\-out code with an emphasis on quality, performance, simplicity, durability, scalability, reusability, and maintainability.
+* Be committed to delivering the best experience for our customers and partners, and then iterate based on qualitative and quantitative feedback.
+* Help create a diverse and inclusive culture, participating in hiring where appropriate, so everyone can bring their full and authentic self and where we do our best work as a result.
+* Take responsibility for reliable uninterrupted operation of features with the earliest detection of issues in production.
+* Foster a data driven approach with everything you do from analysing and prioritizing business requirements, including customer feedback, and using metrics to prove success.
+* Expose test coverage issues, organize, and implement tests and types of tests needed, and resolve problem areas.
+* Gain a working understanding of Microsoft businesses and collaborate with mentors and leaders to contribute to cohesive, end\-to\-end experiences for our customers and users.
+
+
+**Qualifications**
+* Bachelor's degree in Computer Science, or equivalent work experience.
+* Experience with one or more general purpose programming languages including but not limited to: C/C\+\+, C\#, Java, TypeScript, JavaScript.
+* Extensive experience with one or more modern web technologies such as .NET, Node, React, Angular, building RESTful APIs, and hands\-on knowledge of web concepts such as HTTP, SOAP, and MVC.
+* Skilled building libraries, SDKs, and other development platform components, preferably using C/C\+\+, C\#, TypeScript.
+* Strong industry experience collaborating with others on designing, developing, testing, and shipping solutions to large scale technical problems.
+* Proven ability to design and develop loosely coupled, componentized, and durable software that can be easily extended and meets requirements on time.
+* Ability to deal with ambiguity and understand key business needs in line with competing priorities and apply the right technology and implementation to the solution.
+* Demonstrated strength to quickly get up\-to\-speed and be productive on new technical domains and are comfortable in dealing with ambiguity.
+* Excellent analytical, problem\-solving, and debugging skills with a solid understanding of object\-oriented design, coding patterns, and testing practices.
+* Experience in Agile, DevOps, building micro services, and Mobile is a plus.
+
+
+ \#OneIreland
+   
+
+  
+
+ Microsoft is an equal opportunity employer. Consistent with applicable law, all qualified applicants will receive consideration for employment without regard to age, ancestry, citizenship, color, family or medical care leave, gender identity or expression, genetic information, immigration status, marital status, medical condition, national origin, physical or mental disability, political affiliation, protected veteran or military status, race, ethnicity, religion, sex (including pregnancy), sexual orientation, or any other characteristic protected by applicable local laws, regulations and ordinances. If you need assistance and/or a reasonable accommodation due to a disability during the application process, read more about requesting accommodations.",Software Development,https://www.linkedin.com/company/microsoft,https://media.licdn.com/dms/image/v2/C560BAQE88xCsONDULQ/company-logo_100_100/company-logo_100_100/0/1630652622688/microsoft_logo?e=2147483647&v=beta&t=lMkCSsceJNmUG1r0VRg3Whye1sVi2KtYvt-MWyfoNbY,,,,,
+li-4125830619,linkedin,https://www.linkedin.com/jobs/view/4125830619,http://www.squarespace.com/about/careers?gh_jid=6158939&gh_src=afe793d31&urlHash=R-Oq,Software Engineer Frontend - Help Experience,Squarespace,"Dublin, County Dublin, Ireland",2025-01-16,fulltime,,,,,,,mid-senior level,Engineering and Information Technology,,,"Squarespace's Help Experience team is looking for a Frontend Software Engineer to join us based in our Dublin office. You will work directly with Staff Engineers, Data Analysts, and the Customer Operations department to handle complex technical challenges, leveraging Squarespace's expanding Cloud\-native footprint and cutting\-edge technologies like Generative AI.
+   
+
+  
+
+ The Help Experience team's mission is to empower our customers' business growth through an integrated support platform. This platform combines personalized self\-help guidance with one\-on\-one support, offering the essential tools and assistance our customers need to succeed, while enhancing operational efficiency. Our chatbot processes millions of messages per day and our help centre is visited by a million visitors daily.
+   
+
+  
+
+ As a Frontend Software Engineer on Help Experience, you'll work with Product and Design to build new applications, add new features to existing applications and maintain the health of our diverse tech stack. You'll work on projects to help our Customer Operations advisors and work with the team to implement technical improvements and help develop the team's technical strategy.
+   
+
+  
+
+ You will report to the Engineering Team Manager of the Help Experience team. This is a hybrid role working from our Dublin, Ireland office 3 days per week. This is a geographically dispersed team between NYC and Dublin.
+   
+
+  
+
+ You'll Get To…
+   
+
+  
+
+* Build and improve customer\-facing support products and services end\-to\-end
+* Collaborate with engineers, designers and product owners to create a user\-focused experience
+* Practice disciplined software engineering (e.g. automated testing, code reviews, and writing beautiful, readable code, documentation, software design, RFCs)
+* Keep our product updated with the latest technologies
+
+
+ Who We're Looking For
+   
+
+  
+
+* 3 to 5 years experience with 2\+ years of experience programming with Javascript required (We use React)
+* Experience with frontend architecture and best practices for maintainable code
+* Experience integrating frontend applications with RESTful APIs
+* Familiarity with A/B testing, Agile development, and data\-driven decision\-making
+* Excellent communication skills and the ability to collaborate effectively across teams
+* Interest in collaboration through code reviews and technical discussions
+
+
+**Benefits \& Perks**
+* Health insurance with 100% covered premiums for you and your dependent children
+* Fertility and adoption benefits
+* Headspace mindfulness app subscription
+* Global Employee Assistance Program
+* Pension benefits with employer match
+* Flexible paid time off
+* Up to 26 weeks of full pay for birth parent leave and up to 20 weeks of full pay for non\-birth parent leave
+* 12 weeks of pay to care for an ill family member
+* Education reimbursement
+* Employee donation match to community organizations
+* 6 Global Employee Resource Groups (ERGs)
+* Free lunch and snacks
+* Close proximity to cultural landmarks such as Dublin Castle and St. Patrick's Cathedral
+
+
+**About Squarespace**
+ Squarespace is a design\-driven platform helping entrepreneurs build brands and businesses online. We empower millions of customers in more than 200 countries and territories with all the tools they need to create an online presence, build an audience, monetize, and scale their business. Our suite of products range from websites, domains, ecommerce, and marketing tools, as well as tools for scheduling with Acuity and creating and managing social media presence with Bio Sites and Unfold. Our team of more than 1,500 is headquartered in bustling New York City, with offices in Dublin, Ireland, Aveiro, Portugal, and coworking spaces in the UK, Netherlands, and Australia. For more information about our company culture, visit https://www.squarespace.com/about/careers.
+   
+
+  
+
+**Our Commitment**
+ Today, more than a million people around the globe use Squarespace to share different perspectives and experiences with the world. Not only do we embrace and celebrate the diversity of our customer base, but we also strive for the same in our employees. At Squarespace, we are committed to equal employment opportunity regardless of race, color, ethnicity, ancestry, religion, national origin, gender, sex, gender identity or expression, sexual orientation, age, citizenship, marital or parental status, disability, veteran status, or other class protected by applicable law. We are proud to be an equal opportunity workplace.
+   
+
+  
+
+**Thank you in advance for providing the following details about your work history from your resume! This helps us ensure that your candidate information is accurate and consistent during the hiring process.**
+**Squarespace will never solicit your personal banking information or ask you to transfer money in connection with a job offer or interview. We also will not reach out to you via phone or SMS without your permission or knowledge.**","Technology, Information and Internet",https://www.linkedin.com/company/squarespace,https://media.licdn.com/dms/image/v2/C4D0BAQG8NTo0eQU3Qw/company-logo_100_100/company-logo_100_100/0/1630501442418/squarespace_logo?e=2147483647&v=beta&t=2YltXR9f_BICeuCRbk6M9__UNZSMLBYLH3lxCKFYTVE,,,,,
+li-4124579490,linkedin,https://www.linkedin.com/jobs/view/4124579490,https://ars2.equest.com/?response_id=30bd1665bbb2e1bc2ec29c11ca0a44d4&urlHash=NKyO,Web Software Developer (front end),daa,"Dublin, County Dublin, Ireland",2025-01-13,fulltime,,,,,,,not applicable,Information Technology,,,"daa Labs are on a mission to enhance our operational efficiency, capacity and customer experience, through innovative technology solutions. As part of our ambitious plan to increase our development capacity, we are looking for a skilled Web software developer to join our team and contribute to exciting projects to improve the airport experience for both travellers and Staff.
+ 
+
+
+
+
+
+
+* Design, Develop and maintain responsive web applications that provide integrated seamless experiences.
+* Collaborate with designers and business stakeholders to implement quality user friendly web interfaces.
+* Write clean, maintainable and efficient code using modern web technologies (JavaScript, HTML, CSS and web frame works like React, React Native, Angular or Next).
+* Help create and Integrate API’s and third\-party services.
+* Implement and maintain automated testing frameworks to ensure code quality.
+* Work closely with cross functional teams including designers, developers and business stakeholders.
+* Participate in agile ceremonies such as planning, standups and retrospectives.
+* Communicate effectively with stake holders and business units to better understand the need and ensure its being met through technical specifications.
+* Create and maintain technical documentation for web applications, including setup, guides and API documentation.","Technology, Information and Media",https://ie.linkedin.com/company/dublin-airport-authority-daa-,https://media.licdn.com/dms/image/v2/D4E0BAQEWI8ODpRBAng/company-logo_100_100/company-logo_100_100/0/1694528595976/dublin_airport_authority_daa__logo?e=2147483647&v=beta&t=lbaZcTY5JhtI72wXl3c7xJJ9C9tp9uWP6MLFbuSev6Q,,,,,
+li-4119782303,linkedin,https://www.linkedin.com/jobs/view/4119782303,https://www.amazon.jobs/jobs/2868649/front-end-engineer-graduate?cmpid=SPLICX0248M&utm_source=linkedin.com&utm_campaign=cxro&utm_medium=social_media&utm_content=job_posting&ss=paid&urlHash=vPIL,Front End Engineer Graduate,Amazon,"Dublin, County Dublin, Ireland",2025-01-08,fulltime,,,,,,,entry level,"Information Technology, Consulting, and Engineering",,,"**Description**
+ Do you want to solve business challenges through innovative technology? Do you enjoy working on cutting\-edge, scalable services technology in a team environment? Do you like working on industry\-defining projects that move the needle?
+   
+
+  
+
+ At Amazon, we hire the best minds in technology to innovate and build on behalf of our customers. The intense focus we have on our customers is why we are one of the world’s most beloved brands – customer obsession is part of our company DNA. Our Front End Engineers (FEEs) use cutting\-edge technology to solve complex problems and get to see the impact of their work first\-hand.
+   
+
+  
+
+ The challenges FEEs solve for at Amazon are big and impact millions of customers, sellers, and products around the world. We’re looking for individuals who are excited by the idea of creating new products, features, and services from scratch while managing ambiguity and the pace of a company whose ship cycles are measured in weeks, not years. If you have the skills for building high\-performance, customer\-friendly products that delight customers, and are interested in cutting\-edge cloud computing, this is the job for you.
+   
+
+  
+
+ If this is you, come chart your own path at Amazon!
+   
+
+  
+
+ Key job responsibilities
+   
+
+  
+
+* Collaborate with experienced cross\-disciplinary Amazonians to conceive, design, and bring to market innovative products and services.
+* Design and build innovative technologies in a large distributed computing environment and help lead fundamental changes in the industry.
+* Create solutions to run predictions on distributed systems with exposure to innovative technologies at incredible scale and speed.
+* Build distributed storage, index, and query systems that are scalable, fault\-tolerant, low cost, and easy to manage/use.
+* Ability to design and code the right solutions starting with broadly defined problems.
+* Work in an agile environment to deliver high quality software.
+
+
+ Applications are reviewed on a rolling basis. For an update on your status, or to confirm your application was submitted successfully, please login to your candidate portal. Please note that Amazon works with a high volume of applicants. We appreciate your patience as we review applications for future Amazonians!
+   
+
+  
+
+**Basic Qualifications**
+* Graduated less than 24 months ago or about to complete a Bachelor’s or Master’s Degree in Computer Science, Computer Engineering, or related fields at time of application
+* Although no specific programming language is required – you should be familiar with the syntax of languages such as Java, C/C\+\+, or Python
+* Knowledge of Computer Science fundamentals such as object\-oriented design, algorithm design, data structures, problem solving and complexity analysis
+
+
+**Preferred Qualifications**
+* Previous technical internship(s)
+* Experience with distributed, multi\-tiered systems, algorithms, and relational databases
+* Experience in optimization mathematics such as linear programming and nonlinear optimization
+* Ability to effectively articulate technical challenges and solutions
+* Adept at handling ambiguous or undefined problems as well as ability to think abstractly
+
+
+ Amazon is an equal opportunities employer. We believe passionately that employing a diverse workforce is central to our success. We make recruiting decisions based on your experience and skills. We value your passion to discover, invent, simplify and build. Protecting your privacy and the security of your data is a longstanding top priority for Amazon. Please consult our Privacy Notice (https://www.amazon.jobs/en/privacy\_page) to know more about how we collect, use and transfer the personal data of our candidates.
+   
+
+  
+
+ Amazon is committed to a diverse and inclusive workplace. Amazon is an equal opportunity employer and does not discriminate on the basis of race, national origin, gender, gender identity, sexual orientation, protected veteran status, disability, age, or other legally protected status.
+   
+
+  
+
+ Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how\-we\-hire/accommodations for more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner.
+   
+
+  
+
+  
+
+**Company** 
+ \- Amazon Development Centre Ireland Limited
+   
+
+  
+
+ Job ID: A2868649",Software Development,https://www.linkedin.com/company/amazon,https://media.licdn.com/dms/image/v2/C560BAQHTvZwCx4p2Qg/company-logo_100_100/company-logo_100_100/0/1630640869849/amazon_logo?e=2147483647&v=beta&t=QsC16wgE3EBriPFDlAgtToh2xndFwQWKmR2WcyMG1nk,,,,,
+li-4104190936,linkedin,https://www.linkedin.com/jobs/view/4104190936,https://korecgroup.careers.adp.com/vacancy/c73681eb-eebf-4bd3-9162-80ab4f4e8c50&urlHash=95G1,Front-End Engineer,Soarvo,"Dublin, County Dublin, Ireland",2025-01-08,fulltime,,,,,,,not applicable,"Information Technology, Other, and Engineering",,,"**About Soarvo** 
+
+
+
+
+ At
+ **Soarvo** 
+ , we are transforming the way drone operators, surveyors, industries and government agencies harness geospatial data.
+ 
+
+
+
+  
+
+
+
+
+
+ Our cutting\-edge platform makes geospatial intelligence accessible to everyone—empowering industries, businesses, and individuals to unlock its transformative potential without requiring advanced technical expertise or equipment.
+ 
+
+
+
+  
+
+
+
+
+
+ Backed by a team of passionate innovators, we are scaling rapidly and are looking for talented individuals to join our journey. Experience the excitement of a fast\-growing, dynamic startup environment, combined with the stability and support of a well\-established company.
+ 
+
+
+
+  
+
+
+
+
+
+**Location: Dublin, Ireland (will only consider Ireland\-based candidates)** 
+
+
+
+
+  
+
+
+
+
+
+**Your Role:** 
+
+
+
+
+ As a
+ **Front\-End (React.js) Engineer** 
+ , you will play a pivotal role in shaping the user experience of our platform, delivering attractive functionality to our end users. You will collaborate closely with cross\-functional teams, including product managers, technical leads, and back\-end developers, to create responsive, high\-performance, and visually stunning interfaces and features.
+ 
+
+
+
+  
+
+
+
+
+
+**Important Note: Applicants must have the right to work in Ireland at the time of application. Proof of eligibility will be required.** 
+
+
+
+
+  
+
+
+
+
+
+**Your Impact:** 
+
+
+
+* Develop user\-facing features using React.js (primary framework)
+* Integrate and optimize front\-end components: React.js, Vue.js, Cesium
+* Build reusable components and front\-end libraries for scalability
+* Turn designs and requirements into high\-quality, responsive code
+* Enhance and maintain the codebase for peak performance
+* Implement and champion best practices in front\-end development—code quality, testing, and maintainability.
+
+
+
+  
+
+
+
+
+
+**What You’ll Bring:** 
+
+
+
+* 5\+ years in front\-end development with a focus on modern Javascript frameworks and Typescript
+* Advanced CSS, HTML skills
+* UX/UI design experience
+* Sharp eye for design, turning complex user needs into sleek, intuitive interfaces
+* Experience with RESTful APIs
+* Tackling complex challenges with elegant, efficient solutions
+* Strong communicator, thriving in agile environments
+* Driving best practices and offering technical guidance
+* Nice to have experience: geospatial concepts, PostgreSQL, 2D/3D geometry
+
+
+
+  
+
+
+
+
+
+**Why Join Us?** 
+
+
+
+
+ As this is a new team working on brand\-new products, we embrace the collaborative spirit of an onsite team, working together to drive success, innovation, and quickly bring new products to market.
+ 
+
+
+
+  
+
+
+
+
+
+ Be part of a
+ **mission\-driven company** 
+ at the forefront of geospatial innovation
+ **Shape the future** 
+ of an exciting product that has the potential to transform industries globally Work in an
+ **entrepreneurial, fast\-paced environment** 
+ with a culture that celebrates creativity and ownership
+ 
+
+
+
+  
+
+
+
+
+
+ Enjoy
+ **flexible work arrangements, competitive compensation** 
+ Access opportunities for
+ **growth and development** 
+ as part of a passionate, collaborative team. We are committed to fostering inclusive behaviours that promote equality of opportunity, fairness, mutual respect, and dignity for all.
+ 
+
+
+
+  
+
+
+
+
+
+**What We Offer:** 
+
+
+
+* Competitive base salary with a generous bonus scheme linked to key deliverables.
+* Tailored induction, comprehensive product training, and ongoing professional development opportunities.
+* 23 days of holiday, plus bank holidays, with service\-related increases up to 30 days.
+* Pension scheme and life insurance for financial security.
+* Employee benefits package via Perkbox.
+* Access to a Mental Wellbeing Resources Platform.
+* Recognition as Investors in People and Investors in Wellbeing, demonstrating our commitment to employee satisfaction and growth.
+
+
+
+  
+
+
+
+
+
+ Join Soarvo and play a critical role in shaping the future of geospatial data utilisation.","Technology, Information and Media",https://ie.linkedin.com/company/soarvo,https://media.licdn.com/dms/image/v2/D4E0BAQF66yMf6XMTpQ/company-logo_100_100/company-logo_100_100/0/1728552970302/soarvo_logo?e=2147483647&v=beta&t=DAMltOu16_StEeyUt90CrkrA8kJw6swWmfPxl26VlSw,,,,,
+li-4117387632,linkedin,https://www.linkedin.com/jobs/view/4117387632,http://www.squarespace.com/about/careers?gh_jid=6364507&gh_src=afe793d31&urlHash=UEH7,"Software Engineer, Frontend - Platform",Squarespace,"Dublin, County Dublin, Ireland",2025-01-06,fulltime,,,,,,,mid-senior level,Engineering and Information Technology,,,"Websites and our CMS is the core of Squarespace. The mission of the Platform team is to modernize and evolve Squarespace's primary product offering, our Website builder and CMS. You'll help develop systems and frameworks that empower both our teams and external customers to build features on top of the Website builder in a secure and self\-service manner. We are looking for a focus on frontend technologies to create scalable, maintainable code and solve challenges in UI performance, component design, and user experience, all while contributing to the overall architecture and reducing technical debt.
+   
+
+  
+
+ This is a hybrid role working from our Dublin office 3 days per week. You will report to the Engineering Team Manager of the Platform Team.
+   
+
+  
+
+ You'll Get To…
+   
+
+  
+
+* Design: Build features that enhance the Squarespace interface, focusing on intuitive, customer\-centered experiences.
+* Develop: Collaborate with designers and engineers to create solutions that prioritize user needs.
+* Refine: Keep our products at the forefront by integrating the latest frontend technologies, such as React and ES2015\+.
+* Maintain: Uphold standards of software engineering, emphasizing automated testing, code reviews, and writing clean, pragmatic code
+* Contribute: Support and refine team and company\-wide standards, ensuring quality across all projects.
+
+
+ Who We're Looking For
+   
+
+  
+
+* Have 3\+ years of experience developing web\-based production systems, with a focus on building user\-facing products and platforms using JavaScript (including React and TypeScript).
+* Keep a user\-first mindset when developing products.
+* Have experience contributing to modular UI components that help other teams to easily integrate new features.
+* Be eager to continue expanding your technical knowledge and influence across teams as a hands\-on individual contributor.
+* Be excited about solving technical challenges while growing your career in web development.
+
+
+ Benefits \& Perks
+   
+
+  
+
+* Health insurance with 100% covered premiums for you and your dependent children
+* Fertility and adoption benefits
+* Headspace mindfulness app subscription
+* Global Employee Assistance Program
+* Pension benefits with employer match
+* Flexible paid time off
+* Up to 26 weeks of full pay for birth parent leave and up to 20 weeks of full pay for non\-birth parent leave
+* 12 weeks of pay to care for an ill family member
+* Education reimbursement
+* Employee donation match to community organizations
+* 6 Global Employee Resource Groups (ERGs)
+* Free lunch and snacks
+* Close proximity to cultural landmarks such as Dublin Castle and St. Patrick's Cathedral
+
+
+**About Squarespace**
+ Squarespace is a design\-driven platform helping entrepreneurs build brands and businesses online. We empower millions of customers in more than 200 countries and territories with all the tools they need to create an online presence, build an audience, monetize, and scale their business. Our suite of products range from websites, domains, ecommerce, and marketing tools, as well as tools for scheduling with Acuity and creating and managing social media presence with Bio Sites and Unfold. Our team of more than 1,500 is headquartered in bustling New York City, with offices in Dublin, Ireland, Aveiro, Portugal, and coworking spaces in the UK, Netherlands, and Australia. For more information about our company culture, visit https://www.squarespace.com/about/careers.
+   
+
+  
+
+ Our Commitment
+   
+
+  
+
+ Today, more than a million people around the globe use Squarespace to share different perspectives and experiences with the world. Not only do we embrace and celebrate the diversity of our customers, but we also work toward the same in our employees. At Squarespace, we are committed to equal employment opportunity regardless of race, color, ethnicity, ancestry, religion, national origin, gender, sex, gender identity or expression, sexual orientation, age, citizenship, marital or parental status, disability, veteran status, or other class protected by applicable law. We are proud to be an equal opportunity workplace.
+   
+
+  
+
+**Thank you in advance for providing the following details about your work history from your resume! This helps us ensure that your candidate information is accurate and consistent during the hiring process.**
+**Squarespace will never solicit your personal banking information or ask you to transfer money in connection with a job offer or interview. We also will not reach out to you via phone or SMS without your permission or knowledge.**","Technology, Information and Internet",https://www.linkedin.com/company/squarespace,https://media.licdn.com/dms/image/v2/C4D0BAQG8NTo0eQU3Qw/company-logo_100_100/company-logo_100_100/0/1630501442418/squarespace_logo?e=2147483647&v=beta&t=2YltXR9f_BICeuCRbk6M9__UNZSMLBYLH3lxCKFYTVE,,,,,
+li-4056008743,linkedin,https://www.linkedin.com/jobs/view/4056008743,https://careers.ryanair.com/jobs/frontend-developer-2/&urlHash=eeyJ,Frontend Developer,Ryanair - Europe's Favourite Airline,"Dublin, County Dublin, Ireland",2025-01-03,fulltime,,,,,,,mid-senior level,Information Technology,,,"**Description**
+ Ryanair Labs are currently recruiting for Frontend Developer to join Europe’s Largest Airline Group!
+   
+
+  
+
+ This is a very exciting time to join Ryanair as we look to expand our operation to 800 aircraft and 300 million guests within the next 10 years.
+   
+
+  
+
+ Ryanair Labs is the technology brand of Ryanair. Labs is a state of\-the\-art digital \& IT innovation hub creating Europe’s Leading Travel Experience for our customers.
+   
+
+  
+
+**The Team**
+ Our Frontend development team is made up of almost 30 Javascript and Angular Specialists working across various independent teams. These delivery focused project pods work on the Ryanair website, mobile application, Ryanair Rooms website, and internal applications. Our continuous delivery approach means we follow the Agile Scrum methodology.
+   
+
+  
+
+**The Role**
+ We are looking for experienced Frontend Developers to join our digital development team. In this role you will work closely with our development and product team to develop, modify and support our website and user interfaces across all channels. We want someone who is motivated by emerging technologies and has a passion to drive digital transformation. A real desire to work in a collaborative and fast\-paced retail environment is essential. You will be joining Ryanair at an exciting time with an ambitious roadmap to become digital leaders and pioneers.
+   
+
+  
+
+**Responsibilities**
+* Delivering best\-in\-class user interfaces across the Ryanair.com platform and other operational apps
+* Developing high quality, testable and performance software using agile practices
+* Driving best technology and software development practices in the team with passion and enthusiasm
+* Assisting analysts and business stakeholders in shaping, estimating and planning new requirements
+* Participating in regular showcases of new work to the product owners and business stakeholders
+* Striving for continuous improvement within the team
+
+
+**Requirements**
+* 5\+ years practical experience in fast paced commercial environment
+* Proficient in HTML/CSS (preferably with HTML5 and CSS3 experience)
+* Professional experience in Angular framework.
+* Comfortable coding custom JavaScript solutions as well as utilising existing frameworks
+* Expert knowledge of building high performing and available websites and how to apply page performance optimisation techniques
+* Adept at building and maintaining cross browser/device compatible sites
+* Exposure or appreciation of agile development practices
+* Comfortable with revision control systems (Mercurial)
+* Excellent understanding of the coding standards required for high volume websites from a security and performance perspective
+* Experience of working with large ecommerce websites and their underlying databases.
+* IT Bachelor’s degree
+
+
+**Benefits**
+* Competitive salary
+* Discounted and unlimited travel to over 250 destinations
+* Hybrid working options
+* Defined Contribution Pension Scheme
+* Death in Service Benefit – Up to 2 times of annual basic salary
+* 20 Days Annual Leave – Increasing to 22 days after 12 months and 25 days after 3 years of continuous service.
+* Option for up to 5 additional unpaid leave days per year
+* Cycle 2 Work Scheme
+* Unrivalled career progression
+
+
+ Competencies
+   
+
+  
+
+ Adaptability/Flexibility
+   
+
+  
+
+ Dependability
+   
+
+  
+
+ Communication
+   
+
+  
+
+ Interpersonal Skills",Airlines and Aviation,https://ie.linkedin.com/company/ryanair,https://media.licdn.com/dms/image/v2/C4D0BAQHUKY5195fCsA/company-logo_100_100/company-logo_100_100/0/1641288322520/ryanair_logo?e=2147483647&v=beta&t=XBZkFn-Kzo0kI2H5iv0sycT3lDucjOOVBIRxlN5rYY8,,,,,
+li-4091151925,linkedin,https://www.linkedin.com/jobs/view/4091151925,https://reliaquest.wd5.myworkdayjobs.com/ReliaQuest_Careers/job/Salt-Lake-City-UT/Front-End-Software-Engineer_R13807?source=LinkedIn&urlHash=uE0-,Front End Software Engineer,ReliaQuest,"Dublin, County Dublin, Ireland",2025-01-02,fulltime,,,,,,,mid-senior level,Engineering and Information Technology,,,"Are you a passionate Software Engineer who has a proven track record of solving complex problems and being at the forefront of innovation? Pursuing a career at ReliaQuest will allow you to write code and manipulate data in ways that have never been done before, driving automation of threat detection and response for one of the world’s fastest growing industries. You will lead the creation, testing, and deployment of cutting\-edge security technology to enterprise customers across the globe. Above all else, this role will allow you to work and learn from some of the most talented people in the business as well as have a direct contribution to the growth and success of RQ.
+   
+
+  
+
+**The everyday hustle:**
+* Research and develop creative solutions across a wide range of cutting\-edge technologies to continuously evolve our platform, GreyMatter
+* Manage the continuous integration and deployment processes of complex technologies.
+* Perform code reviews to ensure consistent improvement.
+* Proactively automate and improve all stages of the software development lifecycle.
+* Interface closely with various parts of the business, both internally and externally, to ensure all users are leveraging the product with ease and to its full potential.
+* Provide training and support to other team members as well as cultivate a culture of constant collaboration.
+
+
+**Do you have what it takes?**
+* 5\+ Years of Software Development experience in the following languages and/or technologies: JS, React, Angular, Typescript or equivalent.
+* Must be proficient in the English language, both written and verbal
+* Knowledge and ability to apply application security principles to our software process
+
+
+**What makes you uncommon?**
+* Hands on experience with one or more of the following technologies (React, Angular, Typescript).
+* Experience with cloud platforms such as AWS, GCP, or Azure.
+* Solid understanding of unit testing, continuous integration and deployment practices.
+* Experience with Agile Methodology.
+* Higher education/relevant certifications.",Computer and Network Security,https://www.linkedin.com/company/reliaquest,https://media.licdn.com/dms/image/v2/D4E0BAQEmuV7QzV2A8g/company-logo_100_100/company-logo_100_100/0/1714568863543/reliaquest_logo?e=2147483647&v=beta&t=CgmFfUMgur6QXJ74s5YHnmBH3_7UBGRM7UUWcQySwW4,,,,,
+li-4017103494,linkedin,https://www.linkedin.com/jobs/view/4017103494,https://jobs.lever.co/kitmanlabs/9ee98149-75bd-429f-b309-fd7540cb1fd0/apply?lever-source=LinkedIn&urlHash=a0MB,Frontend Engineer,Kitman Labs,"Dublin, County Dublin, Ireland",2024-09-04,fulltime,,,,,,,not applicable,Engineering and Information Technology,,,"Kitman Labs is the performance intelligence company, disrupting and transforming the way the sports industry uses data to unlock the potential of the world’s top athletes.
+   
+
+  
+
+ Driven by a passion to innovate in the areas of sports performance, analytics and user experience, we have assembled a team of the industry’s top data scientists, sports performance scientists, product and software designers and engineers.
+   
+
+  
+
+ Kitman Labs’ advanced operating system, the Intelligence Platform (iP) is now used by over 2000 teams in 50 leagues on 6 continents, including the NFL, Premier League, National Women’s Soccer League and MLS.
+   
+
+  
+
+ The Role
+   
+
+  
+
+ Front\-end engineers are responsible for building the interface of Kitman Labs products. They do this with a focus on usability, security, robustness and performance.
+   
+
+  
+
+ The front\-end engineering team, in conjunction with our Product Strategy and Innovation team, build user friendly interfaces that showcase massive amounts of data from sports teams allover the globe.
+   
+
+  
+
+ We’re looking for people who are looking to kick start their careers by joining a dynamic, growing team of engineers. We believe in constant growth in a collaborative, positive environment, you’ll work closely with other engineers who are experienced in mentoring and guidance.
+   
+
+  
+
+ You’ll need to combine a passion for learning with a drive to deliver successful products. New technologies or approaches to solving problems don’t bother you. You are detail oriented but also pragmatic and considered in where you spend time and effort.
+   
+
+  
+
+**We will expect you to**
+* Contribute to the design, build, and maintenance of our interfaces with a focus on user experience
+* Help us constantly improve our engineering processes, standards and tooling
+* Work with our backend engineers and designers to build features that users love to use
+* Help to investigate and debug issues as they occur
+* Contribute to our technical architecture as we grow
+
+
+**Experience And Skills We Look For**
+* Have shown an ability to take on new technologies and languages. We work mostly in React and Ruby but this isn’t a prerequisite, we’re more interested in your ability to learn
+* Hold yourself and others to a high bar
+* Take pride in working on projects through to a successful completion
+* Comfortable working in a dynamic team with a focus on delivering features through to production
+
+
+**Benefits**
+ At Kitman Labs we pride ourselves on being the best and working with the best, so it should be no surprise that we are also dedicated to keeping the best through building a world\-class work culture.
+   
+
+  
+
+ We truly believe that a successful company begins through having an outstanding and inspiring culture, so our benefits reflect this:
+   
+
+  
+
+* Competitive salary
+* Meaningful equity
+* Pension Plan
+* Fully paid health insurance for employee \& dependants
+* Life Assurance
+* Wellness Perk
+* Flexible workplace with options for office\-based, hybrid and remote working
+
+
+**Location**
+ Whilst remote, you can work from our Dublin office, which is located within a 1 minute walk from Connolly train station, and very close to all major bus routes and both Luas lines. We're also on the doorstep of many shops, restaurants, bars, \& cafes.
+   
+
+  
+
+**Diversity**
+ In addition to building a team with diverse skill\-sets, Kitman Labs is committed to hiring people with diverse backgrounds. We do not discriminate based on age, civil or family status, disability, ethnicity, gender, race, religion, or sexual orientation. If you are a person with a disability and require assistance during the application process, please let us know.
+   
+
+  
+
+ You can find information about how we process, share and keep your personal data safe by reading our privacy policy",IT Services and IT Consulting,https://ie.linkedin.com/company/kitman-labs,https://media.licdn.com/dms/image/v2/D4E0BAQGH5YBByCgSRQ/company-logo_100_100/company-logo_100_100/0/1688146179810/kitman_labs_logo?e=2147483647&v=beta&t=VUiSK96Y3B0ibV01aKjVVq1AU3f5o5LB-MtlSfnGhXs,,,,,
+li-3980367472,linkedin,https://www.linkedin.com/jobs/view/3980367472,,Front-End Software Engineer - Ireland,Arista Networks,"Dublin, County Dublin, Ireland",2024-07-23,fulltime,,,,,,,mid-senior level,Engineering,,,"**Company Description**
+ Arista Networks is an industry leader in data\-driven, client\-to\-cloud networking for large data center, campus and routing environments. What sets us apart is our relentless pursuit of innovation. We leverage the latest advancements in cloud computing, artificial intelligence, and software\-defined networking to provide our clients with a competitive edge in an increasingly interconnected world. Our solutions are designed to not only meet the current demands of the digital landscape but to also anticipate and adapt to future challenges.
+   
+
+  
+
+ At Arista we value the diversity of thought and perspectives that each employee brings to the table. We believe that fostering an inclusive environment, where individuals from various backgrounds and experiences feel welcome, is essential for driving creativity and innovation.
+   
+
+  
+
+ Our commitment to excellence has earned us several prestigious awards, such as Best Engineering Team, Best Company for Diversity, Compensation, and Work\-Life Balance. At Arista, we take pride in our track record of success and strive to maintain the highest standards of quality and performance in everything we do.
+   
+
+  
+
+**Job Description**
+**Who You'll Work With**
+ Working on cloud based streaming telemetry services and applications; The Cloud Vision Portal is a web\-based front\-end application that abstracts the physical network to a broader, network\-wide perspective. This consists of a front\-end user interface for understanding the stored data from the real\-time telemetry streamed from the network switches. It allows you to view events, inspect a device, or compare metrics across devices and much more is planned as it is a key part of Arista's Any Cloud Platform and also the Cognitive Campus initiative.
+   
+
+  
+
+**What You'll Do**
+ You will be part of a team building the user interface based on a streaming telemetry service for networking devices that send real\-time updates to a cloud\-based data ingestion infrastructure. You will actively participate in designing and implementing a top\-quality data exploration and device management user interface, including visualization and correlation of events, network anomaly detection and configuration of networking devices using NodeJS, React and Redux as the pillars of the architecture with ES6 scripting and various tools including Webpack, Storybook,TypeScript and Less.
+   
+
+  
+
+ One of the many attractions of joining Arista is that from the top Arista is an engineering company. The founders and engineering managers are all engineers who understand good software engineering and the importance of doing things right.Arista hires directly into the broader team, regardless of geography.
+   
+
+  
+
+ Our engineers have full ownership of their projects. Our management structure is flat and lightweight. Software engineering is run by software engineers who are in charge of delivering features from concept through to completion. We put a premium on building and using test automation tools.No part of the company is off\-limits, meaning that our engineers have the chance to work on a variety of different areas.
+   
+
+  
+
+**Qualifications**
+* 5\+ Strong development experience with JavaScript, including experience with frameworks like Angular or React
+* Familiarity with build and continuous integration using webpack and npm
+* Ability to convert wireframes and mock\-ups into high quality components
+* Commitment to producing high quality, performant and reliable software
+* An open mind to change with willingness and desire to improve
+* Enjoyment of writing code and solving problems
+* Ability to appreciate a culture of invention, quality, respect and fun
+* Professional experience an advantage",Computer Networking,https://www.linkedin.com/company/arista-networks-inc,https://media.licdn.com/dms/image/v2/C560BAQGkAHWhvOGQbA/company-logo_100_100/company-logo_100_100/0/1631359666583?e=2147483647&v=beta&t=XeYwctubA9hp5FP3rPks0_AMYJYXB-5_9hGo80XvRQM,,,,,
+li-4108462181,linkedin,https://www.linkedin.com/jobs/view/4108462181,,Frontend Developer,HealthBeacon,"Dublin, County Dublin, Ireland",2025-01-20,fulltime,,,,,,,mid-senior level,Engineering and Information Technology,,,"**About the Company** 
+ \- HealthBeacon is a leader in digital health therapeutics with headquarters in Dublin and offices in Richmond, Virginia and Orlando, Florida. We connect people to better health through sustainable, digitally\-enabled solutions.
+ 
+
+
+
+**About the Role** 
+ \- As a Frontend Developer, you'll work with a talented team of engineers to advance our vision to become a leading global platform for managing chronic and critical medications at home.
+ 
+
+
+
+  
+
+
+
+
+
+**Responsibilities** 
+
+
+
+
+  
+
+
+
+
+* Coordinate with the development team to ensure best solution is delivered within budget, timelines and project circumstances.
+* Accurately translate user and business needs into functional frontend code
+* Participate as a member of the development team of other software engineers to develop reliable and robust solutions.
+* Implement platform features across HealthBeacon applications to deliver on the solutions vision.
+* Adhere to the development team's coding standards, best practices and development processes to maintain high software quality.
+* Contribute to quality and reliability improvements
+
+
+
+**Your Skills \& Experience** 
+
+
+
+* Bachelor's degree or equivalent in Computer Science or engineering
+* **3\+ years** 
+ ' experience of software development ideally in a related industry
+* Experience in
+ **React/React Native** 
+ , Java Script, CSS and HTML
+* Proficiency with
+ **REST APIs** 
+ , versioning tools like Bitbucket, and modern build pipelines
+* Agile development experience
+* Strong analytical, problem solving, and communication skills.
+* Proven ability to balance technical innovation with practical business needs
+* Commitment to maintaining the highest standards and ensuring compliance with all regulations
+* Ability to work in an Agile environment",Wellness and Fitness Services and Health and Human Services,https://ie.linkedin.com/company/healthbeacon,https://media.licdn.com/dms/image/v2/C4E0BAQEeiW2NDuDv2Q/company-logo_100_100/company-logo_100_100/0/1630605711006/healthbeacon_logo?e=2147483647&v=beta&t=vmDqch9w7elyeRz3Y6Wdn_pOS-z1rH9D3yY5ZGZa6S0,,,,,
+li-4122471995,linkedin,https://www.linkedin.com/jobs/view/4122471995,https://www.hubspot.com/careers/jobs/6516302?hubs_signup-cta=careers-apply&urlHash=miEH,"Senior Software Engineer II, Frontend",The Hustle,"Dublin, County Dublin, Ireland",2025-01-11,fulltime,,,,,,,mid-senior level,Engineering and Information Technology,,,"**POS\-P225**
+ At HubSpot, we’re invested in helping you grow your career. There are countless ways for employees to learn and skill\-up, from master classes to tuition reimbursement, but there is one critical growth opportunity we’re doubling down on: internal mobility. Over the past years we’ve seen countless HubSpotters transfer to new teams within HubSpot. We love that. Whether it’s a lateral move or a promotion, taking on a new career challenge internally is a great opportunity for career growth, but also for HubSpot’s growth.
+   
+
+  
+
+ HubSpot is a leading customer relationship management (CRM) platform for scaling companies. Hundreds of thousands of customers all over the world use our marketing, sales, and customer success software to grow their businesses. It's our mission to not just help them grow, but to help them grow better. That's how we'll build a company future generations will be proud of.
+   
+
+  
+
+ Explore the Our Story page.
+   
+
+  
+
+ We’re looking for a Senior Software Engineer II to join our growing product team. Our office is based in Dublin but if you prefer to work remotely from home, we’re happy to support that too.
+   
+
+  
+
+ We are looking for frontend engineers who are interested in working in a technically complex domain, who want to challenge existing assumptions/decisions/patterns to drive the best path forward.
+   
+
+  
+
+**As a Senior Engineer, You Will**
+* Write and ship production code that has meaningful user and business impact
+* Envision, build and analyze new features and tools, each contributing to company growth and revenue
+* Work with a small cross functional team of engineers, PMs, designers, content designers, and researchers
+* Collaborate with HubSpotters all over the company, whether in engineering, product, design, research, marketing, sales, etc
+* Help HubSpot users meet their goals, via changes you’ve made
+* Implement experiments that give us valuable insights into user behavior and how to improve their experience
+* Get exposure to how HubSpot works as a business
+
+
+**You May Be a Fit If**
+* You have a number of years software development experience. We work with TypeScript and React on the frontend. Experience with specific technologies is secondary to understanding programming fundamentals.
+* You have a strong focus on the user. You can gain empathy for their challenges and understand how they may flow through our product.
+* You not only get excited about big, technical challenges, but also about being very close to the business and our go\-to\-market strategies
+* You have or are interested in developing data analysis skills. You’re not afraid to dive into Amplitude, Looker, Excel or other data analysis tools and collaborate with our ops and analytics teams.
+* You are excited about unlocking the potential of AI for supercharging business efficiency.
+
+
+ At HubSpot, we’re invested in helping you grow your career. There are countless ways for employees to learn and skill\-up, from master classes to tuition reimbursement, but there is one critical growth opportunity we’re doubling down on: internal mobility. Over the past years we’ve seen countless HubSpotters transfer to new teams within HubSpot. We love that. Whether it’s a lateral move or a promotion, taking on a new career challenge internally is a great opportunity for career growth, but also for HubSpot’s growth.
+   
+
+  
+
+*Confidence can sometimes hold us back from applying for a job. But we'll let you in on a secret: there's no such thing as a 'perfect' candidate. HubSpot is a place where everyone can grow. So however you identify and whatever background you bring with you, please apply if this is a role that would make you excited to come into work every day.*
+*We know the* 
+*confidence gap* 
+*and* 
+*imposter syndrome* 
+*can get in the way of meeting spectacular candidates, so please don’t hesitate to apply — we’d love to hear from you.*
+***If you need accommodations or assistance due to a disability, please reach out to us using this form.** 
+ This information will be treated as confidential and used only for the purpose of determining an appropriate accommodation for the interview process.*
+*At HubSpot, we value both flexibility and connection. Whether you’re a Remote employee, or work from the Office, we want you to start your journey here by building strong connections with your team and peers.*
+*If you are joining our Engineering team in a full\-time role, you will be required to attend a regional HubSpot office for in\-person onboarding. If you join our broader Product team, you’ll also attend other in\-person events such as HubSpot’s annual PEER week, your Product Group Summit, and other in\-person gatherings to continue building on those connections.*
+*If you require an accommodation due to travel limitations or other reasons, please inform your recruiter during the hiring process. We are committed to supporting candidates who may need alternative arrangements.*
+***Germany Applicants:** 
+ (m/f/d) \- link to HubSpot's Career Diversity page here.*
+***India** 
+**Applicants:** 
+ link to HubSpot India's equal opportunity policy here.*
+**About HubSpot**
+ HubSpot (NYSE: HUBS) is a leading customer relationship management (CRM) platform that provides software and support to help businesses grow better. We build marketing, sales, service, and website management products that start free and scale to meet our customers’ needs at any stage of growth. We’re also building a company culture that empowers people to do their best work. If that sounds like something you’d like to be part of, we’d love to hear from you.
+   
+
+  
+
+ You can find out more about our company culture in the HubSpot Culture Code, which has more than 5M views, and learn about our commitment to creating a diverse and inclusive workplace, too. Thanks to the work of every employee globally, HubSpot was named the \#2 Best Place to Work on Glassdoor in 2022 and has been recognized for its award\-winning culture by Great Place to Work, Comparably, Fortune, Entrepreneur, Inc., and more.
+   
+
+  
+
+ Headquartered in Cambridge, Massachusetts, HubSpot was founded in 2006\. Today, thousands of employees across the globe work remotely and in HubSpot offices. Visit our careers website to learn more about the culture and opportunities at HubSpot.
+   
+
+  
+
+*By submitting your application, you agree that HubSpot may collect your personal data for recruiting, global organization planning, and related purposes. HubSpot's* 
+*Privacy Notice* 
+*explains what personal information we may process, where we may process your personal information, our purposes for processing your personal information, and the rights you can exercise over HubSpot’s use of your personal information.*",Internet News,https://www.linkedin.com/company/thehustle,https://media.licdn.com/dms/image/v2/D4E0BAQFRkmJKtJcEHQ/company-logo_100_100/company-logo_100_100/0/1722541737477/thehustle_logo?e=2147483647&v=beta&t=Xdph7MqM_LZNLSEI-8oraDL8klNWrRRpvn08kdM2KTk,,,,,
+li-4122477110,linkedin,https://www.linkedin.com/jobs/view/4122477110,https://www.hubspot.com/careers/jobs/6528667?hubs_signup-cta=careers-apply&urlHash=v_S-,"Senior Software Engineer II, Frontend",The Hustle,"Dublin, County Dublin, Ireland",2025-01-11,fulltime,,,,,,,mid-senior level,Engineering and Information Technology,,,"At HubSpot, we’re invested in helping you grow your career. There are countless ways for employees to learn and skill\-up, from master classes to tuition reimbursement, but there is one critical growth opportunity we’re doubling down on: internal mobility. Over the past years we’ve seen countless HubSpotters transfer to new teams within HubSpot. We love that. Whether it’s a lateral move or a promotion, taking on a new career challenge internally is a great opportunity for career growth, but also for HubSpot’s growth.
+   
+
+  
+
+ HubSpot is a leading customer relationship management (CRM) platform for scaling companies. Hundreds of thousands of customers all over the world use our marketing, sales, and customer success software to grow their businesses. It's our mission to not just help them grow, but to help them grow better. That's how we'll build a company future generations will be proud of.
+   
+
+  
+
+ Explore the Our Story page.
+   
+
+  
+
+ We’re looking for a Senior Software Engineer II to join our growing product team. Our office is based in Dublin but if you prefer to work remotely from home, we’re happy to support that too.
+   
+
+  
+
+ We are looking for frontend engineers who are interested in working in a technically complex domain, who want to challenge existing assumptions/decisions/patterns to drive the best path forward.
+   
+
+  
+
+**As a Senior Engineer, You Will**
+* Write and ship production code that has meaningful user and business impact
+* Envision, build and analyze new features and tools, each contributing to company growth and revenue
+* Work with a small cross functional team of engineers, PMs, designers, content designers, and researchers
+* Collaborate with HubSpotters all over the company, whether in engineering, product, design, research, marketing, sales, etc
+* Help HubSpot users meet their goals, via changes you’ve made
+* Implement experiments that give us valuable insights into user behavior and how to improve their experience
+* Get exposure to how HubSpot works as a business
+
+
+**You May Be a Fit If**
+* You have a number of years software development experience. We work with TypeScript and React on the frontend. Experience with specific technologies is secondary to understanding programming fundamentals.
+* You have a strong focus on the user. You can gain empathy for their challenges and understand how they may flow through our product.
+* You not only get excited about big, technical challenges, but also about being very close to the business and our go\-to\-market strategies
+* You have or are interested in developing data analysis skills. You’re not afraid to dive into Amplitude, Looker, Excel or other data analysis tools and collaborate with our ops and analytics teams.
+* You are excited about unlocking the potential of AI for supercharging business efficiency.
+
+
+ At HubSpot, we’re invested in helping you grow your career. There are countless ways for employees to learn and skill\-up, from master classes to tuition reimbursement, but there is one critical growth opportunity we’re doubling down on: internal mobility. Over the past years we’ve seen countless HubSpotters transfer to new teams within HubSpot. We love that. Whether it’s a lateral move or a promotion, taking on a new career challenge internally is a great opportunity for career growth, but also for HubSpot’s growth.
+   
+
+  
+
+*Confidence can sometimes hold us back from applying for a job. But we'll let you in on a secret: there's no such thing as a 'perfect' candidate. HubSpot is a place where everyone can grow. So however you identify and whatever background you bring with you, please apply if this is a role that would make you excited to come into work every day.*
+*We know the* 
+*confidence gap* 
+*and* 
+*imposter syndrome* 
+*can get in the way of meeting spectacular candidates, so please don’t hesitate to apply — we’d love to hear from you.*
+***If you need accommodations or assistance due to a disability, please reach out to us using this form.** 
+ This information will be treated as confidential and used only for the purpose of determining an appropriate accommodation for the interview process.*
+*At HubSpot, we value both flexibility and connection. Whether you’re a Remote employee, or work from the Office, we want you to start your journey here by building strong connections with your team and peers.*
+*If you are joining our Engineering team in a full\-time role, you will be required to attend a regional HubSpot office for in\-person onboarding. If you join our broader Product team, you’ll also attend other in\-person events such as HubSpot’s annual PEER week, your Product Group Summit, and other in\-person gatherings to continue building on those connections.*
+*If you require an accommodation due to travel limitations or other reasons, please inform your recruiter during the hiring process. We are committed to supporting candidates who may need alternative arrangements.*
+***Germany Applicants:** 
+ (m/f/d) \- link to HubSpot's Career Diversity page here.*
+***India** 
+**Applicants:** 
+ link to HubSpot India's equal opportunity policy here.*
+**About HubSpot**
+ HubSpot (NYSE: HUBS) is a leading customer relationship management (CRM) platform that provides software and support to help businesses grow better. We build marketing, sales, service, and website management products that start free and scale to meet our customers’ needs at any stage of growth. We’re also building a company culture that empowers people to do their best work. If that sounds like something you’d like to be part of, we’d love to hear from you.
+   
+
+  
+
+ You can find out more about our company culture in the HubSpot Culture Code, which has more than 5M views, and learn about our commitment to creating a diverse and inclusive workplace, too. Thanks to the work of every employee globally, HubSpot was named the \#2 Best Place to Work on Glassdoor in 2022 and has been recognized for its award\-winning culture by Great Place to Work, Comparably, Fortune, Entrepreneur, Inc., and more.
+   
+
+  
+
+ Headquartered in Cambridge, Massachusetts, HubSpot was founded in 2006\. Today, thousands of employees across the globe work remotely and in HubSpot offices. Visit our careers website to learn more about the culture and opportunities at HubSpot.
+   
+
+  
+
+*By submitting your application, you agree that HubSpot may collect your personal data for recruiting, global organization planning, and related purposes. HubSpot's* 
+*Privacy Notice* 
+*explains what personal information we may process, where we may process your personal information, our purposes for processing your personal information, and the rights you can exercise over HubSpot’s use of your personal information.*",Internet News,https://www.linkedin.com/company/thehustle,https://media.licdn.com/dms/image/v2/D4E0BAQFRkmJKtJcEHQ/company-logo_100_100/company-logo_100_100/0/1722541737477/thehustle_logo?e=2147483647&v=beta&t=Xdph7MqM_LZNLSEI-8oraDL8klNWrRRpvn08kdM2KTk,,,,,
+li-4119252191,linkedin,https://www.linkedin.com/jobs/view/4119252191,https://ars2.equest.com/?response_id=1125045164f520b68fc372a6a4f6acbc&urlHash=tUEL,Web Application Developer (Back-end),daa,"Dublin, County Dublin, Ireland",2025-01-09,fulltime,,,,,,,not applicable,Information Technology,,,"daa Labs are on a mission to enhance our operational efficiency, capacity and customer experience, through innovative technology solutions. As part of our ambitious plan to increase our development capacity, we are looking for a skilled Web application developer focusing on building robust and scalable backend systems, to join our team and contribute to exciting projects to improve the airport experience for both travellers and Staff. 
+   
+
+  
+
+* Design, Develop and maintain high\-quality back\-end services using Azure cloud technologies.
+* Implement RESTful API’s and services to support web and mobile applications.
+* Collaborate with designers and business stakeholders to understand requirements to deliver solutions to meet the business need.
+* Design and manage databases (SQL and NoSQL) to ensure efficient data storage and retrieval.
+* Leverage Azure services (Azure functions, Azure App Service, Azure SQL etc) to build scalable and resilient back\-end systems.
+* Write clean, maintainable and efficient code ensuring best practices followed.
+* Implement and maintain unit testing frameworks to ensure code quality.
+* Work closely with cross functional teams including designers, developers and business stakeholders.
+* Participate in code reviews and provide constructive feedback to team members.
+* Communicate effectively with stake holders and business units to better understand the need and ensure its being met through technical specifications.
+* Create and maintain technical documentation for web applications, including setup, guides and API documentation.",Desktop Computing Software Products and Mobile Computing Software Products,https://ie.linkedin.com/company/dublin-airport-authority-daa-,https://media.licdn.com/dms/image/v2/D4E0BAQEWI8ODpRBAng/company-logo_100_100/company-logo_100_100/0/1694528595976/dublin_airport_authority_daa__logo?e=2147483647&v=beta&t=lbaZcTY5JhtI72wXl3c7xJJ9C9tp9uWP6MLFbuSev6Q,,,,,
+li-4118238580,linkedin,https://www.linkedin.com/jobs/view/4118238580,https://jobs.careers.microsoft.com/global/en/job/1738064&urlHash=AUV_,Software Engineer - Frontend,Microsoft Power Platform Community,"Dublin, County Dublin, Ireland",2025-01-09,fulltime,,,,,,,mid-senior level,Engineering and Information Technology,,,"**Overview**
+ Microsoft is looking for
+ **Frontend Software Engineers** 
+ to come work on a range of cutting\-edge technologies and platforms that power these mission critical services. Our Engineering teams in Ireland work on the most challenging engineering problems, allowing us to solve issues that nobody has solved before. Serving billions of users, our teams run services that are critical to the day\-to\-day experience of every Microsoft Cloud user.
+   
+
+  
+
+ As a Software Engineer at Microsoft Ireland, you will develop solutions used by billions of people around the world, with teams working across our Cloud \& AI, Microsoft AI, Experience \& Devices, Security, and Gaming organisations and contributing to products like Azure, Microsoft 365, Dynamics 365, Microsoft Entra, Teams, OneDrive \& SharePoint, Office, and Mesh.
+   
+
+  
+
+ You can learn more about our Engineering Dublin site here:
+   
+
+  
+
+ https://careers.microsoft.com/v2/global/en/locations/dublin.html
+   
+
+  
+
+ We have multiple opportunities available across our EDC (European Development Centre) and are looking for candidates who are curious to learn and grow with Microsoft Ireland.
+   
+
+  
+
+**Responsibilities**
+ As a Frontend S oftware E ngineer on the Microsoft  team,  you will:
+   
+
+  
+
+* Work with engineers, program managers, designers, and partners to deliver sets of features with the right overall design and architecture.
+* Own and deliver complete feature areas and large\-scale solutions including design, architecture, implementation, testability, debugging, and shipping with secure long\-term support.
+* As a technical leader on the team, you will be responsible for sharing insights and best practices that can be applied to improve development and influence direction across related sets of systems, platforms, and/or products.
+* Continue to develop your approaches through interactions with more experienced team members and continually reviewing processes to ensure efficiency .
+* Provide mentorship and coaching to more junior engineers to help them identify and propose relevant solutions.
+* Write clean well\-thought\-out code with an emphasis on quality, performance, simplicity, durability, scalability, reusability, and maintainability.
+* Be committed to delivering the best experience for our customers and partners, and then iterate based on qualitative and quantitative feedback.
+* Help create a diverse and inclusive culture, participating in hiring where appropriate, so everyone can bring their full and authentic self and where we do our best work as a result.
+* Take responsibility for reliable uninterrupted operation of features with the earliest detection of issues in production.
+* Foster a data driven approach with everything you do from analysing and prioritizing business requirements, including customer feedback, and using metrics to prove success.
+* Expose test coverage issues, organize, and implement tests and types of tests needed, and resolve problem areas.
+* Gain a working understanding of Microsoft businesses and collaborate with mentors and leaders to contribute to cohesive, end\-to\-end experiences for our customers and users.
+
+
+**Qualifications**
+* Bachelor's degree in Computer Science , or equivalent work experience.
+* Experience with one or more general purpose programming languages including but not limited to: C/C\+\+, C\#, Java, TypeScript, JavaScript.
+* Extensive experience with one or more modern web technologies such as .NET, Node, React, Angular, building RESTful APIs, and hands\-on knowledge of web concepts such as HTTP, SOAP, and MVC.
+* Skilled building libraries, SDKs, and other development platform components, preferably using C/C\+\+, C\#, TypeScript.
+* Strong industry experience collaborating with others on designing, developing, testing, and shipping solutions to large scale technical problems.
+* Proven ability to design and develop loosely coupled, componentized, and durable software that can be easily extended and meets requirements on time.
+* Ability to deal with ambiguity and understand key business needs in line with competing priorities and apply the right technology and implementation to the solution.
+* Demonstrated strength to quickly get up\-to\-speed and be productive on new technical domains and are comfortable in dealing with ambiguity.
+* Excellent analytical, problem\-solving, and debugging skills with a solid understanding of object\-oriented design, coding patterns, and testing practices.
+* Experience in Agile, DevOps, building micro services, and Mobile is a plus.
+
+
+ Microsoft is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to age, ancestry, color, family or medical care leave, gender identity or expression, genetic information, marital status, medical condition, national origin, physical or mental disability, political affiliation, protected veteran status, race, religion, sex (including pregnancy), sexual orientation, or any other characteristic protected by applicable laws, regulations and ordinances. If you need assistance and/or a reasonable accommodation due to a disability during the application or the recruiting process, please send a request via the Accommodation request form .
+   
+
+  
+
+ Benefits/perks listed below may vary depending on the nature of your employment with Microsoft and the country where you work.
+   
+
+  
+
+ \#OneIreland",Software Development,https://www.linkedin.com/company/microsoft-power-platform-community,https://media.licdn.com/dms/image/v2/C560BAQFhPajkk8Oypw/company-logo_100_100/company-logo_100_100/0/1662089970627?e=2147483647&v=beta&t=ZkIyJho5at3ZQ6ckKT3KWi5IoEBwJCf7X3vStqvsee8,,,,,
+li-4104190936,linkedin,https://www.linkedin.com/jobs/view/4104190936,https://korecgroup.careers.adp.com/vacancy/c73681eb-eebf-4bd3-9162-80ab4f4e8c50&urlHash=95G1,Front-End Engineer,Soarvo,"Dublin, County Dublin, Ireland",2025-01-08,fulltime,,,,,,,not applicable,"Information Technology, Other, and Engineering",,,"**About Soarvo** 
+
+
+
+
+ At
+ **Soarvo** 
+ , we are transforming the way drone operators, surveyors, industries and government agencies harness geospatial data.
+ 
+
+
+
+  
+
+
+
+
+
+ Our cutting\-edge platform makes geospatial intelligence accessible to everyone—empowering industries, businesses, and individuals to unlock its transformative potential without requiring advanced technical expertise or equipment.
+ 
+
+
+
+  
+
+
+
+
+
+ Backed by a team of passionate innovators, we are scaling rapidly and are looking for talented individuals to join our journey. Experience the excitement of a fast\-growing, dynamic startup environment, combined with the stability and support of a well\-established company.
+ 
+
+
+
+  
+
+
+
+
+
+**Location: Dublin, Ireland (will only consider Ireland\-based candidates)** 
+
+
+
+
+  
+
+
+
+
+
+**Your Role:** 
+
+
+
+
+ As a
+ **Front\-End (React.js) Engineer** 
+ , you will play a pivotal role in shaping the user experience of our platform, delivering attractive functionality to our end users. You will collaborate closely with cross\-functional teams, including product managers, technical leads, and back\-end developers, to create responsive, high\-performance, and visually stunning interfaces and features.
+ 
+
+
+
+  
+
+
+
+
+
+**Important Note: Applicants must have the right to work in Ireland at the time of application. Proof of eligibility will be required.** 
+
+
+
+
+  
+
+
+
+
+
+**Your Impact:** 
+
+
+
+* Develop user\-facing features using React.js (primary framework)
+* Integrate and optimize front\-end components: React.js, Vue.js, Cesium
+* Build reusable components and front\-end libraries for scalability
+* Turn designs and requirements into high\-quality, responsive code
+* Enhance and maintain the codebase for peak performance
+* Implement and champion best practices in front\-end development—code quality, testing, and maintainability.
+
+
+
+  
+
+
+
+
+
+**What You’ll Bring:** 
+
+
+
+* 5\+ years in front\-end development with a focus on modern Javascript frameworks and Typescript
+* Advanced CSS, HTML skills
+* UX/UI design experience
+* Sharp eye for design, turning complex user needs into sleek, intuitive interfaces
+* Experience with RESTful APIs
+* Tackling complex challenges with elegant, efficient solutions
+* Strong communicator, thriving in agile environments
+* Driving best practices and offering technical guidance
+* Nice to have experience: geospatial concepts, PostgreSQL, 2D/3D geometry
+
+
+
+  
+
+
+
+
+
+**Why Join Us?** 
+
+
+
+
+ As this is a new team working on brand\-new products, we embrace the collaborative spirit of an onsite team, working together to drive success, innovation, and quickly bring new products to market.
+ 
+
+
+
+  
+
+
+
+
+
+ Be part of a
+ **mission\-driven company** 
+ at the forefront of geospatial innovation
+ **Shape the future** 
+ of an exciting product that has the potential to transform industries globally Work in an
+ **entrepreneurial, fast\-paced environment** 
+ with a culture that celebrates creativity and ownership
+ 
+
+
+
+  
+
+
+
+
+
+ Enjoy
+ **flexible work arrangements, competitive compensation** 
+ Access opportunities for
+ **growth and development** 
+ as part of a passionate, collaborative team. We are committed to fostering inclusive behaviours that promote equality of opportunity, fairness, mutual respect, and dignity for all.
+ 
+
+
+
+  
+
+
+
+
+
+**What We Offer:** 
+
+
+
+* Competitive base salary with a generous bonus scheme linked to key deliverables.
+* Tailored induction, comprehensive product training, and ongoing professional development opportunities.
+* 23 days of holiday, plus bank holidays, with service\-related increases up to 30 days.
+* Pension scheme and life insurance for financial security.
+* Employee benefits package via Perkbox.
+* Access to a Mental Wellbeing Resources Platform.
+* Recognition as Investors in People and Investors in Wellbeing, demonstrating our commitment to employee satisfaction and growth.
+
+
+
+  
+
+
+
+
+
+ Join Soarvo and play a critical role in shaping the future of geospatial data utilisation.","Technology, Information and Media",https://ie.linkedin.com/company/soarvo,https://media.licdn.com/dms/image/v2/D4E0BAQF66yMf6XMTpQ/company-logo_100_100/company-logo_100_100/0/1728552970302/soarvo_logo?e=2147483647&v=beta&t=DAMltOu16_StEeyUt90CrkrA8kJw6swWmfPxl26VlSw,,,,,
+li-4118707395,linkedin,https://www.linkedin.com/jobs/view/4118707395,,Front End Engineer,IT Search and Selection,"Dublin, County Dublin, Ireland",2025-01-07,fulltime,,,,,,,mid-senior level,Engineering and Information Technology,,,"**Front End Engineer** 
+
+
+
+
+  
+
+
+
+
+
+**Investment Management** 
+
+
+
+
+  
+
+
+
+
+
+**Dublin (Onsite)** 
+
+
+
+
+  
+
+
+
+
+
+**€100\-110K \+ leading bonuses and wider benefits** 
+
+
+
+
+  
+
+
+
+
+
+ IT Search has partnered with a global investment management firm as they seek to continue growing their world\-class tech team in Dublin. Our client has more than €50 billion AUM and specialises in fixed income, commodities and quantitative strategies.
+ 
+
+
+
+  
+
+
+
+
+
+ They are seeking a passionate Front\-End Engineer to join their fast\-paced infrastructure team. This role offers the chance to work on cutting\-edge chatbot platforms, building intuitive, high\-performance interfaces that drive AI\-powered conversations and productivity\-enhancing features.
+ 
+
+
+
+  
+
+
+
+
+
+**The Role:** 
+
+
+
+* Develop scalable, responsive UIs using TypeScript and Next.js
+* Collaborate closely with UX designers and backend engineers
+* Optimize performance and implement end\-to\-end tests with Playwright
+* Influence technical architecture and contribute to best practices
+
+
+
+  
+
+
+
+
+
+**Key Requirements:** 
+
+
+
+* 5\+ years of front\-end development experience
+* Proficiency in React, Next.js, TypeScript, HTML5, and CSS3
+* Expertise in performance optimization and automated testing
+* Familiarity with Git and CI/CD pipelines
+
+
+
+  
+
+
+
+
+
+**Desirable Experience:** 
+
+
+
+* Real\-time applications and WebSocket integration
+* Conversational UI and AI/ML concepts
+* Mobile development with React Native
+
+
+
+  
+
+
+
+
+
+**If this role aligns with your expertise, please send your CV via the link or contact Graeme King at IT Search to discuss in confidence!**","Software Development, Investment Management, and Investment Banking",https://ie.linkedin.com/company/it-search---dublin-2,https://media.licdn.com/dms/image/v2/D4D0BAQHWmCl-pcCqLg/company-logo_100_100/company-logo_100_100/0/1720610788763/it_search___dublin_2_logo?e=2147483647&v=beta&t=HqR5yUSW6Ux9uRrnDgnzz9msjddEjNGITcFJv4JYkro,,,,,
+li-4096066533,linkedin,https://www.linkedin.com/jobs/view/4096066533,,Frontend React Developer - Ireland,Solas IT Recruitment,"Dublin, County Dublin, Ireland",2025-01-02,fulltime,,,,,,,mid-senior level,"Project Management, Information Technology, and Analyst",,,"We are seeking a highly skilled and experienced UI Developer to join our dynamic team. The ideal candidate will have a deep expertise in building complex, user\-centric web applications using React and related technologies. You will play a critical role in designing, developing, and optimizing front\-end applications while ensuring code quality, performance, and scalability.
+ 
+
+
+
+  
+
+
+
+
+
+**Key Responsibilities:** 
+
+
+
+* Development of responsive, performant, and user\-friendly web applications using React.
+* Collaborate with cross\-functional teams, including UX/UI designers, back\-end developers, and product managers, to translate business requirements into technical solutions.
+* Ensure high\-quality code through best practices in code reviews, unit testing, and adherence to coding standards.
+* Implement and manage CI/CD pipelines to automate testing, integration, and deployment processes.
+* Optimize front\-end performance and ensure cross\-browser compatibility.
+* Mentor and provide technical guidance to junior developers.
+* Stay up to date with the latest industry trends, tools, and technologies.
+
+
+
+  
+
+
+
+
+
+**Requirements:** 
+
+
+
+* Proven experience 7\+ as a UI Developer with a strong focus on React.
+* Expertise in JavaScript, TypeScript, HTML5, CSS3, and modern front\-end development tools.
+* Hands\-on experience with state management libraries (e.g., Redux, MobX) and front\-end build tools (Webpack, Babel).
+* Strong experience with CI/CD pipelines and automated testing frameworks (e.g., Jest, Enzyme, Cypress).
+* Familiarity with RESTful APIs, GraphQL, and modern authentication/authorization protocols
+* Proficient in Git version control and agile development methodologies.
+* Excellent problem\-solving skills and attention to detail.
+* Strong communication and collaboration skills.","Staffing and Recruiting, IT Services and IT Consulting, and Financial Services",https://ie.linkedin.com/company/solas-consulting-group,https://media.licdn.com/dms/image/v2/D4E0BAQGPhjfuU1AXhA/company-logo_100_100/company-logo_100_100/0/1705315239877/solas_consulting_group_logo?e=2147483647&v=beta&t=RCUaOFugWYki6oqHyPnli_X-pconmMJTVDeGYAgWN1E,,,,,
+li-4091896773,linkedin,https://www.linkedin.com/jobs/view/4091896773,https://wd1.myworkdaysite.com/recruiting/ssctech/SSCTechnologies/job/Dublin-Ireland/PA2025Q1JB022\u002d\u002d-Front-End\u002d\u002d-Digital-Developer_R29343?source=LinkedIn&urlHash=sxJ3,PA2025Q1JB022 - Front End / Digital Developer,SS&C Technologies,"Dublin, County Dublin, Ireland",2024-12-06,fulltime,,,,,,,mid-senior level,Engineering and Information Technology,,,"As a leading financial services and healthcare technology company based on revenue, SS\&C is headquartered in Windsor, Connecticut, and has 27,000\+ employees in 35 countries. Some 20,000 financial services and healthcare organizations, from the world's largest companies to small and mid\-market firms, rely on SS\&C for expertise, scale, and technology.
+   
+
+  
+
+****Job Description****
+**About SS\&C Technologies**
+ SS\&C is a global provider of investment, financial services and software for the financial services and healthcare industries. Named to Fortune 1000 list as top U.S. company based on revenue, SS\&C is headquartered in Windsor, Connecticut and has 20,000\+ employees in over 90 offices in 35 countries. Some 18,000 financial services and healthcare organizations, from the world's largest institutions to local firms, manage and account for their investments using SS\&C's products and services.
+   
+
+  
+
+****Job Description****
+**SS\&C GIDS**
+ SS\&C is the largest global investor service provider, servicing more than 55 million investors. Continually investing in global technology and services across the spectrum of distribution channels including: Asset Managers, Financial Advisors, Wealth Managers and large financial institutions such as Banks and Insurers. Investor servicing is offered in many different countries, including the U.S., Canada, U.K., Ireland, Luxembourg, Australia, Hong Kong and Singapore. SS\&C also services mutual fund structures in many other fund domiciles.
+   
+
+  
+
+ Global Investor and Distribution Solutions (GIDS) is the business unit offering this role. GIDS delivers global omni\-channel investor servicing, including contact centre, using digital services.
+   
+
+  
+
+****About The Role****
+ We are seeking a talented and experienced UI Developer with strong Angular skills to join our Digital Development team. In this role, you will be responsible for creating intuitive and responsive user interfaces for our digital investment products. You will collaborate with cross\-functional teams to design and implement UI components that provide seamless user experiences for our clients. As part of a fast\-paced and dynamic environment, you will play a crucial role in shaping the front\-end architecture of our digital solutions.
+   
+
+  
+
+****Your Responsibilities****
+* Design, develop, and maintain responsive and user\-friendly web applications using Angular.
+* Collaborate with UX/UI designers, product managers, and back\-end developers to deliver high\-quality front\-end solutions that meet business and client requirements.
+* Implement reusable and modular UI components that align with best practices and design standards.
+* Optimize web applications for maximum speed, performance, and scalability.
+* Participate in the full software development lifecycle, including planning, coding, testing, debugging, and deployment.
+* Work closely with back\-end developers to ensure seamless integration between front\-end and back\-end services.
+* Stay updated with the latest industry trends, technologies, and frameworks to continuously enhance the user interface and user experience.
+* Conduct code reviews, ensuring adherence to coding standards and maintaining a high level of code quality.
+* Troubleshoot and resolve UI\-related issues, improving overall product reliability and user satisfaction.
+
+
+****Your Experience****
+**Required Qualifications:**
+* Bachelor’s degree in Computer Science, Software Engineering, or a related field.
+* 4\+ years of experience as a UI developer, with a strong focus on Angular development.
+* Proficient in Angular (latest versions), TypeScript, HTML5, CSS3, and JavaScript.
+* Experience with responsive design and mobile\-first development practices.
+* Strong understanding of UI/UX principles, with the ability to create visually appealing and user\-friendly interfaces.
+* Familiarity with RESTful APIs and how to integrate them into front\-end applications.
+* Experience with version control systems such as Git.
+* Strong problem\-solving skills and attention to detail, with a commitment to delivering high\-quality software.
+* Excellent communication and teamwork skills, with the ability to collaborate effectively in an Agile environment.
+
+
+**Preferred Qualifications:**
+* Experience in the financial services industry, particularly with investment or fintech products.
+* Familiarity with front\-end build tools and task runners, such as Webpack, npm, or Angular CLI.
+* Knowledge of testing frameworks like Jasmine, Karma, or Protractor.
+* Experience with other front\-end frameworks or libraries, such as React or Vue.js.
+* Understanding of CI/CD pipelines and DevOps practices.
+
+
+**EEO Statement / Non\-agency Disclosure**
+ We encourage applications from people of all backgrounds and particularly welcome applications from under\-represented groups, to enable us to bring a diversity of perspectives to our thinking and conversation. It's important to us that we strive to have a workforce that is diverse in the widest sense.
+   
+
+  
+
+ Unless explicitly requested or approached by SS\&C Technologies, Inc. or any of its affiliated companies, the company will not accept unsolicited resumes from headhunters, recruitment agencies, or fee\-based recruitment services.
+   
+
+  
+
+**Background Checks**
+ All offers of employment at SS\&C are subject to background verification checks, including 5\-year employment history, proof of eligibility to work in hiring location, proof of address, credit check and criminal record check (where permitted by local law). The accuracy of all information you submit as part of your application is vital and may be used as part of the background checking process should you be successful.
+   
+
+  
+
+ Unless explicitly requested or approached by SS\&C Technologies, Inc. or any of its affiliated companies, the company will not accept unsolicited resumes from headhunters, recruitment agencies, or fee\-based recruitment services.
+   
+
+  
+
+ SS\&C Technologies is an Equal Employment Opportunity employer and does not discriminate against any applicant for employment or employee on the basis of race, color, religious creed, gender, age, marital status, sexual orientation, national origin, disability, veteran status or any other classification protected by applicable discrimination laws.",Software Development,https://www.linkedin.com/company/ss-c-technologies,https://media.licdn.com/dms/image/v2/C4E0BAQG4lej_2cLgSw/company-logo_100_100/company-logo_100_100/0/1631331048689?e=2147483647&v=beta&t=-TMKV4EXFkU2WYOUlXzohB5plwWM4hBRvp0YfuD1aU4,,,,,
+li-4017106198,linkedin,https://www.linkedin.com/jobs/view/4017106198,https://jobs.lever.co/kitmanlabs/52e99116-414d-465f-aa4b-44a77f850cc2/apply?lever-source=LinkedIn&urlHash=d57x,Senior Frontend Engineer,Kitman Labs,"Dublin, County Dublin, Ireland",2024-09-04,fulltime,,,,,,,not applicable,Engineering and Information Technology,,,"Kitman Labs is the performance intelligence company, disrupting and transforming the way the sports industry uses data to unlock the potential of the world’s top athletes.
+   
+
+  
+
+ Driven by a passion to innovate in the areas of sports performance, analytics and user experience, we have assembled a team of the industry’s top data scientists, sports performance scientists, product and software designers and engineers.
+   
+
+  
+
+ Kitman Labs’ advanced operating system, the Intelligence Platform (iP) is now used by over 2000 teams in 50 leagues on 6 continents, including the NFL, Premier League, National Women’s Soccer League and MLS.
+   
+
+  
+
+ The Role
+   
+
+  
+
+ Senior Front\-end engineers are responsible for building the interface of Kitman Labs products. They do this with a focus on usability, security, robustness and performance.
+   
+
+  
+
+ The front\-end engineering team, in conjunction with our Product Strategy and Innovation team, build user friendly interfaces that showcase massive amounts of data from sports teams allover the globe.
+   
+
+  
+
+ We’re looking for people who are looking to kick start their careers by joining a dynamic, growing team of engineers. We believe in constant growth in a collaborative, positive environment, you’ll work closely with other engineers who are experienced in mentoring and guidance.
+   
+
+  
+
+ You’ll need to combine a passion for learning with a drive to deliver successful products. New technologies or approaches to solving problems don’t bother you. You are detail oriented but also pragmatic and considered in where you spend time and effort.
+   
+
+  
+
+**We will expect you to**
+* Contribute to the design, build, and maintenance of our interfaces with a focus on user experience
+* Help us constantly improve our engineering processes, standards and tooling
+* Work with our backend engineers and designers to build features that users love to use
+* Help to investigate and debug issues as they occur
+* Contribute to our technical architecture as we grow
+
+
+**Experience And Skills We Look For**
+* Have shown an ability to take on new technologies and languages. We work mostly in React and Ruby but this isn’t a prerequisite, we’re more interested in your ability to learn
+* Hold yourself and others to a high bar
+* Take pride in working on projects through to a successful completion
+* Comfortable working in a dynamic team with a focus on delivering features through to production
+
+
+**Benefits**
+ At Kitman Labs we pride ourselves on being the best and working with the best, so it should be no surprise that we are also dedicated to keeping the best through building a world\-class work culture.
+   
+
+  
+
+ We truly believe that a successful company begins through having an outstanding and inspiring culture, so our benefits reflect this:
+   
+
+  
+
+* Competitive salary
+* Meaningful equity
+* Pension Plan
+* Fully paid health insurance for employee \& dependants
+* Life Assurance
+* Wellness Perk
+* Flexible workplace with options for office\-based, hybrid and remote working
+
+
+**Location**
+ Whilst remote, you can work from our Dublin office, which is located within a 1 minute walk from Connolly train station, and very close to all major bus routes and both Luas lines. We're also on the doorstep of many shops, restaurants, bars, \& cafes.
+   
+
+  
+
+**Diversity**
+ In addition to building a team with diverse skill\-sets, Kitman Labs is committed to hiring people with diverse backgrounds. We do not discriminate based on age, civil or family status, disability, ethnicity, gender, race, religion, or sexual orientation. If you are a person with a disability and require assistance during the application process, please let us know.
+   
+
+  
+
+ You can find information about how we process, share and keep your personal data safe by reading our privacy policy",IT Services and IT Consulting,https://ie.linkedin.com/company/kitman-labs,https://media.licdn.com/dms/image/v2/D4E0BAQGH5YBByCgSRQ/company-logo_100_100/company-logo_100_100/0/1688146179810/kitman_labs_logo?e=2147483647&v=beta&t=VUiSK96Y3B0ibV01aKjVVq1AU3f5o5LB-MtlSfnGhXs,,,,,
+li-4128245629,linkedin,https://www.linkedin.com/jobs/view/4128245629,https://www.candidatemanager.net/cm/p/pJobDetails.aspx?mid=CXAZBU&sid=YYWGT&jid=BAZAZFWCXY&a=cY2evDlXdN8%253d&urlHash=SGIa,Frontend Engineer,Propylon,"Dublin, County Dublin, Ireland",2025-01-17,fulltime,,,,,,,mid-senior level,Information Technology and Engineering,,,"**Overview**
+ :
+ 
+
+
+
+  
+
+
+
+
+
+ Are you a Frontend Engineer interested in joining an innovative, software solutions business, dedicated to driving digital transformation?
+ 
+
+
+
+  
+
+
+
+
+
+ We have an exciting opportunity for a Frontend Engineer to join our team in expanding our core product offering and working across major client projects. The Propylon Government Solutions team is developing the next generation of Legislative workflow management tools using TypeScript, React and Redux. The ideal candidate will be an experienced engineer with some years experience in a similar role and will be able to demonstrate expertise in modern TypeScript/JavaScript programming and a deep understanding of JavaScript UI framework tooling.
+ 
+
+
+
+  
+
+
+
+
+
+ Propylon is a small software company dedicated to delivering high quality software for our clients. Individual developers at Propylon have significant influence over technical decision\-making and are expected to take high levels of ownership for the code they produce.
+ 
+
+
+
+  
+
+
+
+
+
+**About Propylon:**
+
+
+
+
+
+
+
+
+
+ Our vision is to disrupt the legal landscape with innovative solutions that simplify the complex and connect people with the law. Our engineers seek to understand business related challenges, design process, technical solutions, ultimately solving problems and embracing change.
+ 
+
+
+
+  
+
+
+
+
+
+ Propylon was listed as one of the best “
+ 
+ Great Places To Work
+ 
+ ” in Ireland every time we applied for the accolade in 2016, 2018, 2020, 2022 and 2024\. As such, we are proud to offer competitive salaries, excellent training, and opportunities to help you reach your full potential and develop in your career.
+ 
+
+
+
+  
+
+
+
+
+
+**Responsibilities:**
+
+
+
+
+  
+
+
+
+
+* Work with technical team leads to design and implement overall UI architecture for several large workflow components.
+* Participate in UI development of multiple complex UI components across individual workflow applications.
+* Mentor and provide technical guidance to junior engineers.
+* Work with best\-practice TypeScript/React development patterns.
+* Recommend and encourage idiomatic JavaScript/TypeScript library and tooling usage.
+* Follow test\-driven development best practices in relation to UI implementations.
+* Participate in code reviews.
+
+
+
+  
+
+
+
+
+
+**Requirements:**
+
+
+
+
+  
+
+
+
+
+* Demonstrable expertise in JavaScript, TypeScript, and the React library (minimum 3 years of experience with React)
+* Significant professional experience with React and related TypeScript based libraries implementing complex UI components.
+* Excellent working knowledge of React based UI design systems.
+* Excellent working knowledge of Redux or an equivalent state management tools or libraries.
+* Experience developing applications and clients that utilize data and functionality exposed via REST, GraphQL, RPC etc.
+* Familiarity with Docker and related containerization technologies.
+
+
+
+  
+
+
+
+
+
+**Nice to haves:**
+
+
+
+
+  
+
+
+
+
+* Working knowledge of SQL based RDBMS, e.g. Postgres, MySQL.
+* Experience with MVC style frameworks.
+* Experience with Python and modern Python features such as type hinting, async, data classes, etc.
+* Experience with XML processing/transformation.
+* Experience with document management/document workflow software.
+* Familiarity or work experience with DevOps workflow/principles, building CI/CD pipelines.
+
+
+
+  
+
+
+
+
+
+**Personal Attributes:**
+
+
+
+
+  
+
+
+
+
+* Wants to be part of a team that is committed to delivering high quality innovative products.
+* Wants to be part of a culture that is committed to sharing and enhancing the knowledge of the wider team supporting team wide learning and success
+* Have a curious mindset – about what you do, the technology you use and how you connect with others to deliver products that we are proud to deliver to our clients.
+
+
+
+  
+
+
+
+
+
+*Propylon is an equal opportunities employer; positions are open to all suitably qualified candidates, regardless of gender, civil or family status, sexual orientation, religious belief, age, disability, race or membership of a minority community.*","Software Development, IT Services and IT Consulting, and Technology, Information and Media",https://www.linkedin.com/company/propyloninc,https://media.licdn.com/dms/image/v2/D4E0BAQEGehqjJng15g/company-logo_100_100/company-logo_100_100/0/1694193421337/propyloninc_logo?e=2147483647&v=beta&t=-Zh6QT7_p_bjQzDAhL-Iqu_ymm-2744vI3nJTQv4NXI,,,,,
+li-4126617456,linkedin,https://www.linkedin.com/jobs/view/4126617456,https://job-boards.greenhouse.io/ispottv/jobs/4514415005?gh_src=1e1873425us&urlHash=udU3,Senior Frontend Engineer,iSpot,"Dublin, County Dublin, Ireland",2025-01-15,fulltime,,,,,,,mid-senior level,Engineering and Information Technology,,,"iSpot.tv competes for the best talent. Our compensation packages consist of salary and equity in one of Seattle’s hottest start\-ups, as well as other standard benefits. Most importantly, we provide a really interesting working experience, and the chance to contribute to the success of something great.
+   
+
+  
+
+ We are seeking a skilled and passionate Senior Frontend Engineer to join our growing Engineering team. As part of our organization, this role will be dedicated to building and maintaining the front\-end architecture for all of our SaaS applications. Our front\-end team is responsible for delivering scalable, performant, and visually appealing user interfaces that enable businesses to unlock insights from complex data. This is an opportunity to shape the front\-end foundation of our products and influence technical strategy while working alongside a collaborative and high\-performing team.
+   
+
+  
+
+**What You’ll Be Part Of**
+ We are looking for an experienced and passionate Senior Frontend Engineer to lead the development of high\-quality, scalable, and user\-centric web applications. In this role, you will drive architectural decisions, mentor team members, and collaborate across disciplines to bring our vision to life.
+   
+
+  
+
+**Key Responsibilities**
+* Lead the design, development, and deployment of complex frontend applications.
+* Collaborate with cross\-functional teams, including design, product, and backend engineering, to create seamless user experiences.
+* Drive front\-end architectural decisions and best practices, ensuring maintainability and scalability.
+* Mentor and guide junior engineers, conducting code reviews and sharing knowledge.
+* Optimize web applications for performance, responsiveness, and accessibility.
+* Stay updated on emerging technologies and incorporate them into projects where relevant.
+* Troubleshoot and resolve complex front\-end issues.
+* Build reusable code and libraries for future use.
+
+
+**Required Skills And Experience**
+* Extensive experience (6\+ years) in front\-end development using modern JavaScript frameworks, with a strong preference for React but open to candidates experienced in Angular or Vue.js.
+* Strong proficiency in JavaScript/TypeScript, HTML5, and CSS3\.
+* Proven experience with state management libraries (e.g., Redux, MobX, or Context API).
+* Deep understanding of web performance optimization and responsive design principles.
+* Knowledge of accessibility standards (WCAG) and best practices.
+* Experience with testing frameworks (e.g., Jest, Cypress, or Playwright).
+* Proficiency with version control systems (e.g., Git).
+* Ability to collaborate effectively with diverse teams and stakeholders.
+* Excellent problem\-solving, debugging, and critical thinking skills.
+
+
+**Preferred Qualifications**
+* Experience with server\-side rendering frameworks (e.g., Next.js, Nuxt.js).
+* Familiarity with micro\-frontend architectures
+* Understanding of CI/CD pipelines and deployment processes.
+* Experience with WebAssembly or other emerging web technologies.
+* Background in leading technical initiatives or projects.
+
+
+**Why Join Us?**
+* Be part of a team that builds the frontend for multiple SaaS applications with high impact.
+* Collaborate with talented engineers and designers to shape the future of our products.
+* Work with modern technologies and tools in an environment that encourages continuous learning.
+* Competitive salary, benefits, and opportunities for professional growth.
+
+
+*Target cash compensation range: $70,300\- 89,400 EUR Annually*
+*We are committed to providing competitive, market\-informed compensation.* 
+*The cash compensation above includes base salary, variable commission for employees in eligible roles, and annual bonus targets for eligible roles. In addition to cash compensation, all full time iSpotters are eligible to participate in iSpot’s equity plan to receive stock options. Non\-exempt roles will also be eligible for (pre\-approved) overtime pay. Individual compensation packages are influenced by different factors unique to each candidate, including their skills, experience, qualifications and other job\-related reasons.*
+*For more information on total rewards package, go* 
+*HERE*
+**Hybrid \& Flexible Workplace Policy**
+ iSpot supports a hybrid and flexible workplace. Depending on location and work responsibilities, employees may be designated as full\-time or part\-time office\-based or a fully remote employee. A hybrid work schedule indicates that you work in the office some days and work from home other days. The best hybrid workplaces allow for flexibility while also encouraging consistency.
+   
+
+  
+
+ Those local or living in surrounding areas to one of our offices (Bellevue, WA; El Segundo, CA; New York, NY) will work a hybrid schedule, coming into their local office 1\-3 days a week. While those in a role, not office\-based and located further away from our offices, will work a fully remote schedule. If you have questions regarding exact details of our hybrid \& flexible workplace policy, please let your recruiter know and they will discuss with you further.
+   
+
+  
+
+ If you don't feel you met every single requirement for the role, don't rule yourself out. Please apply anyway!
+   
+
+  
+
+ iSpot.tv is an equal opportunity employer. All applicants will receive consideration for employment without regard to race, ethnicity, gender, gender identity, sexual orientation, protected veteran status, disability, age, or other legally protected status. If you need assistance and/or a reasonable accommodation due to a disability during the application or the recruiting process, please contact our HR team.
+   
+
+  
+
+**California Residents** 
+ applying for positions at iSpot.tv can access our California Consumer Privacy Act here.",Advertising Services,https://www.linkedin.com/company/ispottv,https://media.licdn.com/dms/image/v2/C4E0BAQEGSg-zNWYRFA/company-logo_100_100/company-logo_100_100/0/1639441939169/ispottv_logo?e=2147483647&v=beta&t=2U0NuXTpS_aLwAN6S69CWxkYkMYqob_YTIcfghTMEXw,,,,,
+li-4045114824,linkedin,https://www.linkedin.com/jobs/view/4045114824,https://careers.mastercard.com/us/en/job/MASRUSR230937EXTERNALENUS/R-D-Lead-Web-UI-Developer?utm_medium=phenom-feeds&source=LINKEDIN&utm_source=linkedin&urlHash=fq63,R&D Lead Web UI Developer-R-230937,Mastercard,"Dublin, County Dublin, Ireland",2025-01-14,fulltime,,,,,,,mid-senior level,Engineering and Information Technology,,,"**Our Purpose**
+*Mastercard powers economies and empowers people in 200\+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our technology and innovation, partnerships and networks combine to deliver a unique set of products and services that help people, businesses and governments realize their greatest potential.*
+**Title And Summary**
+ R\&D Lead Web UI Developer
+   
+
+  
+
+**Overview**
+ Mastercard is looking for a talented Lead Software Front\-end Development Engineer to join the Mastercard Foundry (Labs) Research and Development team in our Dublin Tech Hub. In this role you will be part of a highly agile team building exiting and innovative products delivered at scale to global markets.
+   
+
+  
+
+ Our team is built on a foundation of research and development, mining innovation internally, innovating new product lines with emerging technologies such as Web3, Quantum Computing, Generative AI, Privacy Enhancing Technology, managing new products from inception to market validation and engaging strategically with startups to shape the future of commerce with and for our customers. At Mastercard you will help define the future of commerce globally.
+   
+
+  
+
+ This team will have a diverse focus both in terms of geography and variety of technology challenges driving hard to bring innovative payment solutions to market.
+   
+
+  
+
+ Role
+   
+
+  
+
+ This role involves working with a team of talented developers to develop high performance web based solutions:
+   
+
+  
+
+* Responsible for the analysis, design, and development of software solutions
+* Contribute to the requirements for new applications and customisations, adhering to standards, processes, and best practices
+* Ensure quality of one or more application codebases and alignment with development standards
+* Applies technical capabilities within own discipline to coach and develop junior employees
+* Designs highly complex applications, interfaces and integrations
+* Integrates at an enterprise level using third\-party middleware or messaging products, or by designing and implementing custom interfaces and mapping for those interfaces
+* Responsible for performance engineering of the enterprise software architecture, and providing functional guidance, advice, and/or training to other application developers
+* Software development, code reviews and day\-to\-day support duties
+* Group\-wide and external public speaking and other communications conveying domain level directions
+* Researching and evaluating tools to support domain\-specific needs
+
+
+**Skills**
+* Comprehensive knowledge of Web Standards, Protocols and Architectures.
+* Expertise \& experience with a React framework, ideally Next.js but Gatsby, Vanilla React are acceptable.
+* Expertise \& experience in HTML, CSS (SCSS) and usage of Grid, Flex \& CSS animations. Must have ability to write CSS and not rely on Tailwind or some other library.
+* Experience with Developer Tools \& Web performance (e.g. Lighthouse).
+* Experience with Java JDK 8\+ \& Spring Boot, Shell Scripting, JSON.
+* Experience with Docker, Kubernetes or other container orchestration solutions.
+* Expertise in Jest or other automated unit testing frameworks.
+* Knowledge of CI/CD principles and tools such as Jenkins, Webpack, Maven, SonarQube etc.
+
+
+**All About You**
+ The ideal candidate for this position should:
+   
+
+  
+
+* Loves creating innovative solutions to problems in a collaborative fun environment
+* Advanced knowledge and understanding of modern software engineering concepts and methodologies
+* Passionate about software development and comfortable in a fluid environment
+* Passionate about code quality and coding best practices
+* Show initiative and demonstrate a willingness to take on challenging opportunities
+* Excellent communication (verbal and written) and strong collaboration skills
+* Must be driven, highly motivated and a strong team\-player
+
+
+ Interested in mentoring and helping grow the skills of the next generation of software developers
+   
+
+  
+
+**Corporate Security Responsibility**
+ All activities involving access to Mastercard assets, information, and networks comes with an inherent risk to the organization and, therefore, it is expected that every person working for, or on behalf of, Mastercard is responsible for information security and must:
+   
+
+  
+
+* Abide by Mastercard’s security policies and practices;
+* Ensure the confidentiality and integrity of the information being accessed;
+* Report any suspected information security violation or breach, and
+* Complete all periodic mandatory security trainings in accordance with Mastercard’s guidelines.
+
+
+ R\-230937","Financial Services, IT Services and IT Consulting, and Technology, Information and Internet",https://www.linkedin.com/company/mastercard,https://media.licdn.com/dms/image/v2/C560BAQGOW4NIyYRRqQ/company-logo_100_100/company-logo_100_100/0/1631340300330?e=2147483647&v=beta&t=xq1ySX9pM18Xr0xQJaRgCbH1ap_xO8Yn0h21FM105Ls,,,,,
+li-4067399538,linkedin,https://www.linkedin.com/jobs/view/4067399538,https://boards.greenhouse.io/learnupon/jobs/7708241002&urlHash=2LMz,"Senior Software Engineer, Frontend",LearnUpon,"Dublin, County Dublin, Ireland",2025-01-13,fulltime,,,,,,,mid-senior level,Engineering and Information Technology,,,"LearnUpon is looking for a Senior Software Engineer focused on front end to join our team in Dublin.
+   
+
+  
+
+ LearnUpon LMS helps organizations train their employees, partners, and customers. Businesses can manage, track, and achieve their unique learning goals — all through a single, powerful solution.
+   
+
+  
+
+ With offices in Dublin (our HQ), Belgrade, Philadelphia, Salt Lake City and Sydney, we are a global team with lots of diverse cultures, backgrounds, and experiences that puts our customers' experience at the heart of everything we do. Our culture fosters an open, collaborative and supportive environment where our accomplishments are celebrated and encouraged. We're always striving for the best solution (not the easy one). We’re proud of our success and we’re humble and hungry to achieve more.
+   
+
+  
+
+ As a Senior Software Engineer in our Engineering group, you will be responsible for the delivery of delightful, best\-in\-class user experiences for our core LMS product. You’ll be part of a large Engineering team that is dedicated to putting customers at the heart of everything we do.
+   
+
+  
+
+**What will I be doing?**
+* Collaborate with Designers, Product Managers, Engineers, and others to design, build, and launch new products, iterate on existing features, and build a state\-of\-the\-art world\-class user experience
+* Consistently deliver on making our products delightful, secure, performant, and accessible for all of our global customers
+* Adhere to and drive modern software engineering practices through design reviews
+* Improve test coverage for libraries, organize and implement integration tests, and resolve problem areas
+* Mentor and develop junior talent
+* Contributing on development and maintenance of internal components library documented within Storybook
+
+
+**What skills do I need?**
+* 4\+ years of professional front end development
+* Strong knowledge of JavaScript, TypeScript, and RXJS
+* Extensive experience with modern front\-end frameworks, specifically Angular, and proficiency with Web Components
+* Proficiency in HTML, CSS, frontend build tools, CSS preprocessing (Webpack, SASS), and version control systems
+* Ability to look beyond frameworks, to understand complex architecture and to write enterprise grade code
+* Experience in working with UI Test Automation frameworks
+* Ability to handle a project from scoping requirements through its release
+* Experience with project migration to newer technologies
+* Experience with security and performance front\-end troubleshooting
+* Experience developing cross platform/browser compatible dynamic web applications
+* Have a good understanding of design patterns and user experience
+* Resourceful, creative, adaptable, detail\-oriented with strong time management and organizational skills
+* Excellent English written and verbal communication skills
+
+
+**Not Required But Considered a Big Plus**
+* Application development using backend technologies
+* Have experience with working on enterprise SaaS platforms
+* Experience with web accessibility
+* Contributing to open\-source front\-end frameworks
+
+
+*Don’t worry if you don’t tick every box in order to apply, we’re always happy to review applications and take all experience into consideration. We do our best to provide feedback where we can!*
+**Why work with us?**
+* Competitive salary and company ESOP.
+* Comprehensive private health insurance scheme and Company pension scheme.
+* 25 days annual leave \+ 1 annual company wellness day off.
+* Work in a fun and supportive environment with regular team events.
+* Excellent career progression \- take LearnUpon where you think it can go.
+
+
+**What is the Hiring Process?**
+**Our Typical Process Generally Works As Follows**
+* Qualified applicants will be invited to schedule a screening call.
+* Successful candidates will then be invited to a series of practical interviews.
+* Finally, candidates will have a short interview with a member of our C\-Suite Team.
+* The successful candidate will be contacted with an offer to join our team.
+
+
+**LearnUpon is an Equal Opportunities Employer.**
+ We do not discriminate on the basis of gender, marital status, family status, age disability, sexual orientation, race, religion, membership of the Traveller community, or any other legally protected status.
+   
+
+  
+
+ Visit our Careers site to find out more about working for LearnUpon, and check us out on Instagram.",E-Learning Providers,https://ie.linkedin.com/company/learnupon,https://media.licdn.com/dms/image/v2/D4E0BAQF5adqQw79SQA/company-logo_100_100/company-logo_100_100/0/1688982408909/learnupon_logo?e=2147483647&v=beta&t=fhW5l-qpG82kNIq1mF13tLLp7Zu2-UYFzjItSDN5UyM,,,,,
+li-4120982613,linkedin,https://www.linkedin.com/jobs/view/4120982613,https://jobs.zalando.com/en/jobs/2717590?gh_src=2104be071&urlHash=2JBt,Senior Frontend Engineer - Entertainment and Inspiration (hybrid),Zalando,"Dublin, County Dublin, Ireland",2025-01-09,fulltime,,,,,,,mid-senior level,Engineering and Information Technology,,,"******THE ROLE \& THE TEAM******
+ Our Entertainment and Inspiration team will set out to solve major customer challenges around inspiration \& entertainment in fashion \& lifestyle e\-commerce as well as helping our customers navigate the challenge of overwhelming choice in our ecosystem!
+   
+
+  
+
+ Teams at our Dublin Tech Hub work on many of the cornerstones of our Fashion Store, including personalization components. Through full stack engineering and research, we turn visionary ideas into new emerging businesses with real potential. By tackling the most challenging problems for the fashion industry, we drive the personal digital experience and underlying knowledge models to create the most inspirational fashion experience for our customers.
+   
+
+  
+
+  
+
+******WHAT WE’D LOVE YOU TO DO (AND LOVE DOING)******
+* You will be part of an agile cross functional team that builds solutions for Zalando’s Web, Android \& iOS applications.
+* Together with the team you will build solutions to configure and identify locally relevant assortment for our customers.
+* Communicate with various stakeholders to understand the business context, and translate the requirements into technical designs.
+* Act like an owner by taking up a challenge, work towards reducing ambiguity, and break the work down into manageable tasks for the team.
+* Establish trust and technical excellence beyond the team and collaborate with other internal product and technology teams to build scalable systems which integrate into the larger context of Zalando
+* Continuously improve the performance of our systems, and your skill set as a software engineer and share knowledge with your colleagues.
+
+
+****WE’D LOVE TO MEET YOU IF****
+* You are proficient in developing large\-scale applications in Typescript, Javascript and Node.js.
+* You have experience with React \& GraphQL.
+* You are not only experienced with integrating APIs but have a deep understanding of REST architectural styles.
+* You consistently demonstrate an entrepreneurial, analytical, and customer\-centric approach, and you have an insatiable desire to improve the experience for our customers.
+* You have experience in all parts of the software development life cycle building, testing, deploying, and operating in production.
+* You have hands\-on experience in improving front\-end performance and observability and worked with front\-end monitoring/logging tools like Sentry.
+* You have an affinity for the reliability, monitoring, scalability, and performance of the app.
+
+
+**What We’d Also Like To See**
+* Strong knowledge about microservices and CI/CD
+* Good understanding of AWS, Kubernetes, and Docker
+* Experience creating reusable libraries/components
+* An interest in UI design and accessibility
+
+
+****OUR OFFER****
+ Zalando provides a range of benefits, here’s an overview of what you can expect. Ask your Talent Acquisition Partner to learn more about what we offer.
+   
+
+  
+
+  
+
+* Employee shares program
+* 40% off products sold and shipped by Zalando,
+* 2 paid volunteering days a year
+* Hybrid working model with 60% remote per week
+* Work from abroad for up to 30 working days a year
+* 27 days of vacation a year
+* Family services, including counselling and support
+* Health and wellbeing options (including Gympass)
+* Mental health support and coaching available
+
+
+****INCLUSIVE BY DESIGN****
+ At Zalando, our vision is to be the starting point for fashion \- one that is inclusive by design. We only assess candidates based on qualifications, merit, and business needs. We welcome applications from people of all gender identities, sexual orientations, personal expressions, racial identities, ethnicities, religious beliefs, and disability statuses. We only want to know why you’re great for this role, so please avoid including your picture, age, and marital status in your CV as well.
+   
+
+  
+
+ We want to provide you with a great candidate experience. Please feel free to inform us of any accommodations you may need, so we can best support and assist you throughout the hiring process.
+   
+
+  
+
+ do.BETTER \- our diversity \& inclusion strategy https //corporate.zalando.com/en/diversity\-inclusion
+   
+
+  
+
+ Our employee resource groups https //corporate.zalando.com/en/diversity\-inclusion/our\-employee\-resource\-groups
+   
+
+  
+
+**If you think you have what it takes, we encourage you to apply even if you don't meet every single requirement. You may just be the right candidate for this or other roles!**","Technology, Information and Internet, Retail, and IT Services and IT Consulting",https://de.linkedin.com/company/zalando,https://media.licdn.com/dms/image/v2/D4D0BAQFr3zY0lxL0xA/company-logo_100_100/company-logo_100_100/0/1725959481841/zalando_logo?e=2147483647&v=beta&t=TvB9GJMb06K7Cbv-1MAI24HHVv55AORCyxOjXtTYx-0,,,,,
+li-4114829490,linkedin,https://www.linkedin.com/jobs/view/4114829490,https://www.personio.com/careers/f8605f3c-10fa-4534-81c5-079f69bc01d5?utm_source=LinkedIn&urlHash=U4oQ,Platform Engineer - Front End -Developer Experience (d/f/m),Personio,"Dublin, County Dublin, Ireland",2025-01-06,fulltime,,,,,,,mid-senior level,Engineering and Information Technology,,,"Personio's intelligent HR platform helps small and medium\-sized organizations unlock the power of people by making complicated, time\-consuming tasks simple and efficient. Our growing team of 1,800\+ Personios across Europe and the US are building user\-friendly products that delight our 14,000\+ customers and their 1\.5 million employees. Ready to make an impact from day one?
+   
+
+  
+
+**Platform Engineer \- Front End \- Developer Experience (d/f/m)**
+**The Role: How you'll make an impact at Personio**
+**This is a hybrid position with time split between office\-based and remote working from our Dublin office.**
+**At Personio, we value the flexibility that our hybrid set\-up offers, but equally value in\-person time to drive connection, community and collaboration.**
+ At Personio, your work transforms the way millions of people experience work every day. Join our Product \& Technology team, where we drive customer outcomes by designing, developing, and delivering innovative, high\-quality products. Be empowered to take ownership of your areas and make a real impact on your team, our product, and our customers.
+   
+
+  
+
+ As a Senior/Lead Engineer, you will elevate the teams you work with by improving the quality of their technical solutions, operational excellence, and overall ability to deliver fast, impactful results. All Senior/Lead Engineers at Personio are hands\-on coders who thrive in high\-output environments and want to make a real impact. You’ll be working on a mix of improving existing features and building exciting new ones that our customers will love. Depending on the stage of the product, you’ll either be coding or solving complex problems that pave the way for future development. When you’re not coding, you’ll be focused on simplifying and enhancing the customer experience. We're all about creating exceptional products and delivering outstanding customer satisfaction!
+   
+
+  
+
+ In your first interview, we can explore the challenges you’ve faced and find the most exciting opportunities for you at Personio.
+   
+
+  
+
+**Role Responsibilities: What you'll do**
+* Build Reliable and Performant Solutions: Lead the delivery of large, high\-quality projects by collaborating with cross\-functional teams, ensuring technical excellence and setting standards for the team. Spending time coding hands\-on while also designing systems and architecture.
+* Hands\-On Development: Coding (this is a high code output environment), designing systems, and architecting solutions that are reliable and high\-performing.
+* Estimating, Scoping, and Planning: Own the estimation, scoping, and planning of projects, defining the team's strategy and roadmap. Work closely with product management, leadership, and engineering teams to deliver impactful workstreams.
+* Solve Complex Technical Challenges: Address and resolve complex technical problems, promoting best practices to ensure engineering and operational excellence. Simplify architecture, manage technical debt, and enforce best practices in security and testing.
+* Mentoring and Coaching: Actively mentor and coach engineers, sharing knowledge and driving team topics. Promote a culture of support and collaboration to increase team productivity and growth.
+* Cross\-Functional Collaboration: Build strong relationships with cross\-functional teams, including product management and leadership, to drive the success of engineering initiatives. Participate in interviewing and hiring to contribute to the growth and success of the team.
+* Operational Leadership: Ensure operational excellence across the product lifecycle, driving incident management and continuous improvement. Enhance monitoring, observability, and team productivity.
+
+
+**Role Requirements: What you need to succeed**
+**Technical Expertise:** 
+ Proficiency in front\-end frameworks (REACT preferred), with experience in Typescript (other front\-end languages are also valued). Experience of working on Front End Developer Experience projects a bonus.
+   
+
+  
+
+**Operational Excellence:** 
+ Skilled in implementing various testing strategies, including the testing pyramid, and demonstrated experience in maintaining high availability requirements and performance. Ensuring technical strategies are effectively translated into reality. Demonstrated experience in managing operational quality and incident response, with a focus on continuous improvement.
+   
+
+  
+
+**Leadership and Mentorship:** 
+ Proven ability to mentor and coach engineers, amplifying their technical abilities and enabling the team to succeed. Strong written and spoken communication skills are essential.
+   
+
+  
+
+**Why Personio**
+ Personio is an equal opportunities employer, committed to building an integrative culture where everyone feels welcomed and supported. We embrace uniqueness and understand that our diverse, values\-driven culture makes us stronger. We are proud to have an inclusive workplace environment that will foster your development no matter your gender, civil status, family status, sexual orientation, religion, age, disability, education level, or race.
+   
+
+  
+
+ Aside from our people, culture, and mission, check out some of the other benefits that make Personio a great place to work:
+   
+
+  
+
+* Receive a competitive reward package – reevaluated each year – that includes salary, benefits, and pre\-IPO equity
+* Enjoy 28 days of paid vacation, plus an additional day after 2 and 4 years (because we love what we do, but we also love vacation!)
+* Make an impact on the environment and society with 2 (fully paid) Impact Days – one for an individual project of your choice and one for a company\-wide initiative
+* Receive generous family leave, child support, mental health support, and sabbatical opportunities with PersonioCares
+* Find your best way to work with our office\-led, remote\-friendly PersonioFlex! Most teams offer a roughly 50% remote, 50% in\-office working framework
+* Invest in your development with an annual personal development budget to use on professional memberships, external certifications, conferences, and more
+* Connect with your fellow Personios at regular company and team events like All Company Culture Week and local year\-end celebrations
+* Engage in a high\-impact working environment with flat hierarchies and short decision\-making processes
+
+
+**About Us**
+ Bring your best. Make your mark. We’re using technology to revolutionize the way HR operates so that we can transform the way millions of people experience work every day. We move fast, challenge the status quo, and support our people as they shape their careers.
+   
+
+  
+
+ With over 13,000 customers and a team of 2,000 in eight offices around the world, now is the perfect time to join! We believe in hiring driven people who want to make an impact. So bring your best, and let’s build the future of HR technology together.
+   
+
+  
+
+ Discover our Personio Principles, that guide our mindset, behaviours, and the ways we work together:
+   
+
+  
+
+**Exceed Customer Expectations:** 
+ We anticipate, prioritize, and solve for the needs of our customers.
+   
+
+  
+
+**Deliver Exceptional Results:** 
+ We dream big and move with urgency to make great things happen.
+   
+
+  
+
+**Elevate One Another:** 
+ We work together as trusted partners to amplify our collective impact.
+   
+
+  
+
+**Care to Challenge:** 
+ We care personally and challenge directly to unlock our full potential.
+   
+
+  
+
+**Ignite Positive Momentum:** 
+ We embrace the challenge with a positive mindset and celebrate our wins together.",Software Development,https://de.linkedin.com/company/personio,https://media.licdn.com/dms/image/v2/D4E0BAQHqZToSLhjV9Q/company-logo_100_100/company-logo_100_100/0/1666252443857/personio_logo?e=2147483647&v=beta&t=f-Pn7KDAS2zQ9InhZ06wCIpqZJYmsj5KBwkP6y7l3M0,,,,,
+li-4115159367,linkedin,https://www.linkedin.com/jobs/view/4115159367,https://mlp.eightfold.ai/careers/job/755940943671?microsite=mlp.com&domain=mlp.com&utm_source=linkedin&urlHash=7Qax,AI Front End Engineer,Millennium,"Dublin, County Dublin, Ireland",2025-01-02,fulltime,,,,,,,mid-senior level,Engineering and Information Technology,,,"We are a high\-impact and fast\-paced infrastructure team, looking for a passionate Front\-End Engineer to focus on building and enhancing our next\-generation chatbot platform. Our mission is to create products that are not only intuitive, but significantly boost the productivity of our users. You'll be responsible for creating intuitive, responsive, and high\-performance user interfaces that power AI\-driven conversations and enable a plethora of supporting features and plugins.
+ 
+
+
+
+  
+
+
+
+
+
+**Key Responsibilities** 
+
+
+
+* Design and implement responsive, accessible user interfaces using Typescript and Next.js
+* Build and maintain scalable front\-end architecture
+* Collaborate with UX designers and backend engineers to create seamless chat experiences
+* Optimize application performance and loading times
+* Write and maintain comprehensive end\-to\-end tests using Playwright
+* Contribute to technical architecture decisions and best practices
+* Work within an agile team environment to deliver features on schedule
+
+
+
+  
+
+
+
+
+
+**Required Qualifications** 
+
+
+
+* 5\+ years of professional experience in front\-end development
+* Strong proficiency with React and Next.js
+* Expert knowledge of modern TypeScript, HTML5, and CSS3
+* Experience with modern CSS practices
+* Experience with automated testing, particularly Playwright or similar E2E testing frameworks
+* Strong understanding of front\-end performance optimization techniques
+* Experience with version control systems (Git) and CI/CD pipelines
+* Excellent problem\-solving and communication skills
+
+
+
+  
+
+
+
+
+
+**Preferred Qualifications** 
+
+
+
+* Experience with state management solutions eg, zustand, rxjs, mobx
+* Experience with real\-time applications and WebSocket implementations
+* Previous work on chat interfaces or conversational UI
+* Knowledge of AI/ML concepts and integration patterns
+* Understanding of UX/UI principles and best practices
+* Mobile Application Development with React Native or similar",Investment Management,https://www.linkedin.com/company/millennium-partners,https://media.licdn.com/dms/image/v2/D4E0BAQHrvVyJkeqShw/company-logo_100_100/company-logo_100_100/0/1719258237812/millennium_partners_logo?e=2147483647&v=beta&t=o5S8BRx1jxfvtCliBW5f95M2u_iAooO9fsS2t1inSS4,,,,,
+li-4102546617,linkedin,https://www.linkedin.com/jobs/view/4102546617,https://mlp.eightfold.ai/careers/job/755940857491?microsite=mlp.com&domain=mlp.com&utm_source=linkedin&urlHash=2mkx,Front End Engineer– Data Warehouse,Millennium,"Dublin, County Dublin, Ireland",2024-12-17,fulltime,,,,,,,mid-senior level,Engineering and Information Technology,,,"We have been building our Enterprise Data Warehouse (EDW) over the past few years and are looking for an individual who will help us as the system adapts to new customer requirements. Our data warehouse is the single source of truth when it comes to financial data produced throughout the firm.
+   
+
+  
+
+ You will be an integral part of the team, responsible for helping to evolve our Data Service, BI architecture, and tools. The current technology stack is Linux based running within AWS. Built upon Spark EMR, Kafka, EKS, Angular and Java to provide a modern streaming and scalable platform. The right candidate will be seeking to share ideas and improve the overall design, always committed to delivering business value.
+   
+
+  
+
+**Principal Responsibilities**
+* Work cross\-functionally with various teams, creating solutions that deal with large volumes of data
+* Build and maintain multiple front\-end applications with a focus on resilience, UX, performance, and code quality
+* Own the entire software development lifecycle from gathering and analyzing requirements to releasing to production
+
+
+**Secondary Responsibilities**
+* Expanding Playwright E2E test suite
+* Work on the full stack \- primarily Java, GraphQL, Spring Framework
+
+
+**Qualifications/Skills Required**
+* Automated testing: Unit testing, E2E testing
+* Minimum of 3 years' of professional Angular development experience
+* 7\+ years' experience with front end development
+* Highly analytical with good problem\-solving skills and creativity; able to work independently in a fast\-paced environment
+* Positive individual with effective communication skills; able to interface well with users and other development teams both in and out of region
+* Self\-driven individual with an ability to work under pressure
+* Understanding of financial services instruments (Preferred)
+* Experience with debugging and updating existing backend services. Ideally Java Spring Boot (Preferred)",Investment Management,https://www.linkedin.com/company/millennium-partners,https://media.licdn.com/dms/image/v2/D4E0BAQHrvVyJkeqShw/company-logo_100_100/company-logo_100_100/0/1719258237812/millennium_partners_logo?e=2147483647&v=beta&t=o5S8BRx1jxfvtCliBW5f95M2u_iAooO9fsS2t1inSS4,,,,,
+li-4051053354,linkedin,https://www.linkedin.com/jobs/view/4051053354,https://job-boards.greenhouse.io/tines/jobs/5346268004&urlHash=MugH,Brand Web Designer and Developer,Tines,,2024-10-14,fulltime,,,,,,,entry level,"Design, Art/Creative, and Information Technology",,,"Founded in 2018 in Dublin, Tines is a smart, secure workflow platform designed to automate any manual task, regardless of complexity. By automating workflows, Tines empowers frontline teams to reduce monotonous, manual work and free up valuable time and resources.
+   
+
+  
+
+ Tines is an integrator across your entire stack \- if it offers an API, Tines connects with it. Having firmly established Tines as the de\-facto automation platform for cybersecurity teams, we’re expanding horizontally to IT, Product, Engineering, and Infrastructure teams. Tines was built for everyone, delivering transformative and innovative enterprise software to industry leaders like Canva, Intercom, Databricks, Mars and Reddit.
+   
+
+  
+
+ We’re excited about what we’re doing and what’s to come, and we’re looking for others who can lead by our values of Simplicity, Speed, and Soundness. Because Tines is about delivering exceptional customer experiences, while creating a company culture that nurtures individual curiosity, growth, and integrity.
+   
+
+  
+
+ We are looking for a skilled and passionate web designer and developer to join our team. In this role, you will play a crucial role in developing, maintaining, and optimizing our web properties: primarily working on Tines.com. You will create useful, beautiful, high\-performance digital experiences for our customers, prospects and team.
+   
+
+  
+
+ Design has been a part of Tines’ story since it was founded, and great design plays a indispensable role in our shared success. Designers at Tines are trusted and relied upon to deliver inventive work to a high standard, and we are supported in doing so.
+   
+
+  
+
+ In this role, you’ll work as part of the brand studio, part of the wider design team which includes product designers. You’ll report to the creative director. You will be involved in a wide range of projects, from start to finish and as a contributor. Your direct colleagues and team will be designers and design engineers, and you’ll be collaborating closely with colleagues in marketing.
+   
+
+  
+
+ This is a remote or semi\-remote position, with the employee required to be located in Ireland. (You will have access to our Dublin city centre office).
+   
+
+  
+
+ Activities
+   
+
+  
+
+* Collaborate with designers and marketers to find opportunities for new pages and sections on our website
+* Work with designers and engineers to build them
+* Seek areas to improve the existing website, including the marketing site, the library, docs and more
+* Maintain and improve the infrastructure of the website, using existing frameworks and investigating new ones
+* Identify and resolve performance bottlenecks, ensuring fast and efficient web applications
+* Write clean, maintainable, and efficient code, adhering to best practices and coding standards
+* Actively provide feedback for designs from engineering perspective
+* Identify key areas on the site and build tests to improve reliability
+
+
+**Experience**
+ We are especially eager to hear from individuals who have:
+   
+
+  
+
+* Experience creating elegant, performant – websites
+* A portfolio of marketing sites, and creative web\-based projects
+* An affinity for data and familiarity with leading analytics and experimentation tools such as Full Story, Optimizely
+* A track record of collaboration: with creative, marketing and technical teams
+* Front\-end: Proficiency in HTML, CSS, TypeScript, and modern front\-end technologies including React, Sass, Next.js or equivalent frameworks.
+* Back\-end: Proficiency with server\-side languages and frameworks, primarily Node.js.
+
+
+**Requirements**
+* Great eye for design and a good understanding of fundamental design principles, with a focus on typography
+* Self starter with excellent communication and project management skills
+* Solid understanding of TypeScript, React
+* Expert in CSS / Sass
+
+
+**Things we ask of our designers**
+* Ask plenty of questions No question is wrong, or misplaced. Always bring your ideas here, openly and safely.
+* Consider context Think about your work in the broadest way possible \- how will it strengthen the brand, or move it forward? What else is it connected to?
+* Be opinionated but open to change Bring a point of view but be ready to change that. We have an amazing group of colleagues and customers who provide feedback on a regular basis.
+* Collaboration Foster a collaborative design process. Share your work early and often. Seek out regular feedback from stakeholders and the wider design team. Present your work in updates and critiques. Filter and prioritise any feedback for a successful outcome.
+
+
+ At Tines, we’re all about trying new things and taking the leap. If you’re second\-guessing your application, we hope you’ll trust your gut and take the leap too! Applying for a new job isn’t always easy, especially if you’re thinking of a career pivot – but we’re big believers in learning and growth here at Tines, so you’ve nothing to worry about. A variety of experience, perspectives, and voices makes us the company we are. We’d love to hear from you.
+   
+
+  
+
+***Tines provides equal employment opportunities to all employees and applicants for employment without regard to sex, race, colour, ethnic or social origin, genetic features, language, religion or belief, political or any other opinion, membership of a national minority, property, birth, disability, age or sexual orientation.***",Software Development,https://ie.linkedin.com/company/tines-io,https://media.licdn.com/dms/image/v2/D4E0BAQGLYB3ANmICjQ/company-logo_100_100/company-logo_100_100/0/1695808547876/tines_io_logo?e=2147483647&v=beta&t=m9e_LY7kD3KjQWuSTBN2v0sxrHqwG-3NHTS36ckZEuU,,,,,
+li-4041925440,linkedin,https://www.linkedin.com/jobs/view/4041925440,,Junior Full-Stack Developer (.NET / React),Compass Education UK & IE,"Dublin, County Dublin, Ireland",2024-10-07,fulltime,,,,,,,entry level,Engineering,,,"**Come shape the future of education with us.**
+ At Compass, our people are united by a common purpose to make the school day more productive, more impactful and more enjoyable. We're a global provider of School Management Information Systems (MIS) and already support over 3,000 schools across Australia, Ireland and the UK.
+   
+
+  
+
+ At Compass, our people are united by a common purpose and are looking for passionate Junior Software Engineers to join us for the ride.
+   
+
+  
+
+ We want thinkers and problem solvers, who celebrate diversity and thrive in a collaborative team environment to join us and help us transform the lives of teachers, students, and parents all over the world. You'll work as part of a fun, hardworking team who takes ownership of their work and loves to celebrate successfully delivering wins for our customers and for Compass.
+   
+
+  
+
+**About The Role \& Team**
+ As a Junior Software Engineer, you will collaborate with other Engineers, Product Owners, Designers \& other stakeholders across the Compass product to build and deploy new functionalities, support existing features and improve site scalability, all while working in a highly collaborative and agile environment.
+   
+
+  
+
+**What you'll do:**
+* Design, develop and maintain secure, scalable software that's used by thousands of students, parents and teachers throughout the world
+* Inspire quality and best practices by championing software craftsmanship, clean code and pair programming
+* Build great relationships with your team, be generous with your thoughts and feedback (and open to receiving it!)
+* Grow, learn and thrive in a team of humans who are committed to supporting you and helping you succeed
+* Communicate with our customers to understand their needs, and collaborate with product owners and designers to shape products to solve their problems
+* Contribute to our diverse and inclusive culture and take pride in doing work that makes a real difference for school communities.
+
+
+**Requirements**
+**What you'll bring:**
+* Real\-world experience (1\+ years) in object\-oriented programming languages (C\#, MS.Net)
+* Real\-world experience (1\+ years) in frontend javascript libraries and frameworks (React.js, Node.js and Typescript)
+* A keen attitude to develop a high\-quality product with other talented developers
+* A passion for software development and an interest in actively keeping up to date with new tech
+* Experience working with SQL/NoSQL databases such as MongoDB and is comfortable designing and implementing database solutions
+
+
+**Benefits**
+**What's in it for you?**
+* We come together with our unique strengths to work towards a common purpose \- shaping the future of education. When you join our team, you will collaborate with individuals who are passionate, driven, and open to embracing change in a fast\-paced environment
+* A flexible working culture
+* Learning \& Development opportunities \- we want you to grow and get the most out of your role!
+
+
+**It is a really exciting time to join Compass. We are growing fast and need people who want to grow with us.**
+**Compass is proud to be an equal\-opportunity employer. We embrace and celebrate diversity and are committed to creating an inclusive environment for all employees.**
+**Prior to commencing employment, we will require:**
+* Verification of unrestricted work rights in UK or Ireland (eg citizenship, passport, or birth certificate)",Non-profit Organizations and Primary and Secondary Education,https://uk.linkedin.com/company/compass-mis,https://media.licdn.com/dms/image/v2/C4E0BAQEftgvtbxd8GA/company-logo_100_100/company-logo_100_100/0/1636373119969?e=2147483647&v=beta&t=y_NaeTL0GXeyEOYJUE9Pbgipv0lJw80Ew9kpyQtlhjw,,,,,

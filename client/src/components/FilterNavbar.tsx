@@ -1,66 +1,60 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
+import { useState } from "react";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
 
-export default function FilterNavbar() {
+interface FilterNavbarProps {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  onSubmitFilters: (filters: any) => void;
+}
+
+export default function FilterNavbar({ onSubmitFilters }: FilterNavbarProps) {
   const [filters, setFilters] = useState({
     search_term: "",
     location: "",
-    site: "",
-    results_wanted: 0,
-    distance: 0,
-    job_type: "",
-    country: "",
-    batch_size: 0,
-  })
+    site: "linkedin",
+    results_wanted: 100,
+    distance: 25,
+    job_type: "fulltime",
+    country: "UK",
+    batch_size: 30,
+  });
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const { name, value } = e.target
-    setFilters((prev) => ({ ...prev, [name]: value }))
-  }
+    const { name, value, type } = e.target;
+    setFilters((prev) => ({
+      ...prev,
+      [name]: type === "number" ? parseInt(value, 10) || 0 : value,
+    }));
+  };
 
   const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
-    console.log("Filters submitted:", filters)
-    // Here you would typically call an API or update the app state
-  }
+    e.preventDefault();
+    onSubmitFilters(filters); // Pass filters to parent component
+  };
 
   return (
     <form onSubmit={handleSubmit} className="bg-white shadow-md p-4 mb-4">
       <div className="grid grid-cols-4 gap-4">
-        <Input name="search_term" placeholder="Search term" value={filters.search_term} onChange={handleInputChange} />
-        <Input name="location" placeholder="Location" value={filters.location} onChange={handleInputChange} />
-        <Input name="site" placeholder="Site" value={filters.site} onChange={handleInputChange} />
-        <Input
-          name="results_wanted"
-          type="number"
-          placeholder="Results wanted"
-          value={filters.results_wanted || ""}
-          onChange={handleInputChange}
-        />
-        <Input
-          name="distance"
-          type="number"
-          placeholder="Distance"
-          value={filters.distance || ""}
-          onChange={handleInputChange}
-        />
-        <Input name="job_type" placeholder="Job type" value={filters.job_type} onChange={handleInputChange} />
-        <Input name="country" placeholder="Country" value={filters.country} onChange={handleInputChange} />
-        <Input
-          name="batch_size"
-          type="number"
-          placeholder="Batch size"
-          value={filters.batch_size || ""}
-          onChange={handleInputChange}
-        />
+        {Object.keys(filters).map((key) => (
+          <Input
+            key={key}
+            name={key}
+            placeholder={key.replace("_", " ").toUpperCase()}
+            value={filters[key as keyof typeof filters] || ""}
+            onChange={handleInputChange}
+            type={
+              typeof filters[key as keyof typeof filters] === "number"
+                ? "number"
+                : "text"
+            }
+          />
+        ))}
       </div>
       <Button type="submit" className="mt-4">
         Apply Filters
       </Button>
     </form>
-  )
+  );
 }
-
