@@ -1,31 +1,20 @@
-"use client"
+"use client";
 
-import { useState, useEffect } from "react"
-import { Card, CardContent } from "@/components/ui/card"
-import { Skeleton } from "@/components/ui/skeleton"
+import { Card, CardContent } from "@/components/ui/card";
+import { Skeleton } from "@/components/ui/skeleton";
 
 interface Job {
-  id: number
-  title: string
-  company: string
+  id: number;
+  title: string;
+  company: string;
 }
 
-export default function JobList() {
-  const [jobs, setJobs] = useState<Job[]>([])
-  const [loading, setLoading] = useState(true)
+interface JobListProps {
+  jobs: Job[];
+  loading: boolean;
+}
 
-  useEffect(() => {
-    // Simulating API call
-    setTimeout(() => {
-      setJobs([
-        { id: 1, title: "Software Engineer", company: "Tech Co" },
-        { id: 2, title: "Product Manager", company: "Startup Inc" },
-        { id: 3, title: "Data Scientist", company: "Big Data Corp" },
-      ])
-      setLoading(false)
-    }, 1500)
-  }, [])
-
+export default function JobList({ jobs, loading }: JobListProps) {
   if (loading) {
     return (
       <div className="space-y-4">
@@ -38,7 +27,7 @@ export default function JobList() {
           </Card>
         ))}
       </div>
-    )
+    );
   }
 
   return (
@@ -52,6 +41,5 @@ export default function JobList() {
         </Card>
       ))}
     </div>
-  )
+  );
 }
-
