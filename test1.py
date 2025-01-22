@@ -69,7 +69,7 @@ async def fetch_jobs():
             results_wanted=results_wanted,
             distance=distance,
             job_type=job_type,
-            country= country,
+            country=country,
             batch_size=batch_size,
             linkedin_fetch_description=True
         )
@@ -85,18 +85,53 @@ async def fetch_jobs():
 
         job_list = []
 
-        # Read the CSV file
+        # Read the CSV file in a memory-efficient way (streaming)
         try:
             with open(latest_csv_file_path, newline='', encoding='utf-8') as csvfile:
-                reader = pd.read_csv(csvfile).to_dict(orient='records')
-                for row in reader:
-                    job_data = {
-                        'job_title': row.get('title'),
-                        'company_name': row.get('company'),
-                        'job_description': row.get('description', 'Description not available'),
-                        'job_url': row.get('job_url', 'URL not available')
-                    }
-                    job_list.append(job_data)
+                reader = pd.read_csv(csvfile, iterator=True, chunksize=100)  # Adjust chunk size as needed
+
+                # Get pagination parameters
+                page = request.args.get('page', 1, type=int)
+                per_page = request.args.get('per_page', 10, type=int)
+
+                if page < 1:
+                    scraping_in_progress = False
+                    return jsonify({"error": "Page number must be greater than 0"}), 400
+
+                total_results = len(jobs_df)
+                total_pages = (total_results + per_page - 1) // per_page
+
+                if page > total_pages:
+                    scraping_in_progress = False
+                    return jsonify({"error": f"Page {page} out of range. Total pages: {total_pages}"}), 400
+
+                # Skip to the start index of the page
+                start_index = (page - 1) * per_page
+                end_index = min(start_index + per_page, total_results)
+
+                # Extract the jobs from the chunked CSV reader
+                chunk_start = 0
+                for chunk in reader:
+                    if chunk_start + len(chunk) >= start_index:
+                        chunk_data = chunk.iloc[start_index - chunk_start: end_index - chunk_start]
+                        for _, row in chunk_data.iterrows():
+                            job_data = {
+                                'job_title': row.get('title'),
+                                'company_name': row.get('company'),
+                                'job_description': row.get('description', 'Description not available'),
+                                'job_url': row.get('job_url', 'URL not available')
+                            }
+                            job_list.append(job_data)
+
+                    chunk_start += len(chunk)
+
+                return jsonify({
+                    "page": page,
+                    "total_pages": total_pages,
+                    "per_page": per_page,
+                    "total_results": total_results,
+                    "jobs": job_list
+                })
         except FileNotFoundError:
             scraping_in_progress = False
             logging.error(f"CSV file not found: {latest_csv_file_path}")
@@ -105,41 +140,6 @@ async def fetch_jobs():
             scraping_in_progress = False
             logging.error(f"Error reading the CSV file: {str(e)}")
             return jsonify({"error": f"Error reading the CSV file: {str(e)}"}), 500
-
-        # Paginate results if needed
-        if results_wanted > 10:
-            try:
-                page = request.args.get('page', 1, type=int)
-                per_page = request.args.get('per_page', 10, type=int)
-                
-                if page < 1:
-                    scraping_in_progress = False
-                    return jsonify({"error": "Page number must be greater than 0"}), 400
-
-                total_results = len(job_list)
-                total_pages = (total_results + per_page - 1) // per_page
-
-                if page > total_pages:
-                    scraping_in_progress = False
-                    return jsonify({"error": f"Page {page} out of range. Total pages: {total_pages}"}), 400
-
-                start_index = (page - 1) * per_page
-                end_index = min(start_index + per_page, total_results)
-                paginated_jobs = job_list[start_index:end_index]
-
-                return jsonify({
-                    "page": page,
-                    "total_pages": total_pages,
-                    "per_page": per_page,
-                    "total_results": total_results,
-                    "jobs": paginated_jobs
-                })
-            except Exception as e:
-                scraping_in_progress = False
-                logging.error(f"Pagination error: {str(e)}")
-                return jsonify({"error": f"Pagination error: {str(e)}"}), 500
-        else:
-            return jsonify(job_list)
 
     except KeyError as e:
         scraping_in_progress = False
@@ -151,6 +151,7 @@ async def fetch_jobs():
     finally:
         # Ensure that scraping is marked as finished after the process is done
         scraping_in_progress = False
+
 
 if __name__ == '__main__':
     app.run(debug=True, use_reloader=False)
