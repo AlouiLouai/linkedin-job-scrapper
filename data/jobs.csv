@@ -1,0 +1,970 @@
+id,site,job_url,job_url_direct,title,company,location,date_posted,job_type,salary_source,interval,min_amount,max_amount,currency,is_remote,job_level,job_function,listing_type,emails,description,company_industry,company_url,company_logo,company_url_direct,company_addresses,company_num_employees,company_revenue,company_description
+li-4130048654,linkedin,https://www.linkedin.com/jobs/view/4130048654,https://recruiterflow.com/licornesociety/jobs/12990?source=linkedin_basic&utm_channel=recruiterflow-posting&location=1&urlHash=gevM,Python Engineer,Leonar,"Paris, Île-de-France, France",2025-01-20,fulltime,,,,,,,associate,Engineering,,,"Licorne Society a été missionné par une startup en pleine croissance pour les aider à trouver leur Python Engineer
+   
+
+  
+
+**À propos de l'entreprise**
+ L'entreprise est une entreprise spécialisée dans le développement de solutions avancées en
+   
+
+  
+
+ gestion de données et services d'analyse pour des clients institutionnels, incluant des banques,
+   
+
+  
+
+ fonds de pension, family offices et compagnies d'assurance. Notre équipe rassemble des
+   
+
+  
+
+ experts internationaux passionnés par les technologies de données et par l'analyse dans un
+   
+
+  
+
+ environnement hautement professionnel et collaboratif.
+   
+
+  
+
+**Description Du Poste**
+ Nous recherchons un
+ **Développeur Python** 
+ expérimenté et rigoureux, avec un intérêt prononcé
+   
+
+  
+
+ pour les domaines financiers, pour rejoindre notre équipe technique. Ce poste est clé dans le
+   
+
+  
+
+ développement de nos plateformes de données, et vous serez impliqué dans toutes les étapes
+   
+
+  
+
+ du cycle de vie des projets, de la conception à la mise en production. Vous travaillerez sur des
+   
+
+  
+
+ projets stratégiques, notamment en lien avec des analyses financières et des applications
+   
+
+  
+
+ d'intelligence artificielle, en collaboration avec notre équipe d’ingénieurs et d’analystes de
+   
+
+  
+
+ données.
+   
+
+  
+
+**Responsabilités principales**
+* Développer, tester et maintenir des applications Python pour nos plateformes de
+
+
+ données, en intégrant des fonctionnalités spécifiques aux exigences des clients du
+   
+
+  
+
+ secteur financier.
+   
+
+  
+
+* Participer à la conception de solutions de données et d’analyses financières innovantes
+
+
+ pour répondre aux besoins spécifiques de nos clients institutionnels.
+   
+
+  
+
+* Collaborer avec l’équipe sur des questions d’intégration de données, de sécurité, et de
+
+
+ performance, en tenant compte des exigences de confidentialité et de conformité des
+   
+
+  
+
+ données financières.
+   
+
+  
+
+* Optimiser et automatiser les processus de traitement de données sur notre infrastructure
+
+
+ cloud (AWS).
+   
+
+  
+
+* Contribuer activement aux discussions techniques pour développer des solutions à forte
+
+
+ valeur ajoutée, adaptées aux marchés financiers.
+   
+
+  
+
+**Profil recherché**
+* Diplôme d'une grande école d’ingénieur ou d’une université de premier plan, avec
+
+
+ spécialisation en informatique, data science, ou finance quantitative.
+   
+
+  
+
+* Expérience significative en développement Python et bonne maîtrise des meilleures
+
+
+ pratiques de codage.
+   
+
+  
+
+* Solides connaissances en SQL et expérience de travail avec un environnement cloud
+
+
+ (idéalement AWS).
+   
+
+  
+
+* Connaissance des outils de visualisation de données (ex. : T ableau) et expérience dans
+
+
+ des environnements financiers est un atout majeur.
+   
+
+  
+
+* Forte capacité d’analyse, rigueur et autonomie.
+* Intérêt marqué pour le secteur financier et compréhension de ses principales exigences
+
+
+ de données.
+   
+
+  
+
+* Bon niveau d'anglais (écrit et oral) et maîtrise du français.
+
+
+**Pourquoi rejoindre l'entreprise ?**
+* Rejoignez une équipe d'experts dans un environnement stimulant et propice à
+
+
+ l’apprentissage.
+   
+
+  
+
+* Participez à des projets de pointe en matière d'analyse de données et d’IA pour le
+
+
+ secteur financier.","Technology, Information and Internet",https://fr.linkedin.com/company/leonar-app,https://media.licdn.com/dms/image/v2/D4E0BAQGOMxTaUk0Hog/company-logo_100_100/company-logo_100_100/0/1727114331257/leonar_app_logo?e=2147483647&v=beta&t=Ge85uIpFH5ah39L_8lypvrPRXTzoqtloyQk7ub1p8NA,,,,,
+li-4130051175,linkedin,https://www.linkedin.com/jobs/view/4130051175,https://recruiterflow.com/licornesociety/jobs/12971?source=linkedin_basic&utm_channel=recruiterflow-posting&location=1&urlHash=6xqx,Python Developer,Leonar,"Paris, Île-de-France, France",2025-01-20,fulltime,,,,,,,associate,Engineering,,,"Licorne Society a été missionné par une startup en pleine croissance pour les aider à trouver leur Python Developer.
+   
+
+  
+
+**About**
+ The company provides best\-in\-class authentication as\-a\-service solution based on the official identity. We enable real time ID verification, equivalent to an ID document presentation and captured with a simple smile.
+   
+
+  
+
+ We leverage cutting\-edge computer vision algorithms to authenticate ID documents of 120\+ countries with up to 99\.9% precision level, deep learning and AI algorithms to confirm the ID document ownership and the user’s liveness. On top of that, we use our patented technology to issue a reusable digital identity without never storing the user’s personal data. We hence provide ongoing access to verifiable credentials.
+   
+
+  
+
+**Our Mission**
+ Disrupt the world of authentication and bring trust to interactions between individuals and businesses while enhancing the user experience when it comes to authentication or recurrent ID verification.
+   
+
+  
+
+**Our values**
+* Hard work: We believe that the best way to achieve our goals is to work hard enough to exceed them.
+* Team work: They say two brains are better than one, imagine what a team of brains can do.
+* Ambition: Our day\-to\-day is full of big challenges and we enjoy it
+* Integrity: Honesty, trust and openness help us earn our colleagues and client’s trust
+* We don’t fail, we learn!
+
+
+**About Our Management Team**
+ Sara \& Sawsen built l'entreprise during PA4 cohort of Entrepreneur First in Station F, Paris.
+   
+
+  
+
+ Their background?
+   
+
+  
+
+* Sara is a financial and statistical engineer from Paris Dauphine with 9\+ years’ experience in risk related regulatory requirements. Before l'entreprise, she founded an internal startup within a large French bank and solo founded a risk management startup.
+* Sawsen is a PhD in computer vision from Centrale Lyon with an academical background. She worked within Cisco Innovation lab on security personal data protection.
+
+
+**Job Description**
+**Company Description**
+ ShareID is a cutting\-edge multi\-factor authentication software company that specializes in detecting the authenticity of government\-issued IDs in the digital world. Our software guarantees the liveness of the person behind the screen and validates all shared personal data with a simple smile. We prioritize data privacy and protection and never store users' data or biometrics. Our mission is to provide businesses and individuals with a unique and authenticated digital identity.
+   
+
+  
+
+**Role Description**
+ This is a full\-time hybrid role for a Python Developer at l'entreprise. As a Python Developer, your responsibilities will include back\-end web development, software development, programming, and working with databases. This role is primarily located in Paris, with flexibility for some remote work.
+   
+
+  
+
+**Preferred Experience**
+ To excel in this role, you should possess the following qualifications:
+   
+
+  
+
+* Strong proficiency in Python, with experience in libraries such as FastAPI.
+* Proficiency in front\-end development using React (or Angular).
+* Familiarity with cloud platforms like AWS/OVH and DevOps tools like Kubernetes.
+* Experience in programming and working with databases
+* Excellent problem\-solving and debugging skills
+* Strong communication skills and the ability to collaborate effectively with cross\-functional teams.","Technology, Information and Internet",https://fr.linkedin.com/company/leonar-app,https://media.licdn.com/dms/image/v2/D4E0BAQGOMxTaUk0Hog/company-logo_100_100/company-logo_100_100/0/1727114331257/leonar_app_logo?e=2147483647&v=beta&t=Ge85uIpFH5ah39L_8lypvrPRXTzoqtloyQk7ub1p8NA,,,,,
+li-4127298255,linkedin,https://www.linkedin.com/jobs/view/4127298255,https://r.holeest.com/redirect?poc=2&op=7720228999&o=1&from=https%3A%2F%2Fwww.hellowork.com%2Ffr-fr%2Femplois%2F25779376.html%3Futm_campaign%3Dclassique%2B-%2Blinkedin%2B-%2Binformatique%26utm_content%3Dfluxlinkedin%26utm_medium%3Dmetamoteurs-free%26utm_source%3Dlinkedin%26utm_term%3D25779376&urlHash=WgAK,Développeur Python - 50K€ H/F,DigitValue,"Nice, Provence-Alpes-Côte d'Azur, France",2025-01-17,fulltime,,,,,,,mid-senior level,Information Technology,,,"Mission
+   
+
+  
+
+ Nous recherchons un véritable Développeur Python (H/F) pour collaborer au sein d'une équipe Data en charge de la conception d'algorithme en IA et management de la donnée.
+   
+
+  
+
+ Vous travaillerez en étroite collaboration avec les Data Scientist, à l'industrialisation et la mise en production des data des solutions logicielles.
+   
+
+  
+
+ Votre mission sera de convertir en Python les modèles de données conçus par les Data Scientist. Vous proposerez alors des solutions techniques et fonctionnelles, évaluées et opportunes.
+   
+
+  
+
+ Vous travaillerez en mode Agile et ferez des reviews régulières du code avec vos collègues. Vous serez en charge des tests d'intégration et participerez aux améliorations techniques dans le cadre de la maintenance évolutive et corrective des solutions.
+   
+
+  
+
+ Nous garantissons une très bonne ambiance de travail, bienveillante et productive.
+   
+
+  
+
+ Responsabilités
+   
+
+  
+
+**Nous Attendons De Vous**
+* Un fort niveau d'autonomie
+* De la proactivité
+* L'envie de contribuer à nos projets
+* L'envie d'apprendre, de comprendre, de partager vos connaissances et expériences
+* Évoluer, avec l'équipe, vers plus de performance
+
+
+ Profil
+   
+
+  
+
+ De formation initiale ingénieur, vous justifiez d'une expérience professionnelle en Développement de 3 ans minimum.
+   
+
+  
+
+**Vous Maitrisez Les Outils Et Langages**
+ Python, FastAPI, Falcon, Hug, Prefect
+   
+
+  
+
+ BDD NoSQL ou SQL (MongoDB, PostgreSQL)
+   
+
+  
+
+ Vous savez travailler avec Git et Docker.
+   
+
+  
+
+ Bien parler anglais est nécessaire.
+   
+
+  
+
+ Environnement technologique
+   
+
+  
+
+ L'environnement technique dans lequel vous évoluerez est le suivant :
+   
+
+  
+
+* Python, FastAPI, Falcon, Hug, Prefect
+* BDD NoSQL ou SQL (MongoDB, PostgreSQL)
+* Vous savez travailler avec Git et Docker",Software Development,https://fr.linkedin.com/company/digit-value,https://media.licdn.com/dms/image/v2/C4D0BAQFET8I_w46StQ/company-logo_100_100/company-logo_100_100/0/1630533602826/digit_value_logo?e=2147483647&v=beta&t=cNPq8Xsh2TXpEzNBySKn8JUTLcTIJ9AD2MzbFxbKhwU,,,,,
+li-4109311077,linkedin,https://www.linkedin.com/jobs/view/4109311077,https://careers.corsearch.com/jobs/5380573-python-developer?utm_source=LinkedIn&urlHash=To0Z,Python Developer,Corsearch,"Paris, Île-de-France, France",2025-01-15,fulltime,,,,,,,entry level,Engineering and Information Technology,,,"**✅The Role**
+ As a Python Developer you’ll play a crucial role in advancing our shared mission of protecting and enhancing the world’s most valuable brands.
+   
+
+  
+
+ Collaborating with Corsearch’s global team of engineers, and brand protection experts, you’ll help drive innovation in
+ **brand protection** 
+ and
+ **online content monitoring** 
+ , ensuring our clients stay ahead in a rapidly evolving digital landscape.
+   
+
+  
+
+**✅Responsibilities And Duties**
+* Develop and implement new features: Work on adding new functionalities to enhance the product based on client and moderator feedback.
+* Optimize existing codebase: Improve the performance and efficiency of the current codebase.
+* Collaborate with cross\-functional teams: Work closely with product managers, designers, and other developers to ensure cohesive and efficient product development.
+* Debug and resolve issues: Identify and fix bugs to ensure the product runs smoothly and efficiently.
+
+
+**✅Essential**
+* Full professional English proficiency
+* Strong experience with Python and SQL databases. Experience with PostgreSQL, Docker, Terraform and AWS is a plus.
+* Ability to work independently and as part of a team.
+* Strong problem\-solving and communication skills.
+
+
+ Corsearch is an equal opportunity and inclusive employer and does not tolerate discrimination of any kind. We are committed to creating a diverse and inclusive workplace where all employees feel valued, respected, and supported. We welcome applications from all individuals regardless of race, nationality, religion, gender, gender identity or expression, sexual orientation, age, disability, or any other protected characteristic. Together, we are working proactively to build a workplace where everyone can belong and be at their best selves. Together, we make an Impact.
+   
+
+  
+
+ Trusted by over 5,000 customers worldwide, Corsearch delivers AI\-powered data, deep analytics, and professional services that support brands to market their assets, drive growth, and optimise brand presence against infringement.
+   
+
+  
+
+ Corsearch enables brand owners to discover, monitor and control the use and misuse of their brands and associated products and services online and is the industry market leader.
+   
+
+  
+
+ Corsearch does this in an increasingly complex global digital environment, with online brand protection solutions that cover everything from anti\-counterfeiting to anti\-piracy.",Information Services,https://uk.linkedin.com/company/corsearchinc,https://media.licdn.com/dms/image/v2/D4E0BAQGkGXUlfpb8fA/company-logo_100_100/company-logo_100_100/0/1720522493873/corsearchinc_logo?e=2147483647&v=beta&t=0kJuDPK0firyOxc3TfligRXewu9imJ5pkM9Ehw3SIvA,,,,,
+li-4096517066,linkedin,https://www.linkedin.com/jobs/view/4096517066,,Développeuse / Développeur Python - Bordeaux,Capgemini,"Mérignac, Nouvelle-Aquitaine, France",2025-01-08,fulltime,,,,,,,associate,Information Technology,,,"Choisir Capgemini, c’est choisir une entreprise où vous serez en mesure de façonner votre carrière selon vos aspirations. Avec le soutien et l’inspiration d’une communauté d’experts dans le monde entier, vous pourrez réécrire votre future.
+ 
+
+
+
+ Rejoignez\-nous pour redéfinir les limites de ce qui est possible, contribuer à libérer la valeur de la technologie pour les plus grandes organisations et participer à la construction d’un monde plus durable et inclusif.
+ 
+
+
+
+  
+
+
+
+
+
+**Vos missions :** 
+
+
+
+
+  
+
+
+
+
+* Rédiger les spécifications techniques
+* Développer et concevoir de nouvelles fonctionnalités dans un environnement Java
+* Participer aux phases d’intégration
+* Intervenir sur les phases de tests et de recette
+* Assurer la veille technologique
+* Accompagner nos jeunes développeurs dans leur montée en compétence
+
+
+
+  
+
+
+
+
+
+**Votre Profil :** 
+
+
+
+
+  
+
+
+
+
+* Etre diplômé.e de formation supérieure Bac\+4/\+5 en université ou école d’informatique
+* Avoir au moins 4 ans d'expérience en développement Python (v 3\.7\)
+* Vous maîtrisez les technos suivantes : Python v 3\.7, Flask v 0\.12\.4, MongoDB v 5\.0, Angular v 7
+* S'investir au sein de Capgemini sur le long terme.
+* Etre à l’aise en anglais, tant à l’oral qu’à l’écrit
+
+
+
+  
+
+
+
+
+
+**Nos engagements et priorités** 
+
+
+
+
+  
+
+
+
+
+
+ Le groupe Capgemini encourage une culture inclusive dans un cadre multiculturel et handi\-accueillant. En nous rejoignant, vous intégrez un collectif qui valorise la diversité, développe le potentiel de ses talents, s’engage dans des initiatives solidaires avec ses partenaires, et se mobilise pour réduire son impact environnemental sur tous ses sites et auprès de ses clients.
+ 
+
+
+
+  
+
+
+
+
+
+**3 raisons de nous rejoindre :** 
+
+
+
+
+  
+
+
+
+
+* Qualité de vie au travail : Accord de télétravail en France et à l’international, accord sur l’égalité professionnelle, la parentalité, l’équilibre des temps et la mobilité durable.
+* Apprentissage en continu : certifications et formations en libre accès, accompagnement sur mesure avec votre carreer manager, parcours d’intégration sur 9 mois.
+* Avantages groupe \& CSE : Plan actionnariat, tarifs préférentiels, remboursement partiel vacances, remboursement de votre abonnement sportif ou culturel.
+
+
+
+  
+
+
+
+
+
+**A propos de Capgemini :** 
+
+
+
+
+  
+
+
+
+
+
+ Capgemini est un leader mondial, responsable et multiculturel, regroupant près de 350 000 personnes dans plus de 50 pays. Fort de 55 ans d’expérience, nous sommes un partenaire stratégique des entreprises pour la transformation de leurs activités en tirant profit de toute la puissance de la technologie et des innovations dans les domaines en perpétuelle évolution tels que le cloud, la data, l’Intelligence Artificielle, la connectivité, les logiciels, l’ingénierie digitale ou les plateformes.
+ 
+
+
+
+  
+
+
+
+
+
+ Get The Future You Want\* \| www.capgemini.com/fr\-fr
+ 
+
+
+
+  
+
+
+
+
+
+ \*Capgemini, le futur que vous voulez",IT Services and IT Consulting,https://fr.linkedin.com/company/capgemini,https://media.licdn.com/dms/image/v2/D4D0BAQH-ZV832H4sdA/company-logo_100_100/company-logo_100_100/0/1705572256355/capgemini_logo?e=2147483647&v=beta&t=d-PXEp2Vwiw5S5fa57mSsQRE_sFQEPsNsTVnXs9IEWs,,,,,
+li-4118580563,linkedin,https://www.linkedin.com/jobs/view/4118580563,https://jobs.lever.co/scale3c/2b14fb18-3acb-4338-b448-1b9a404d586b/apply?lever-source=LinkedIn&urlHash=RPt5,Python Developer,Scale3C,"Eu, Normandy, France",2025-01-07,fulltime,,,,,,,not applicable,Engineering and Information Technology,,,"**JOIN US IF YOU**
+* Have experience in data engineering using SQL
+* Are proficient in Python for data analysis
+* Are proficient in big data technologies such as Apache Spark for distributed data processing
+* Have a background in data analysis and statistical methods (being familiar with R would be a great advantafe)
+* Have experience using cloud services (such as AWS, Azure or GCP)
+* Want to develop innovative data models
+* Thrive in building efficient data pipelines for transforming and analyzing large datasets
+* Have experience in data visualization and creating insightful reports
+* Are smart, result\-driven, and have a strong analytical mindset
+* Are fluent in English and Lithuanian languages",IT Services and IT Consulting,https://lt.linkedin.com/company/scale3c,https://media.licdn.com/dms/image/v2/D4D0BAQGzwWQ8LV3Wow/company-logo_100_100/company-logo_100_100/0/1736759841921/scale3c_logo?e=2147483647&v=beta&t=_wrWDbBQLbPfRfB7kbwilQBPhIbzE6diUV38TehhEsE,,,,,
+li-4081821941,linkedin,https://www.linkedin.com/jobs/view/4081821941,,Développeur Python (H/F),Faceel-it,"Lille, Hauts-de-France, France",2025-01-07,fulltime,,,,,,,entry level,Engineering and Information Technology,,,"CE QUE NOUS ATTENDONS DE VOUS
+   
+
+  
+
+* Participer à la mise en œuvre d’un nouvel outil de développement interne avec les technologies Python et Django
+* Développer dans un environnement Linux
+* Respecter les bonnes pratiques de développement (clean code, TDD, pair\-programming)
+* Apporter un soin particulier à la couverture des tests
+* Evoluer dans un environnement AGILE
+
+
+ CE QUE NOUS ATTENDONS DE VOUS
+   
+
+  
+
+* Avoir une expérience de 1 ans minimum
+* Maitriser : Python, Django
+* Parler anglais couramment
+* Votre formation ? Peu importe dès lors que vous aimez ce que vous faites !
+
+
+ CE QUE NOUS VOUS OFFRONS
+   
+
+  
+
+* Un accompagnement de proximité et la convivialité d’une équipe à taille humaine
+* Un plan de carrière personnalisé (expertise technique/fonctionnelle, management, gestion de projets, etc.)
+* Un épanouissement professionnel au travers de formations/certifications, de partage de connaissances (communautés techniques, Devoxx, Agile tour, Meetup, etc.)",IT Services and IT Consulting,https://fr.linkedin.com/company/faceel-it,https://media.licdn.com/dms/image/v2/D4E0BAQHUg532k7bzpQ/company-logo_100_100/company-logo_100_100/0/1733392145679/faceel_it_logo?e=2147483647&v=beta&t=5vXEov_h9qi2DAdqLo-at6hoC07W4CUubfLUNDHlXUM,,,,,
+li-4102986169,linkedin,https://www.linkedin.com/jobs/view/4102986169,https://carrieres-axionefrance.icims.com/jobs/1655/developpeur-python-h-f/job?mode=apply&iis=LinkedIn&urlHash=6q63,DEVELOPPEUR PYTHON H/F,Axione,"Malakoff, Île-de-France, France",2024-12-17,fulltime,,,,,,,mid-senior level,Engineering and Information Technology,,,"En intégrant l’équipe « Automatisation et Data\-Centers », vous serez un acteur majeur de la construction d’une nouvelle génération de services à valeur ajouté, industrialisés avec des outils de bout\-en\-bout destinées à nos clients (marchés publics et entreprises).
+   
+
+  
+
+ Au sein de cette organisation, vous aurez l'occasion de relever les défis complexes liés à l'échelle qui sont propres à des plateformes Cloud, tout en mettant à profit votre expertise en matière de codage, d'algorithmes, d'analyse de la complexité et de conception de systèmes à grande échelle.
+   
+
+  
+
+ En qualité de développeur, vous missions seront les suivantes :
+   
+
+  
+
+* Contribuer à la définition des évolutions fonctionnelles
+* Participer aux spécifications techniques
+* Prendre en charge les développements en garantissant la qualité du code
+* Optimiser l’ergonomie et proposer du Refactoring de code
+* Mettre en place les tests et la recette technique de la solution développée
+* Contribuer au design, au développement et à l’intégration des solutions d’automatisation et de suivi des infrastructures afin de nous permettre une mise à l’échelle de nos opérations et processus
+* Partager avec les autres membres de l'équipe sur les bonnes pratiques de développement, appliquer les meilleures normes de codage
+* Accompagner les équipes réalisant le déploiement des plates\-formes en production
+
+
+**Vos talents au service du projet d’entreprise**
+ Diplômé(e) d’école d’ingénieur vous justifiez d'une expérience reconnue sur des marchés opérateur.
+   
+
+  
+
+ Vous justifiez de 5 ans d'expérience minimum dans un poste équivalent, avec des aspects liés à l’automatisation.
+   
+
+  
+
+ Vous êtes passionné par l’innovation technologique, le Cloud et les déploiements de services et d’infrastructure “as code” ?
+   
+
+  
+
+ Vous aimez opérer des systèmes de grande envergure ?
+   
+
+  
+
+**Compétences Technique Souhaitées**
+* Capacité à développer en Python et d’apprendre de nouveaux langages
+* Aisance sur les environnements GNU/Linux
+* Utilisation des technologies de containerisation (ex. Docker, K8s) et d’orchestration (ex. Kubernetes, Swarm)
+* Utilisation des bus de données Kafka et NATS
+* Solides connaissances en OS Linux / Unix et langages de scripting Shell
+* Utilisation des bonnes pratiques (Infra\-As\-Code, Git, Continuous Deployment, Terraform, Ansible)
+* Capacité à débugger, et à automatiser les tâches de routine
+* Connaissance d’autres stacks techniques qui sont les fondations des activités d’automatisation (ex: Netbox)
+* Connaissance des stacks technique d’observabilité : TSDB (Prométhéus, Grafana)
+* Capacité à faire des modélisations de données en fonction d’un problème posé
+
+
+**Axione, un acteur engagé dans la transition numérique**
+ 👉 Axione est un acteur majeur clé du numérique : le Groupe déploie et commercialise des réseaux fixes et mobiles pour des clients Collectivités et Entreprises.
+   
+
+  
+
+ ✅ Appuyé par des actionnaires de 1 er plan (Bouygues et Banques Populaires Caisses d’Epargne), la société se développe fortement sur les nouveaux services digitaux partout en France.
+   
+
+  
+
+ ♻️ L’entreprise revendique un impact fort dans les territoires en apportant de la connectivité et des solutions numériques et a fait de sa politique RSE un pilier essentiel de sa stratégie.
+   
+
+  
+
+**🔢 Axione En Chiffres C’est**
+ 👉 Près de 3 000 collaborateurs
+   
+
+  
+
+ 👉 Près de 700 M€ de CA consolidé
+   
+
+  
+
+ 👉 20% de la population française est connectée à la fibre optique via des réseaux construits ou exploités par Axione.
+   
+
+  
+
+**Axione s'engage en faveur de la diversité et est ouvert à tous les talents.**",Telecommunications,https://fr.linkedin.com/company/axione,https://media.licdn.com/dms/image/v2/D4E0BAQHGeZLQ_Q-jAg/company-logo_100_100/company-logo_100_100/0/1706517447138/axione_logo?e=2147483647&v=beta&t=Wlq0pYnXBZ9dtd33mGpldVyW1csM9z54J_ODcL2h1fY,,,,,
+li-4097626562,linkedin,https://www.linkedin.com/jobs/view/4097626562,https://taleez.com/apply/developpeur-euse-python-toulouse-onestock-cdi/applying?utm_source=Linkedin&urlHash=U14x,Développeur/euse Python,OneStock,"Toulouse, Occitanie, France",2024-12-13,fulltime,,,,,,,associate,Engineering,,,"**✨ Le Rôle De Développeur/se Python**
+ En tant que Développeur/se Python chez OneStock, tu réaliseras les missions suivantes :
+   
+
+  
+
+* Tu seras au cœur des décisions en proposant les solutions et recommandations techniques les plus adaptées à chaque besoin
+* Tu interfaceras notre solution OMS avec l’écosystème des clients (ERP, CMS, WMS…) : échanges de flux (fichier, API etc …)
+* Tu garantiras la robustesse de nos développements grâce à des tests unitaires, fonctionnels et de non\-régression.
+* Tu superviseras le déploiement de notre solution, de la préparation à la mise en production.
+* Tu prendras en charge les retours clients, qu’il s’agisse de corrections (bugs) ou d’améliorations (change requests), en veillant à leur satisfaction.
+
+
+**Profil Recherché**
+**🎯 Le profil recherché :**
+ Tu es passionné(e) par le langage python, et tu as envie de contribuer à transformer le secteur du retail.
+   
+
+  
+
+**Tes Atouts**
+**Savoir être 👩🌾**
+* Tu es une personne autonome et de nature curieuse
+* Tu as la capacité à prendre du recul en cas de difficulté
+* Tu as envie d’évoluer dans un environnement international
+
+
+**Compétences recherchées 👩💻**
+* Tu sais développer en Python objet
+* Tu es familier(e) avec les notions d’API et de “Message Queuing”
+* Tu connais un ou plusieurs frameworks Python : Celery, Flask, Pandas
+* Tu maîtrises GIT
+* Tu sais lire et parler l’anglais
+
+
+**Et En Bonus**
+* Tu as des connaissances en Docker
+* Tu as la fibre devops et sais faire des scripts Bash
+* Tu as déjà utilisé un outil de suivi de tickets et de projets tel que JIRA
+
+
+**🌟 Ce Que Nous Offrons**
+* Un package salarial : salaire fixe, prime sur objectifs collectifs et individuels.
+* Avantages et flexibilité : titres restaurants, mutuelle, politique télétravail généreuse, congés payés flexibles, RTT, indemnités kilométriques vélo…
+* Équipement ergonomique : PC, double écran, souris, casque… et tout ce qu’il faut pour travailler confortablement.
+* Développement professionnel : une équipe RH qui assure l’épanouissement des OneStockers.
+* Une culture d’entreprise inclusive qui valorise la diversité et encourage chaque talent à s’épanouir.
+
+
+**🛠 Processus de recrutement**
+ Chez OneStock, nous valorisons ton temps et ton engagement. Notre processus est simple :
+   
+
+  
+
+* Entretien RH pour vérifier ton alignement avec nos valeurs et ta motivation.
+* Entretien avec le Tech Lead pour évaluer tes compétences techniques et ta compatibilité avec le poste.
+* Test technique pour analyser ta maîtrise des compétences requises et ta capacité à résoudre des problèmes complexes.
+
+
+**On n’attend plus que toi !**
+**📩 Postule dès maintenant** 
+ et deviens acteur du changement dans le retail. 🌟",Software Development,https://fr.linkedin.com/company/onestock,https://media.licdn.com/dms/image/v2/C4D0BAQFCLxowtCvoxg/company-logo_100_100/company-logo_100_100/0/1646126663568/onestock_logo?e=2147483647&v=beta&t=p3FnVU796hF9ZrbmwF9uy5V9RXQyAEBcWxM5lfLPPTg,,,,,
+li-4097287867,linkedin,https://www.linkedin.com/jobs/view/4097287867,https://astek.ca/jobs/job-128852/&urlHash=tAjh,Développeur Python,INEAT Canada,"Montréal, Occitanie, France",2024-12-12,fulltime,,,,,,,mid-senior level,Engineering and Information Technology,,,"Description du poste
+   
+
+  
+
+ Le Groupe Astek
+   
+
+  
+
+ Créé en France en 1988, Astek est un acteur mondial de l’ingénierie et du conseil en technologies. Fort de son expertise dans de nombreux secteurs industriels et tertiaires, Astek accompagne ses clients internationaux dans le déploiement intelligent de leurs produits et de leurs services, et dans la mise en œuvre de leur transformation digitale.
+   
+
+  
+
+ Depuis sa création, le Groupe a fondé son développement sur une forte culture d’entrepreneuriat et d’innovation, et sur l’accompagnement et la montée en compétence de ses 7800 collaborateurs qui s’engagent chaque jour à promouvoir la complémentarité entre les technologies numériques et l’ingénierie des systèmes complexes.
+   
+
+  
+
+ Au Canada, la firme se spécialise en service conseil TI et en ingénierie. Nos équipes pilotent avec succès les stratégies de développement de nos clients. Autour de valeurs communes, nous avons gagné leur confiance et répondons à leurs enjeux d’entreprise en mettant leurs besoins au centre de nos actions et priorités.
+   
+
+  
+
+ Cet écosystème d’expertises permet à Astek Canada de s’adapter rapidement à l’évolution des technologies, et tous les collaborateurs participent de manière collaborative à leur développement.
+   
+
+  
+
+ Tu es prêt à relever un nouveau défi, donner un boost à ta carrière et participer à des projets innovants et stimulants ?
+   
+
+  
+
+ Rejoins un Groupe en fort développement au Canada et à travers le monde ayant réalisé un chiffre d’affaires de 600 M€ en 2023\.
+   
+
+  
+
+**Ce Que Nous Allons Accomplir Ensemble**
+ Nous sommes une équipe multidisciplinaire de développeurs et d’architectes de sécurité au sein d’un groupe axé sur la transformation DevSecOps et la sécurité cloud. Afin de grandir et de lancer de nouvelles initiatives, nous recherchons davantage de développeurs, avec des niveaux de compétence intermédiaires à supérieurs.
+   
+
+  
+
+**Ta Mission Serait**
+* Développer en Python, Terraform, Bash dans les différentes bases de code.
+* Contribuer aux différents outils Cloud \& DevSecOps disponibles, via le développement de modèles ou des contributions directes au code d’autres équipes.
+* Assister et évangéliser nos clients dans l’utilisation de nos produits.
+* Être créatif, apporter de nouvelles idées qui deviendront ensuite des fonctionnalités ou des produits.
+* Participer aux cérémonies Agiles pour aider à définir les priorités, préparer les histoires, proposer de nouvelles fonctionnalités, en utilisant une perspective produit.
+
+
+**Ton Stack De Jeu**
+* Languages: Python.
+* Infra: Terraform.
+* Development sur Macbook Pro.
+* Cloud Providers: AWS, Azure.
+* Kubernetes.
+* CI/CD: Jenkins, Helm, Harness.
+* Secrets: HashiCorp Vault.
+* Observability: Datadog, Splunk.
+* Data: PostgreSQL, Redis (cache \& queues).
+* APIs: REST.
+* SCM: Bitbucket (GitHub forthcoming).
+
+
+**Ton Profil**
+* Développement, avec une expérience concluante en Python, et développement Cloud.
+* Connaissance des meilleures pratiques de développement de logiciels, y compris les normes de programmation, la révision du code, la gestion du code source, les tests.
+* Intérêt et expérience en sécurité infonuagique.
+* Bonne attitude de collaboration et autonomie.
+* Expérience cloud, en particulier sans serveur.
+* Expérience en sécurité.
+* Connaissance de Kubernetes et Docker.
+* Connaissances en intégration et déploiement continus.
+* Bases de données.
+* API REST.
+
+
+ Rencontrons\-nous!
+   
+
+  
+
+ Notre projet commun vous plait ?
+   
+
+  
+
+ Postulez ici et rejoignez notre équipe!
+   
+
+  
+
+ Nos Plus
+   
+
+  
+
+* Une politique CARE sur\-mesure déployée par nos équipes RH pour nos collaborateurs.
+* Notre charte de la Diversité
+* Des activités entre collègues comme des Teambuilding ou des 5@7",Software Development,https://ca.linkedin.com/company/ineatcanada,https://media.licdn.com/dms/image/v2/C4D0BAQGQbkBfjKsoAQ/company-logo_100_100/company-logo_100_100/0/1630506914047/ineatcanada_logo?e=2147483647&v=beta&t=bKxB3BxmjLQEu0iPh3KJtXhmiTGNud7sBG-7Ahg6Lig,,,,,
+li-4001346591,linkedin,https://www.linkedin.com/jobs/view/4001346591,,Développeur Python/Développeuse Python,PROXIAD,"Strasbourg, Grand Est, France",2024-11-14,fulltime,,,,,,,associate,Information Technology,,,"Proxiad Strasbourg est à la recherche d’un Développeur Python H/F sur Strasbourg.
+ 
+
+
+
+  
+
+
+
+
+
+ Qui sommes\-nous ?
+ 
+
+
+
+  
+
+
+
+
+
+ Avec une écoute attentive et un suivi régulier de ses collaborateurs, une bonne ambiance et des petits\-déjeuners à la clé, Proxiad est une ESN qui porte une attention toute particulière au bien\-être de ses collaborateurs, et fait partie des meilleurs employeurs 2022 https://www.proxiad.com/proxiad\-fait\-partie\-des\-meilleurs\-employeurs\-2022\-glassdoor/
+ 
+
+
+
+  
+
+
+
+
+
+ Spécialisé dans le Conseil et l’Expertise auprès de ses clients, le groupe Proxiad compte aujourd’hui plus de 1000 collaborateurs en France. Intervenant dans différents secteurs d’activité : assurances, banques, santé, télécoms, industries, … Proxiad propose des projets innovants afin de développer au mieux les compétences techniques de ses collaborateurs.
+ 
+
+
+
+  
+
+
+
+
+
+
+ Prise de fonction : Dès que possible
+ 
+
+
+
+
+
+ Contrat : CDI, Cadre
+ 
+
+
+
+
+
+ Localisation :
+ 
+ Strasbourg
+ 
+
+
+
+
+ Expérience : 4\-5 ans minimum
+ 
+
+
+
+
+  
+
+
+
+
+
+
+ Pourquoi nous rejoindre ?
+ 
+
+
+
+
+ · L’innovation, la qualité et l’agilité sont au cœur du développement de nos activités IT, encadrées et assurées par nos 1300 collaborateurs et collaboratrices en France et à l’étranger.
+ 
+
+
+
+ · Notre savoir\-faire ? Conseil, Développement, Analyse et Expertise Informatique pour accompagner nos clients dans l'évolution et la transformation de leur SI.
+ 
+
+
+
+ · Nos valeurs ? L’engagement, le pragmatisme, la proximité, l’évolution et le partage. Aussi bien avec nos clients qu’avec nos collaborateurs (F/H).
+ 
+
+
+
+ · Résultats ? Une entreprise en pleine croissance avec des collaborateurs (F/H) épanouis et reconnus au quotidien ! Des clients fidèles et reconnaissants de la qualité des prestations fournies!
+ 
+
+
+
+  
+
+
+
+
+
+ Ce poste vous intéresse, alors, embarquons vers de nouveaux horizons et partagez avec nous cette belle aventure ! 🚀 Proxiad recrute et reconnait tous les talents.
+ 
+
+
+
+ Prêt à décoller ? 🚀 \#Levelupp
+ 
+
+
+
+  
+
+
+
+
+
+ Avec une écoute attentive et un suivi régulier de ses collaborateurs, une bonne ambiance et des événements à la clé, Proxiad est une ESN qui porte une attention toute particulière au bien\-être de ses collaborateurs.
+ 
+
+
+
+ Jetez un œil 😀 : https://www.linkedin.com/company/proxiadfrance/posts/?feedView\=all
+ 
+
+
+
+  
+
+
+
+
+
+*Toutes les demandes seront traitées avec la plus stricte confidentialité. Seuls les candidats retenus seront contactés.*",IT Services and IT Consulting,https://fr.linkedin.com/company/proxiadfrance,https://media.licdn.com/dms/image/v2/D4E0BAQG8YBPjPE_ymA/company-logo_100_100/company-logo_100_100/0/1667554872229/proxiadfrance_logo?e=2147483647&v=beta&t=nFM52CF9L8zFBbOPDzBkY6TetlAnHteG7QpPX7Pi-bE,,,,,

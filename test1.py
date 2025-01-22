@@ -1,10 +1,11 @@
 import asyncio
 from flask import Flask, request, jsonify
-import subprocess
-import csv
 import os
+import subprocess
 import logging
 from flask_cors import CORS
+import pandas as pd
+from jobspy import scrape_jobs
 
 app = Flask(__name__)
 CORS(app)
@@ -59,52 +60,35 @@ async def fetch_jobs():
         if not isinstance(results_wanted, int) or results_wanted <= 0:
             return jsonify({"error": "results_wanted must be a positive integer."}), 400
 
-        # Retrieve pagination parameters from the URL path
-        page = request.args.get('page', 1, type=int)
-        per_page = request.args.get('per_page', 10, type=int)
+        # Call the scrape_jobs function from JobSpy
+        site_name = [site]  # Pass the specific site chosen by the user
+        jobs = scrape_jobs(
+            search_term=search_term,
+            location=location,
+            site_name=site_name,
+            results_wanted=results_wanted,
+            distance=distance,
+            job_type=job_type,
+            country= country,
+            batch_size=batch_size,
+            linkedin_fetch_description=True
+        )
 
-        # Command to run the jobsparser
-        command = [
-            'jobsparser',
-            '--search-term', search_term,
-            '--location', location,
-            '--site', site,
-            '--results-wanted', str(results_wanted),
-            '--distance', str(distance),
-            '--job-type', job_type,
-            '--country', country,
-            '--batch-size', str(batch_size),
-            '--output-dir', output_dir
-        ]
+        # Convert jobs to a pandas DataFrame for easy manipulation
+        jobs_df = pd.DataFrame(jobs)
 
-        # Run the command asynchronously
-        try:
-            stdout, stderr = await run_command_async(command)
-            if stderr:
-                logging.warning(f"Command stderr: {stderr}")
-        except Exception as e:
-            scraping_in_progress = False
-            return jsonify({"error": f"Error running jobsparser: {str(e)}"}), 500
-
-        # Get the latest CSV file in the output directory
-        try:
-            files = [f for f in os.listdir(output_dir) if f.endswith('.csv')]
-            if not files:
-                return jsonify({"error": "No CSV file found in the output directory"}), 404
-
-            latest_csv_file = max(files, key=lambda f: os.path.getmtime(os.path.join(output_dir, f)))
-            latest_csv_file_path = os.path.join(output_dir, latest_csv_file)
-        except Exception as e:
-            scraping_in_progress = False
-            logging.error(f"Error finding the latest CSV file: {str(e)}")
-            return jsonify({"error": f"Error finding the latest CSV file: {str(e)}"}), 500
+        # Save the DataFrame as a CSV in the output directory
+        if not os.path.exists(output_dir):
+            os.makedirs(output_dir)
+        latest_csv_file_path = os.path.join(output_dir, 'jobs.csv')
+        jobs_df.to_csv(latest_csv_file_path, index=False)
 
         job_list = []
 
         # Read the CSV file
         try:
             with open(latest_csv_file_path, newline='', encoding='utf-8') as csvfile:
-                reader = csv.DictReader(csvfile)
+                reader = pd.read_csv(csvfile).to_dict(orient='records')
                 for row in reader:
                     job_data = {
                         'job_title': row.get('title'),
@@ -125,6 +109,9 @@ async def fetch_jobs():
         # Paginate results if needed
         if results_wanted > 10:
             try:
+                page = request.args.get('page', 1, type=int)
+                per_page = request.args.get('per_page', 10, type=int)
+                
                 if page < 1:
                     scraping_in_progress = False
                     return jsonify({"error": "Page number must be greater than 0"}), 400
