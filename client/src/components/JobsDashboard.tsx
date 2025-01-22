@@ -42,9 +42,13 @@ export function JobDashboard() {
   return (
     <>
       <FilterNavbar onSubmitFilters={fetchJobs} />
-      <div className="grid grid-cols-3 gap-4 p-4">
-        <JobList jobs={jobs} loading={loading} onJobClick={handleJobClick} />
-        <JobDetail job={selectedJob} />
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-4">
+        <div className="overflow-y-auto max-h-[700px] col-span-1">
+          <JobList jobs={jobs} loading={loading} onJobClick={handleJobClick} />
+        </div>
+        <div className="overflow-y-auto max-h-[700px] col-span-1 md:col-span-2">
+          <JobDetail job={selectedJob} />
+        </div>
       </div>
     </>
   );

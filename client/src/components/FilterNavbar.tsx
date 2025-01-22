@@ -35,7 +35,7 @@ export default function FilterNavbar({ onSubmitFilters }: FilterNavbarProps) {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    onSubmitFilters(filters); // Pass filters to parent component
+    onSubmitFilters(filters); // Pass filters, page, and perPage
   };
 
   const handleClearFilters = () => {
@@ -131,12 +131,6 @@ export default function FilterNavbar({ onSubmitFilters }: FilterNavbarProps) {
 
         {/* Job Type Dropdown */}
         <div className="flex flex-col">
-          <label
-            htmlFor="job_type"
-            className="text-sm font-medium text-gray-600"
-          >
-            Job Type
-          </label>
           {/* Job Type Dropdown with Radix UI Select */}
         <div className="flex flex-col">
           <label htmlFor="job_type" className="text-sm font-medium text-gray-600">
