@@ -46,12 +46,12 @@ async def fetch_jobs():
         # Retrieve parameters from the request body
         search_term = request.json.get('search_term')
         location = request.json.get('location')
-        site = request.json.get('site', 'linkedin')
         results_wanted = request.json.get('results_wanted', 100)
         distance = request.json.get('distance', 25)
         job_type = request.json.get('job_type', 'fulltime')
         country = request.json.get('country', 'UK')
-        batch_size = request.json.get('batch_size', 30)
+        batch_size = request.json.get('batch_size', 30),
+        hours_old = request.json.get('hours_old', 7)
         output_dir = request.json.get('output_dir', 'data')
 
         # Validate input
@@ -61,7 +61,7 @@ async def fetch_jobs():
             return jsonify({"error": "results_wanted must be a positive integer."}), 400
 
         # Call the scrape_jobs function from JobSpy
-        site_name = [site]  # Pass the specific site chosen by the user
+        site_name = ['linkedin']  # for the moment I will carry only about linkedin
         jobs = scrape_jobs(
             search_term=search_term,
             location=location,
@@ -71,6 +71,7 @@ async def fetch_jobs():
             job_type=job_type,
             country=country,
             batch_size=batch_size,
+            hours_old=hours_old,
             linkedin_fetch_description=True
         )
 
@@ -115,13 +116,37 @@ async def fetch_jobs():
                     if chunk_start + len(chunk) >= start_index:
                         chunk_data = chunk.iloc[start_index - chunk_start: end_index - chunk_start]
                         for _, row in chunk_data.iterrows():
+                            # Extract location and split into parts if it's a string
+                            location_data = row.get('location', 'Location not available')
+                            if isinstance(location_data, str):
+                                # Split the location string into parts, assuming "City, State, Country"
+                                location_parts = location_data.split(',')
+                                location = {
+                                    'country': location_parts[-1].strip() if len(location_parts) > 0 else 'Country not available',
+                                    'state': location_parts[-2].strip() if len(location_parts) > 1 else 'State not available',
+                                    'city': location_parts[-3].strip() if len(location_parts) > 2 else 'City not available',
+                                }
+                            else:
+                                # Default location structure if the data is not a string
+                                location = {
+                                    'country': 'Country not available',
+                                    'state': 'State not available',
+                                    'city': 'City not available',
+                                }
+
+                            # Construct the job_data object
                             job_data = {
                                 'job_title': row.get('title'),
                                 'company_name': row.get('company'),
+                                'company_url': row.get('company_url'),
+                                'location': location,
                                 'job_description': row.get('description', 'Description not available'),
-                                'job_url': row.get('job_url', 'URL not available')
+                                'job_url': row.get('job_url', 'URL not available'),
                             }
+
+                            # Append to the job list
                             job_list.append(job_data)
+
 
                     chunk_start += len(chunk)
 
