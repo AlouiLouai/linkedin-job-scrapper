@@ -12,7 +12,7 @@ export async function POST(req: NextRequest) {
 
   try {
     // Make the POST request to the Flask backend
-    const response = await fetch(`https://linkedin-job-scrapper.onrender.com/fetch_jobs`, {
+    const response = await fetch(`https://linkedin-job-scrapper.onrender.com/fetch_jobs?page=${page}&per_page=${per_page}`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
