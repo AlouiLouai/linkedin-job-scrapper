@@ -13,11 +13,11 @@ export default function FilterNavbar({ onSubmitFilters }: FilterNavbarProps) {
   const [filters, setFilters] = useState({
     search_term: "",
     location: "",
-    site: "linkedin",
     results_wanted: 100,
     distance: 25,
     job_type: "fulltime",
     country: "UK",
+    hours_old: 24,
     batch_size: 30,
   });
 
