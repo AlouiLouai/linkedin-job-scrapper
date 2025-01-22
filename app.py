@@ -176,7 +176,3 @@ async def fetch_jobs():
     finally:
         # Ensure that scraping is marked as finished after the process is done
         scraping_in_progress = False
-
-
-if __name__ == '__main__':
-    app.run(debug=True, use_reloader=False)
