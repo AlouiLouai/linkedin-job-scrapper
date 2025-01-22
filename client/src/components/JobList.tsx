@@ -2,22 +2,11 @@
 
 import { Card, CardContent } from "@/components/ui/card";
 import { Skeleton } from "@/components/ui/skeleton";
+import { JobListProps } from "@/interfaces/JobsInterfaces";
 
-interface Job {
-  id: number;
-  job_title: string;
-  company_name: string;
-  job_url: string;
-}
 
-interface JobListProps {
-  jobs: Job[];
-  loading: boolean;
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  onJobClick: any;
-}
 
-export default function JobList({ jobs, loading, onJobClick }: JobListProps) {
+export function JobList({ jobs, loading, onJobClick }: JobListProps) {
   if (loading) {
     return (
       <div className="space-y-4">
@@ -44,14 +33,25 @@ export default function JobList({ jobs, loading, onJobClick }: JobListProps) {
   return (
     <div className="space-y-4">
       {jobs.map((job) => (
-        <Card 
-        key={job.job_url} 
-        className="cursor-pointer hover:shadow-md transition-shadow"
-        onClick={() => onJobClick(job)}
+        <Card
+          key={job.job_url}
+          className="cursor-pointer hover:shadow-md transition-shadow border rounded-lg p-4 bg-white"
+          onClick={() => onJobClick(job)}
         >
-          <CardContent className="p-4">
-            <h3 className="font-semibold">{job.job_title}</h3>
-            <p className="text-sm text-gray-600">{job.company_name}</p>
+          <CardContent>
+            {/* Job Title */}
+            <h3 className="text-lg font-semibold text-gray-800 hover:text-blue-600 transition-colors">
+              {job.job_title}
+            </h3>
+
+            {/* Company Name */}
+            <p className="text-sm text-gray-600 mt-1">{job.company_name}</p>
+
+            {/* Job Location */}
+            <p className="text-sm text-gray-500 mt-1">
+              {job.location?.city}, {job.location?.state},{" "}
+              {job.location?.country}
+            </p>
           </CardContent>
         </Card>
       ))}

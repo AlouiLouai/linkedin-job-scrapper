@@ -2,10 +2,10 @@
 
 import { useState } from "react";
 import FilterNavbar from "./FilterNavbar";
-import JobList from "./JobList";
-import JobDetail from "./JobDetail";
+import { JobList } from "./JobList";
+import { JobDetail } from "./JobDetail";
 
-export default function JobDashboard() {
+export function JobDashboard() {
   const [jobs, setJobs] = useState([]);
   const [selectedJob, setSelectedJob] = useState(null);
   const [loading, setLoading] = useState(false);
@@ -43,8 +43,8 @@ export default function JobDashboard() {
     <>
       <FilterNavbar onSubmitFilters={fetchJobs} />
       <div className="grid grid-cols-3 gap-4 p-4">
-        <JobList jobs={jobs} loading={loading} onJobClick={handleJobClick}/>
-        <JobDetail job={selectedJob}/>
+        <JobList jobs={jobs} loading={loading} onJobClick={handleJobClick} />
+        <JobDetail job={selectedJob} />
       </div>
     </>
   );

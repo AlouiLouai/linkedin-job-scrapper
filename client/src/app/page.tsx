@@ -1,4 +1,4 @@
-import JobDashboard from "@/components/JobsDashboard";
+import { JobDashboard } from "@/components/JobsDashboard";
 
 export default function Home() {
   return (
