@@ -3,9 +3,10 @@ import subprocess
 import csv
 import os
 import logging
+from flask_cors import CORS
 
 app = Flask(__name__)
-
+CORS(app)
 # Set up logging
 logging.basicConfig(level=logging.INFO)
 
