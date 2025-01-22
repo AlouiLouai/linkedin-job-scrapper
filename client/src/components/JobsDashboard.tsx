@@ -7,6 +7,7 @@ import JobDetail from "./JobDetail";
 
 export default function JobDashboard() {
   const [jobs, setJobs] = useState([]);
+  const [selectedJob, setSelectedJob] = useState(null);
   const [loading, setLoading] = useState(false);
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -33,12 +34,17 @@ export default function JobDashboard() {
     }
   };
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const handleJobClick = (job: any) => {
+    setSelectedJob(job); // Set selected job when clicked
+  };
+
   return (
     <>
       <FilterNavbar onSubmitFilters={fetchJobs} />
       <div className="grid grid-cols-3 gap-4 p-4">
-        <JobList jobs={jobs} loading={loading} />
-        <JobDetail />
+        <JobList jobs={jobs} loading={loading} onJobClick={handleJobClick}/>
+        <JobDetail job={selectedJob}/>
       </div>
     </>
   );
