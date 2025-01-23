@@ -1,7 +1,8 @@
 import asyncio
+from asyncio import subprocess
+import aiofiles
 from flask import Flask, request, jsonify
 import os
-import subprocess
 import logging
 from flask_cors import CORS
 import pandas as pd
@@ -44,15 +45,16 @@ async def fetch_jobs():
 
     try:
         # Retrieve parameters from the request body
-        search_term = request.json.get('search_term')
-        location = request.json.get('location')
-        results_wanted = request.json.get('results_wanted', 100)
-        distance = request.json.get('distance', 25)
-        job_type = request.json.get('job_type', 'fulltime')
-        country = request.json.get('country', 'UK')
-        batch_size = request.json.get('batch_size', 30),
-        hours_old = request.json.get('hours_old', 7)
-        output_dir = request.json.get('output_dir', 'data')
+        body = await request.get_json() # Changed to async
+        search_term = body.get('search_term')
+        location = body.get('location')
+        results_wanted = body.get('results_wanted', 100)
+        distance = body.get('distance', 25)
+        job_type = body.get('job_type', 'fulltime')
+        country = body.get('country', 'UK')
+        batch_size = body.get('batch_size', 30)
+        hours_old = body.get('hours_old', 7)
+        output_dir = body.get('output_dir', 'data')
 
         # Validate input
         if not isinstance(search_term, str) or not isinstance(location, str):
@@ -82,13 +84,13 @@ async def fetch_jobs():
         if not os.path.exists(output_dir):
             os.makedirs(output_dir)
         latest_csv_file_path = os.path.join(output_dir, 'jobs.csv')
-        jobs_df.to_csv(latest_csv_file_path, index=False)
+        await asyncio.to_thread(jobs_df.to_csv, latest_csv_file_path, index=False) # Changed to async
 
         job_list = []
 
         # Read the CSV file in a memory-efficient way (streaming)
         try:
-            with open(latest_csv_file_path, newline='', encoding='utf-8') as csvfile:
+            async with aiofiles.open(latest_csv_file_path, mode='r', encoding='utf-8') as csvfile: # Changed to async
                 reader = pd.read_csv(csvfile, iterator=True, chunksize=100)  # Adjust chunk size as needed
 
                 # Get pagination parameters
