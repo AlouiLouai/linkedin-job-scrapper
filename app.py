@@ -27,7 +27,7 @@ def fetch_jobs():
         # Retrieve parameters from the request body
         search_term = request.json.get('search_term', '')
         location_string = request.json.get('location', '')
-        results_wanted = request.json.get('results_wanted', 100)
+        results_wanted = 10
         distance = request.json.get('distance', 25)
         job_type = request.json.get('job_type', None)
         hours_old = request.json.get('hours_old', 72)
