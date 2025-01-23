@@ -4,11 +4,7 @@ export interface Job {
   job_description: string;
   job_title: string;
   job_url: string;
-  location: {
-    city: string;
-    country: string;
-    state: string;
-  };
+  location: string;
 }
 
 export interface JobListProps {

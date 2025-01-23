@@ -35,7 +35,7 @@ export function JobDetail({ job }: { job: Job | null }) {
         </div>
 
         {/* Job Location */}
-        <p className="text-sm text-gray-500">{`${job.location.city}, ${job.location.state}, ${job.location.country}`}</p>
+        <p className="text-sm text-gray-500">{`${job.location}`}</p>
       </CardHeader>
 
       <CardContent>

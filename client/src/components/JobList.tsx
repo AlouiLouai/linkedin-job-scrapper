@@ -49,8 +49,7 @@ export function JobList({ jobs, loading, onJobClick }: JobListProps) {
 
             {/* Job Location */}
             <p className="text-sm text-gray-500 mt-1">
-              {job.location?.city}, {job.location?.state},{" "}
-              {job.location?.country}
+              {job.location}
             </p>
           </CardContent>
         </Card>
