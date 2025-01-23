@@ -10,7 +10,7 @@ export function JobList({ jobs, loading, onJobClick }: JobListProps) {
   if (loading) {
     return (
       <div className="space-y-4">
-        {[...Array(5)].map((_, i) => (
+        {[...Array(10)].map((_, i) => (
           <Card key={i}>
             <CardContent className="p-4">
               <Skeleton className="h-4 w-3/4 mb-2" />

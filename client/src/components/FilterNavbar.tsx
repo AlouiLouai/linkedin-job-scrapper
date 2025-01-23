@@ -3,14 +3,18 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Select, SelectContent, SelectItem, SelectTrigger } from "@/components/ui/select";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+} from "@/components/ui/select";
 import { FilterNavbarProps } from "@/interfaces/JobsInterfaces";
 
 export default function FilterNavbar({ onSubmitFilters }: FilterNavbarProps) {
   const [filters, setFilters] = useState({
     search_term: "",
     location: "",
-    results_wanted: 100,
     distance: 25,
     job_type: "fulltime",
     country: "UK",
@@ -42,7 +46,6 @@ export default function FilterNavbar({ onSubmitFilters }: FilterNavbarProps) {
     setFilters({
       search_term: "",
       location: "",
-      results_wanted: 100,
       distance: 25,
       job_type: "fulltime",
       country: "UK",
@@ -93,24 +96,6 @@ export default function FilterNavbar({ onSubmitFilters }: FilterNavbarProps) {
           />
         </div>
 
-        {/* Results Wanted */}
-        <div className="flex flex-col">
-          <label
-            htmlFor="results_wanted"
-            className="text-sm font-medium text-gray-600"
-          >
-            Results Wanted
-          </label>
-          <Input
-            id="results_wanted"
-            name="results_wanted"
-            type="number"
-            value={filters.results_wanted}
-            onChange={handleInputChange}
-            className="mt-1"
-          />
-        </div>
-
         {/* Distance */}
         <div className="flex flex-col">
           <label
@@ -132,26 +117,31 @@ export default function FilterNavbar({ onSubmitFilters }: FilterNavbarProps) {
         {/* Job Type Dropdown */}
         <div className="flex flex-col">
           {/* Job Type Dropdown with Radix UI Select */}
-        <div className="flex flex-col">
-          <label htmlFor="job_type" className="text-sm font-medium text-gray-600">
-            Job Type
-          </label>
-          <Select
-            name="job_type"
-            value={filters.job_type}
-            onValueChange={(value: string) => handleSelectChange("job_type", value)}
-          >
-            <SelectTrigger className="border p-2 rounded-md">
-              <span>{filters.job_type}</span>
-            </SelectTrigger>
-            <SelectContent className="border rounded-md p-2">
-              <SelectItem value="fulltime">Fulltime</SelectItem>
-              <SelectItem value="parttime">Part-time</SelectItem>
-              <SelectItem value="internship">Internship</SelectItem>
-              <SelectItem value="contract">Contract</SelectItem>
-            </SelectContent>
-          </Select>
-        </div>
+          <div className="flex flex-col">
+            <label
+              htmlFor="job_type"
+              className="text-sm font-medium text-gray-600"
+            >
+              Job Type
+            </label>
+            <Select
+              name="job_type"
+              value={filters.job_type}
+              onValueChange={(value: string) =>
+                handleSelectChange("job_type", value)
+              }
+            >
+              <SelectTrigger className="border p-2 rounded-md">
+                <span>{filters.job_type}</span>
+              </SelectTrigger>
+              <SelectContent className="border rounded-md p-2">
+                <SelectItem value="fulltime">Fulltime</SelectItem>
+                <SelectItem value="parttime">Part-time</SelectItem>
+                <SelectItem value="internship">Internship</SelectItem>
+                <SelectItem value="contract">Contract</SelectItem>
+              </SelectContent>
+            </Select>
+          </div>
         </div>
 
         {/* Country */}
@@ -185,24 +175,6 @@ export default function FilterNavbar({ onSubmitFilters }: FilterNavbarProps) {
             name="hours_old"
             type="number"
             value={filters.hours_old}
-            onChange={handleInputChange}
-            className="mt-1"
-          />
-        </div>
-
-        {/* Batch Size */}
-        <div className="flex flex-col">
-          <label
-            htmlFor="batch_size"
-            className="text-sm font-medium text-gray-600"
-          >
-            Batch Size
-          </label>
-          <Input
-            id="batch_size"
-            name="batch_size"
-            type="number"
-            value={filters.batch_size}
             onChange={handleInputChange}
             className="mt-1"
           />
