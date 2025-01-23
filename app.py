@@ -78,6 +78,3 @@ def fetch_jobs():
         logging.error(f"Error during job scraping: {e}")
         return jsonify({"error": f"Error during job scraping: {e}"}), 500
 
-
-if __name__ == '__main__':
-    app.run(debug=True, port=5000)
