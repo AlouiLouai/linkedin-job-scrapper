@@ -9,17 +9,6 @@ CORS(app)
 # Set up logging
 logging.basicConfig(level=logging.INFO)
 
-def parse_location(location_string):
-    """
-    A placeholder function to parse location from a string.
-    Modify or replace this with actual geocoding logic.
-    """
-    # Mock logic for demonstration
-    parts = location_string.split(", ")
-    country = parts[0] if len(parts) > 0 else "Unknown"
-    state = parts[1] if len(parts) > 1 else "Unknown"
-    city = parts[2] if len(parts) > 2 else "Unknown"
-    return {"country": country, "state": state, "city": city}
 
 @app.route('/fetch_jobs', methods=['POST'])
 def fetch_jobs():
@@ -34,14 +23,8 @@ def fetch_jobs():
         page = request.json.get('page', 1)
         per_page = request.json.get('per_page', 10)
 
-        # Parse the location into country, state, and city
-        location_object = parse_location(location_string)
-
-        # Use the original location string for scraping
-        location = location_string
-
         # Log the scraping parameters
-        logging.info(f"Scraping jobs with parameters: search_term={search_term}, location={location}, "
+        logging.info(f"Scraping jobs with parameters: search_term={search_term}, location={location_string}, "
                      f"results_wanted={results_wanted}, distance={distance}, job_type={job_type}, "
                      f"hours_old={hours_old}, page={page}, per_page={per_page}")
 
@@ -49,7 +32,7 @@ def fetch_jobs():
         jobs = scrape_jobs(
             site_name=['linkedin'],
             search_term=search_term,
-            location=location,  # Pass the string here
+            location=location_string,  # Pass the original location string for scraping
             results_wanted=results_wanted,
             distance=distance,
             job_type=job_type,
@@ -64,11 +47,12 @@ def fetch_jobs():
         # Construct the job data
         processed_jobs = []
         for row in job_list:
+            # Use the parsed location object for each job
             job_data = {
                 'job_title': row.get('title'),
                 'company_name': row.get('company'),
                 'company_url': row.get('company_url'),
-                'location': location_object,  # Use the parsed location object
+                'location': row.get('location'),
                 'job_description': row.get('description', 'Description not available'),
                 'job_url': row.get('job_url', 'URL not available'),
             }
@@ -92,7 +76,8 @@ def fetch_jobs():
 
     except Exception as e:
         logging.error(f"Error during job scraping: {e}")
-        return jsonify({"error": "An error occurred while fetching jobs.", "details": str(e)}), 500
+        return jsonify({"error": f"Error during job scraping: {e}"}), 500
+
 
 if __name__ == '__main__':
     app.run(debug=True, port=5000)
