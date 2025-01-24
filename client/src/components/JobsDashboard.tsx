@@ -48,7 +48,7 @@ export function JobDashboard() {
           <JobList jobs={jobs} loading={loading} onJobClick={handleJobClick} />
         </div>
         <div className="overflow-y-auto max-h-[700px] col-span-1 md:col-span-2">
-          <JobDetail job={selectedJob} />
+          <JobDetail loading={loading} job={selectedJob} />
         </div>
       </div>
     </>
