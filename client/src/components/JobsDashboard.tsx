@@ -10,11 +10,12 @@ export function JobDashboard() {
   const [selectedJob, setSelectedJob] = useState(null);
   const [loading, setLoading] = useState(false);
 
+  // Fetch jobs directly from Flask API
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const fetchJobs = async (filters: any) => {
     setLoading(true);
     try {
-      const response = await fetch("/api/fetch_jobs", {
+      const response = await fetch("https://linkedin-job-scrapper.onrender.com/fetch_jobs", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(filters),
@@ -28,7 +29,7 @@ export function JobDashboard() {
       setJobs(data.jobs); // Assuming the API returns `{ jobs: [...] }`
     } catch (error) {
       console.error("Error fetching jobs:", error);
-      setJobs([]); // Clear jobs on error
+      setJobs([]);
     } finally {
       setLoading(false);
     }
@@ -36,7 +37,7 @@ export function JobDashboard() {
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const handleJobClick = (job: any) => {
-    setSelectedJob(job); // Set selected job when clicked
+    setSelectedJob(job);
   };
 
   return (
